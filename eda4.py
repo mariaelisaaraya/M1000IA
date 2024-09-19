@@ -20,9 +20,14 @@ if not os.path.exists(output_folder):
 features = []
 labels = []  # Asumiendo que tienes etiquetas para cada imagen
 
+
+def resize_image(image, new_size=(256, 256)):
+    return cv2.resize(image, new_size, interpolation=cv2.INTER_AREA)
+
 def extract_features(image_path, filename):
     # Cargar la imagen y convertir a escala de grises
     image = cv2.imread(image_path)
+    image = resize_image(image)
     gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
     
     # Extraer características de textura usando HOG
@@ -53,6 +58,9 @@ def extract_features(image_path, filename):
     return gray_image
 
 def segment_color(image, filename):
+    # Redimensionar imagen
+    image = resize_image(image)
+    
     # Convertir la imagen a espacio de color HSV
     hsv_image = cv2.cvtColor(image, cv2.COLOR_BGR2HSV)
     
@@ -74,6 +82,9 @@ def segment_color(image, filename):
     return segmented_image
 
 def segment_otsu(image, filename):
+    # Redimensionar imagen
+    image = resize_image(image)
+    
     # Convertir la imagen a escala de grises
     gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
     
