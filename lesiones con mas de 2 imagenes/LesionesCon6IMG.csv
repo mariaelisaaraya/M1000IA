@@ -1,0 +1,25 @@
+lesion_id,image_id,dx,dx_type,age,sex,localization,cantidad_de_imagenes
+HAM_0003789,ISIC_0026016,bkl,confocal,55.0,female,face,6
+HAM_0003789,ISIC_0029505,bkl,confocal,55.0,female,face,6
+HAM_0000835,ISIC_0025378,bkl,confocal,55.0,female,face,6
+HAM_0000835,ISIC_0030394,bkl,confocal,55.0,female,face,6
+HAM_0003789,ISIC_0031277,bkl,confocal,55.0,female,face,6
+HAM_0000835,ISIC_0027270,bkl,confocal,55.0,female,face,6
+HAM_0003789,ISIC_0031853,bkl,confocal,55.0,female,face,6
+HAM_0000835,ISIC_0031329,bkl,confocal,55.0,female,face,6
+HAM_0003789,ISIC_0029464,bkl,confocal,55.0,female,face,6
+HAM_0000835,ISIC_0026530,bkl,confocal,55.0,female,face,6
+HAM_0003789,ISIC_0024915,bkl,confocal,55.0,female,face,6
+HAM_0000835,ISIC_0024409,bkl,confocal,55.0,female,face,6
+HAM_0001863,ISIC_0032797,mel,histo,70.0,male,upper extremity,6
+HAM_0001863,ISIC_0032596,mel,histo,70.0,male,upper extremity,6
+HAM_0001863,ISIC_0032856,mel,histo,70.0,male,upper extremity,6
+HAM_0001863,ISIC_0033193,mel,histo,70.0,male,upper extremity,6
+HAM_0001863,ISIC_0033125,mel,histo,70.0,male,upper extremity,6
+HAM_0001863,ISIC_0032810,mel,histo,70.0,male,upper extremity,6
+HAM_0005263,ISIC_0034163,nv,consensus,40.0,male,trunk,6
+HAM_0005263,ISIC_0034277,nv,consensus,40.0,male,trunk,6
+HAM_0005263,ISIC_0034147,nv,consensus,40.0,male,trunk,6
+HAM_0005263,ISIC_0033247,nv,consensus,40.0,male,trunk,6
+HAM_0005263,ISIC_0033918,nv,consensus,40.0,male,trunk,6
+HAM_0005263,ISIC_0032889,nv,consensus,40.0,male,trunk,6
