@@ -9,7 +9,7 @@ from sklearn.preprocessing import StandardScaler
 import os
 
 # Ruta a la carpeta que contiene las imágenes
-folder_path = 'Skin Cancer/Skin Cancer'
+folder_path = 'Skin Cancer'
 output_folder = 'visualizaciones'  # Carpeta para guardar visualizaciones
 
 # Crear la carpeta de salida si no existe
