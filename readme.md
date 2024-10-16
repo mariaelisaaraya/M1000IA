@@ -1,14 +1,16 @@
 <h1 align="center">PROYECTO DermAI</h1>
 
-1. Carpetas Imagenes sin nevos. (Gaby solamente tiene las imagenes nuevas 5000 aprox)
+1. Carpetas Imagenes sin nevos.
 
-2. Utilizar Metadatos filtrados.
+   1.1. Se subio al drive como .zip, la imagenes el total de las mismas son 5021. Corroborar que todas usemos las mismas imagenes
+
+3. Utilizar Metadatos filtrados.
    
     2.1. Se puede recortar los metadatos con: modelado/recortenv.py
    
     2.2. Se puede utilizar directamente los metadatos recortados actualizados de la fecha del [16/10](https://github.com/mariaelisaaraya/M1000IA/blob/master/16_10_metadatos_actualizados_sin_nv_reducidos.csv)
 
-3. Correr.
+4. Correr.
 
     3.1. Kat modelado/model2.py, subir TXT resultados
     
