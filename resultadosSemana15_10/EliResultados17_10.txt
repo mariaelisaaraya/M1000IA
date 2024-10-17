@@ -1,3 +1,7 @@
+Consideraciones personales: Aunque la pérdida es un poco mejor, las métricas de rendimiento (exactitud, precisión, recall y F1 Score) no están mejorando. Esto puede ser un indicativo de que el modelo está estancado y no está aprendiendo más, lo que es motivo de parar el modelo.
+
+SE CORRE -> python model1Eli.py
+
 Cargando imágenes...
 Imágenes cargadas. Total: 5021
 Iniciando Fold 1...
