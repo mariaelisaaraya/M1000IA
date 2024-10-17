@@ -2,7 +2,7 @@
 
 1. Carpetas Imagenes sin nevos.
 
-   1.1. Se subio al drive como .zip, la imagenes el total de las mismas son 5021. Corroborar que todas usemos las mismas imagenes
+   1.1. Se subio al [drive](https://drive.google.com/drive/folders/1TwvbjPg7L-1Bkbd98IqCnHw8GM8IpQBH?usp=drive_link)  la imagenes el total de las mismas son 5021. Corroborar que todas usemos las mismas imagenes. Estas son las imagenes sin nevos.
 
 3. Utilizar Metadatos filtrados.
    
@@ -14,7 +14,7 @@
 
     3.1. Kat modelado/model2.py, subir TXT resultados
     
-    3.2. Eli modelado/model1.py, subir TXT resultados
+    3.2. Eli - subir TXT resultados -> Corriendo model1Eli.py
 
     3.3. Marce el suyo con metadatos e imagenes filtradas, subir TXT resultados
 
