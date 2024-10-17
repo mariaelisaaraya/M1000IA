@@ -1,0 +1,868 @@
+Cargando imágenes...
+Imágenes cargadas. Total: 5021
+Iniciando Fold 1...
+Iniciando entrenamiento por 10 épocas...
+Iniciando época 1...
+Lote 0, Pérdida: 0.6931, Tiempo estimado restante: 79.79 segundos
+Lote 10, Pérdida: 0.6786, Tiempo estimado restante: 50.45 segundos
+Lote 20, Pérdida: 0.7096, Tiempo estimado restante: 44.51 segundos
+Lote 30, Pérdida: 0.6910, Tiempo estimado restante: 40.36 segundos
+Lote 40, Pérdida: 0.6318, Tiempo estimado restante: 38.04 segundos
+Lote 50, Pérdida: 0.6991, Tiempo estimado restante: 33.46 segundos
+Lote 60, Pérdida: 0.6330, Tiempo estimado restante: 29.21 segundos
+Lote 70, Pérdida: 0.6235, Tiempo estimado restante: 24.58 segundos
+Lote 80, Pérdida: 0.6725, Tiempo estimado restante: 19.96 segundos
+Lote 90, Pérdida: 0.7703, Tiempo estimado restante: 15.42 segundos
+Lote 100, Pérdida: 0.6688, Tiempo estimado restante: 10.95 segundos
+Lote 110, Pérdida: 0.6724, Tiempo estimado restante: 6.55 segundos
+Lote 120, Pérdida: 0.6640, Tiempo estimado restante: 2.18 segundos
+Época 1 finalizada, Pérdida: 0.6710
+Accuracia: 0.4960, Precisión: 0.2460, Recall: 0.4960, F1 Score: 0.3289
+Tiempo total de la época 1: 76.49 segundos
+Iniciando época 2...
+Lote 0, Pérdida: 0.6725, Tiempo estimado restante: 56.70 segundos
+Lote 10, Pérdida: 0.6016, Tiempo estimado restante: 50.45 segundos
+Lote 20, Pérdida: 0.6382, Tiempo estimado restante: 45.56 segundos
+Lote 30, Pérdida: 0.6743, Tiempo estimado restante: 41.06 segundos
+Lote 40, Pérdida: 0.6955, Tiempo estimado restante: 36.64 segundos
+Lote 50, Pérdida: 0.6996, Tiempo estimado restante: 32.15 segundos
+Lote 60, Pérdida: 0.7124, Tiempo estimado restante: 27.81 segundos
+Lote 70, Pérdida: 0.6521, Tiempo estimado restante: 23.46 segundos
+Lote 80, Pérdida: 0.7228, Tiempo estimado restante: 19.17 segundos
+Lote 90, Pérdida: 0.6289, Tiempo estimado restante: 14.90 segundos
+Lote 100, Pérdida: 0.6706, Tiempo estimado restante: 10.65 segundos
+Lote 110, Pérdida: 0.6972, Tiempo estimado restante: 6.39 segundos
+Lote 120, Pérdida: 0.7056, Tiempo estimado restante: 2.13 segundos
+Época 2 finalizada, Pérdida: 0.6655
+Accuracia: 0.4960, Precisión: 0.2460, Recall: 0.4960, F1 Score: 0.3289
+Tiempo total de la época 2: 75.33 segundos
+Iniciando época 3...
+Lote 0, Pérdida: 0.6444, Tiempo estimado restante: 57.06 segundos
+Lote 10, Pérdida: 0.6210, Tiempo estimado restante: 49.44 segundos
+Lote 20, Pérdida: 0.7857, Tiempo estimado restante: 46.51 segundos
+Lote 30, Pérdida: 0.7527, Tiempo estimado restante: 41.94 segundos
+Lote 40, Pérdida: 0.6651, Tiempo estimado restante: 37.17 segundos
+Lote 50, Pérdida: 0.6349, Tiempo estimado restante: 32.56 segundos
+Lote 60, Pérdida: 0.5993, Tiempo estimado restante: 28.12 segundos
+Lote 70, Pérdida: 0.6668, Tiempo estimado restante: 23.74 segundos
+Lote 80, Pérdida: 0.6533, Tiempo estimado restante: 19.36 segundos
+Lote 90, Pérdida: 0.6787, Tiempo estimado restante: 15.05 segundos
+Lote 100, Pérdida: 0.6500, Tiempo estimado restante: 10.73 segundos
+Lote 110, Pérdida: 0.6721, Tiempo estimado restante: 6.43 segundos
+Lote 120, Pérdida: 0.6118, Tiempo estimado restante: 2.14 segundos
+Época 3 finalizada, Pérdida: 0.6650
+Accuracia: 0.4960, Precisión: 0.2460, Recall: 0.4960, F1 Score: 0.3289
+Tiempo total de la época 3: 75.36 segundos
+Iniciando época 4...
+Lote 0, Pérdida: 0.6963, Tiempo estimado restante: 57.46 segundos
+Lote 10, Pérdida: 0.7058, Tiempo estimado restante: 49.80 segundos
+Lote 20, Pérdida: 0.6329, Tiempo estimado restante: 45.20 segundos
+Lote 30, Pérdida: 0.6232, Tiempo estimado restante: 40.72 segundos
+Lote 40, Pérdida: 0.6133, Tiempo estimado restante: 36.34 segundos
+Lote 50, Pérdida: 0.6891, Tiempo estimado restante: 31.96 segundos
+Lote 60, Pérdida: 0.5958, Tiempo estimado restante: 27.63 segundos
+Lote 70, Pérdida: 0.6149, Tiempo estimado restante: 23.34 segundos
+Lote 80, Pérdida: 0.6282, Tiempo estimado restante: 19.07 segundos
+Lote 90, Pérdida: 0.7543, Tiempo estimado restante: 14.84 segundos
+Lote 100, Pérdida: 0.7552, Tiempo estimado restante: 10.61 segundos
+Lote 110, Pérdida: 0.6993, Tiempo estimado restante: 6.36 segundos
+Lote 120, Pérdida: 0.7179, Tiempo estimado restante: 2.13 segundos
+Época 4 finalizada, Pérdida: 0.6650
+Accuracia: 0.4960, Precisión: 0.2460, Recall: 0.4960, F1 Score: 0.3289
+Tiempo total de la época 4: 74.40 segundos
+Iniciando época 5...
+Lote 0, Pérdida: 0.6911, Tiempo estimado restante: 56.79 segundos
+Lote 10, Pérdida: 0.7100, Tiempo estimado restante: 52.33 segundos
+Lote 20, Pérdida: 0.6083, Tiempo estimado restante: 50.23 segundos
+Lote 30, Pérdida: 0.6337, Tiempo estimado restante: 46.83 segundos
+Lote 40, Pérdida: 0.6318, Tiempo estimado restante: 42.10 segundos
+Lote 50, Pérdida: 0.7409, Tiempo estimado restante: 37.55 segundos
+Lote 60, Pérdida: 0.6463, Tiempo estimado restante: 32.65 segundos
+Lote 70, Pérdida: 0.7108, Tiempo estimado restante: 27.73 segundos
+Lote 80, Pérdida: 0.6985, Tiempo estimado restante: 22.91 segundos
+Lote 90, Pérdida: 0.6603, Tiempo estimado restante: 17.94 segundos
+Lote 100, Pérdida: 0.6684, Tiempo estimado restante: 12.82 segundos
+Lote 110, Pérdida: 0.6866, Tiempo estimado restante: 7.67 segundos
+Lote 120, Pérdida: 0.6401, Tiempo estimado restante: 2.55 segundos
+Época 5 finalizada, Pérdida: 0.6646
+Accuracia: 0.4960, Precisión: 0.2460, Recall: 0.4960, F1 Score: 0.3289
+Tiempo total de la época 5: 89.03 segundos
+Iniciando época 6...
+Lote 0, Pérdida: 0.7356, Tiempo estimado restante: 61.43 segundos
+Lote 10, Pérdida: 0.6737, Tiempo estimado restante: 56.96 segundos
+Lote 20, Pérdida: 0.6857, Tiempo estimado restante: 52.51 segundos
+Lote 30, Pérdida: 0.6205, Tiempo estimado restante: 47.55 segundos
+Lote 40, Pérdida: 0.6136, Tiempo estimado restante: 42.49 segundos
+Lote 50, Pérdida: 0.5782, Tiempo estimado restante: 37.54 segundos
+Lote 60, Pérdida: 0.6153, Tiempo estimado restante: 32.54 segundos
+Lote 70, Pérdida: 0.6107, Tiempo estimado restante: 27.52 segundos
+Lote 80, Pérdida: 0.7238, Tiempo estimado restante: 22.52 segundos
+Lote 90, Pérdida: 0.7096, Tiempo estimado restante: 17.52 segundos
+Lote 100, Pérdida: 0.7153, Tiempo estimado restante: 12.50 segundos
+Lote 110, Pérdida: 0.6468, Tiempo estimado restante: 7.50 segundos
+Lote 120, Pérdida: 0.6493, Tiempo estimado restante: 2.50 segundos
+Época 6 finalizada, Pérdida: 0.6645
+Accuracia: 0.4960, Precisión: 0.2460, Recall: 0.4960, F1 Score: 0.3289
+Tiempo total de la época 6: 86.79 segundos
+Iniciando época 7...
+Lote 0, Pérdida: 0.6638, Tiempo estimado restante: 62.70 segundos
+Lote 10, Pérdida: 0.6754, Tiempo estimado restante: 57.39 segundos
+Lote 20, Pérdida: 0.6382, Tiempo estimado restante: 52.36 segundos
+Lote 30, Pérdida: 0.6900, Tiempo estimado restante: 47.43 segundos
+Lote 40, Pérdida: 0.6552, Tiempo estimado restante: 42.52 segundos
+Lote 50, Pérdida: 0.6157, Tiempo estimado restante: 37.44 segundos
+Lote 60, Pérdida: 0.6457, Tiempo estimado restante: 32.46 segundos
+Lote 70, Pérdida: 0.5893, Tiempo estimado restante: 27.45 segundos
+Lote 80, Pérdida: 0.6556, Tiempo estimado restante: 22.46 segundos
+Lote 90, Pérdida: 0.6245, Tiempo estimado restante: 17.47 segundos
+Lote 100, Pérdida: 0.6846, Tiempo estimado restante: 12.48 segundos
+Lote 110, Pérdida: 0.7143, Tiempo estimado restante: 7.49 segundos
+Lote 120, Pérdida: 0.6314, Tiempo estimado restante: 2.50 segundos
+Época 7 finalizada, Pérdida: 0.6642
+Accuracia: 0.4960, Precisión: 0.2460, Recall: 0.4960, F1 Score: 0.3289
+Tiempo total de la época 7: 87.18 segundos
+Iniciando época 8...
+Lote 0, Pérdida: 0.6688, Tiempo estimado restante: 65.68 segundos
+Lote 10, Pérdida: 0.6269, Tiempo estimado restante: 57.63 segundos
+Lote 20, Pérdida: 0.6602, Tiempo estimado restante: 52.40 segundos
+Lote 30, Pérdida: 0.5912, Tiempo estimado restante: 47.23 segundos
+Lote 40, Pérdida: 0.7082, Tiempo estimado restante: 42.36 segundos
+Lote 50, Pérdida: 0.7065, Tiempo estimado restante: 37.31 segundos
+Lote 60, Pérdida: 0.6613, Tiempo estimado restante: 32.34 segundos
+Lote 70, Pérdida: 0.6846, Tiempo estimado restante: 27.39 segundos
+Lote 80, Pérdida: 0.6477, Tiempo estimado restante: 22.41 segundos
+Lote 90, Pérdida: 0.6658, Tiempo estimado restante: 17.44 segundos
+Lote 100, Pérdida: 0.7075, Tiempo estimado restante: 12.46 segundos
+Lote 110, Pérdida: 0.6870, Tiempo estimado restante: 7.47 segundos
+Lote 120, Pérdida: 0.7118, Tiempo estimado restante: 2.49 segundos
+Época 8 finalizada, Pérdida: 0.6648
+Accuracia: 0.4960, Precisión: 0.2460, Recall: 0.4960, F1 Score: 0.3289
+Tiempo total de la época 8: 87.02 segundos
+Iniciando época 9...
+Lote 0, Pérdida: 0.6137, Tiempo estimado restante: 62.38 segundos
+Lote 10, Pérdida: 0.6806, Tiempo estimado restante: 57.02 segundos
+Lote 20, Pérdida: 0.6712, Tiempo estimado restante: 52.13 segundos
+Lote 30, Pérdida: 0.6209, Tiempo estimado restante: 47.30 segundos
+Lote 40, Pérdida: 0.7290, Tiempo estimado restante: 42.37 segundos
+Lote 50, Pérdida: 0.6540, Tiempo estimado restante: 38.29 segundos
+Lote 60, Pérdida: 0.6682, Tiempo estimado restante: 34.72 segundos
+Lote 70, Pérdida: 0.6828, Tiempo estimado restante: 29.43 segundos
+Lote 80, Pérdida: 0.7276, Tiempo estimado restante: 23.71 segundos
+Lote 90, Pérdida: 0.6366, Tiempo estimado restante: 18.21 segundos
+Lote 100, Pérdida: 0.7576, Tiempo estimado restante: 12.90 segundos
+Lote 110, Pérdida: 0.7025, Tiempo estimado restante: 7.69 segundos
+Lote 120, Pérdida: 0.6258, Tiempo estimado restante: 2.55 segundos
+Época 9 finalizada, Pérdida: 0.6651
+Accuracia: 0.4960, Precisión: 0.2460, Recall: 0.4960, F1 Score: 0.3289
+Tiempo total de la época 9: 87.61 segundos
+Iniciando época 10...
+Lote 0, Pérdida: 0.6921, Tiempo estimado restante: 62.23 segundos
+Lote 10, Pérdida: 0.6175, Tiempo estimado restante: 55.33 segundos
+Lote 20, Pérdida: 0.6525, Tiempo estimado restante: 50.71 segundos
+Lote 30, Pérdida: 0.5926, Tiempo estimado restante: 45.76 segundos
+Lote 40, Pérdida: 0.6825, Tiempo estimado restante: 40.96 segundos
+Lote 50, Pérdida: 0.6320, Tiempo estimado restante: 36.16 segundos
+Lote 60, Pérdida: 0.6902, Tiempo estimado restante: 31.32 segundos
+Lote 70, Pérdida: 0.6523, Tiempo estimado restante: 26.51 segundos
+Lote 80, Pérdida: 0.7213, Tiempo estimado restante: 21.69 segundos
+Lote 90, Pérdida: 0.7226, Tiempo estimado restante: 16.88 segundos
+Lote 100, Pérdida: 0.6358, Tiempo estimado restante: 12.06 segundos
+Lote 110, Pérdida: 0.6733, Tiempo estimado restante: 7.24 segundos
+Lote 120, Pérdida: 0.6704, Tiempo estimado restante: 2.41 segundos
+Época 10 finalizada, Pérdida: 0.6642
+Accuracia: 0.4960, Precisión: 0.2460, Recall: 0.4960, F1 Score: 0.3289
+Tiempo total de la época 10: 82.71 segundos
+Fold 1 - Accuracy: 0.5194, Precision: 0.2698, Recall: 0.5194, F1 Score: 0.3551
+Iniciando Fold 2...
+Iniciando entrenamiento por 10 épocas...
+Iniciando época 1...
+Lote 0, Pérdida: 0.7558, Tiempo estimado restante: 60.69 segundos
+Lote 10, Pérdida: 0.6919, Tiempo estimado restante: 55.35 segundos
+Lote 20, Pérdida: 0.6475, Tiempo estimado restante: 50.37 segundos
+Lote 30, Pérdida: 0.6619, Tiempo estimado restante: 45.65 segundos
+Lote 40, Pérdida: 0.6237, Tiempo estimado restante: 40.84 segundos
+Lote 50, Pérdida: 0.6635, Tiempo estimado restante: 36.12 segundos
+Lote 60, Pérdida: 0.6791, Tiempo estimado restante: 31.26 segundos
+Lote 70, Pérdida: 0.7292, Tiempo estimado restante: 26.47 segundos
+Lote 80, Pérdida: 0.7484, Tiempo estimado restante: 21.64 segundos
+Lote 90, Pérdida: 0.7078, Tiempo estimado restante: 16.84 segundos
+Lote 100, Pérdida: 0.6792, Tiempo estimado restante: 12.01 segundos
+Lote 110, Pérdida: 0.6604, Tiempo estimado restante: 7.21 segundos
+Lote 120, Pérdida: 0.6179, Tiempo estimado restante: 2.40 segundos
+Época 1 finalizada, Pérdida: 0.6774
+Accuracia: 0.5183, Precisión: 0.5801, Recall: 0.5183, F1 Score: 0.4040
+Tiempo total de la época 1: 83.87 segundos
+Iniciando época 2...
+Lote 0, Pérdida: 0.6548, Tiempo estimado restante: 58.10 segundos
+Lote 10, Pérdida: 0.7344, Tiempo estimado restante: 53.60 segundos
+Lote 20, Pérdida: 0.6596, Tiempo estimado restante: 49.31 segundos
+Lote 30, Pérdida: 0.6990, Tiempo estimado restante: 44.53 segundos
+Lote 40, Pérdida: 0.5899, Tiempo estimado restante: 39.94 segundos
+Lote 50, Pérdida: 0.5981, Tiempo estimado restante: 35.19 segundos
+Lote 60, Pérdida: 0.6329, Tiempo estimado restante: 30.52 segundos
+Lote 70, Pérdida: 0.7201, Tiempo estimado restante: 25.80 segundos
+Lote 80, Pérdida: 0.6031, Tiempo estimado restante: 21.14 segundos
+Lote 90, Pérdida: 0.7606, Tiempo estimado restante: 16.43 segundos
+Lote 100, Pérdida: 0.6526, Tiempo estimado restante: 11.73 segundos
+Lote 110, Pérdida: 0.6780, Tiempo estimado restante: 7.04 segundos
+Lote 120, Pérdida: 0.6441, Tiempo estimado restante: 2.34 segundos
+Época 2 finalizada, Pérdida: 0.6628
+Accuracia: 0.5185, Precisión: 0.5809, Recall: 0.5185, F1 Score: 0.4045
+Tiempo total de la época 2: 82.10 segundos
+Iniciando época 3...
+Lote 0, Pérdida: 0.5981, Tiempo estimado restante: 57.52 segundos
+Lote 10, Pérdida: 0.6883, Tiempo estimado restante: 53.84 segundos
+Lote 20, Pérdida: 0.7384, Tiempo estimado restante: 49.02 segundos
+Lote 30, Pérdida: 0.5638, Tiempo estimado restante: 44.44 segundos
+Lote 40, Pérdida: 0.7282, Tiempo estimado restante: 39.81 segundos
+Lote 50, Pérdida: 0.6833, Tiempo estimado restante: 35.08 segundos
+Lote 60, Pérdida: 0.6578, Tiempo estimado restante: 30.42 segundos
+Lote 70, Pérdida: 0.5982, Tiempo estimado restante: 25.72 segundos
+Lote 80, Pérdida: 0.6987, Tiempo estimado restante: 21.05 segundos
+Lote 90, Pérdida: 0.6743, Tiempo estimado restante: 16.36 segundos
+Lote 100, Pérdida: 0.6270, Tiempo estimado restante: 11.70 segundos
+Lote 110, Pérdida: 0.6281, Tiempo estimado restante: 7.01 segundos
+Lote 120, Pérdida: 0.7352, Tiempo estimado restante: 2.34 segundos
+Época 3 finalizada, Pérdida: 0.6634
+Accuracia: 0.5026, Precisión: 0.6882, Recall: 0.5026, F1 Score: 0.3404
+Tiempo total de la época 3: 81.99 segundos
+Iniciando época 4...
+Lote 0, Pérdida: 0.6463, Tiempo estimado restante: 56.97 segundos
+Lote 10, Pérdida: 0.6164, Tiempo estimado restante: 53.82 segundos
+Lote 20, Pérdida: 0.7070, Tiempo estimado restante: 48.92 segundos
+Lote 30, Pérdida: 0.6813, Tiempo estimado restante: 44.45 segundos
+Lote 40, Pérdida: 0.6314, Tiempo estimado restante: 39.69 segundos
+Lote 50, Pérdida: 0.6307, Tiempo estimado restante: 35.06 segundos
+Lote 60, Pérdida: 0.7152, Tiempo estimado restante: 30.40 segundos
+Lote 70, Pérdida: 0.6371, Tiempo estimado restante: 25.74 segundos
+Lote 80, Pérdida: 0.6799, Tiempo estimado restante: 21.04 segundos
+Lote 90, Pérdida: 0.6576, Tiempo estimado restante: 16.36 segundos
+Lote 100, Pérdida: 0.6200, Tiempo estimado restante: 11.69 segundos
+Lote 110, Pérdida: 0.6363, Tiempo estimado restante: 7.01 segundos
+Lote 120, Pérdida: 0.6221, Tiempo estimado restante: 2.34 segundos
+Época 4 finalizada, Pérdida: 0.6609
+Accuracia: 0.5176, Precisión: 0.5784, Recall: 0.5176, F1 Score: 0.4023
+Tiempo total de la época 4: 80.66 segundos
+Iniciando época 5...
+Lote 0, Pérdida: 0.6576, Tiempo estimado restante: 58.00 segundos
+Lote 10, Pérdida: 0.6848, Tiempo estimado restante: 53.85 segundos
+Lote 20, Pérdida: 0.5925, Tiempo estimado restante: 48.80 segundos
+Lote 30, Pérdida: 0.6489, Tiempo estimado restante: 44.26 segundos
+Lote 40, Pérdida: 0.6278, Tiempo estimado restante: 39.57 segundos
+Lote 50, Pérdida: 0.6812, Tiempo estimado restante: 35.01 segundos
+Lote 60, Pérdida: 0.5821, Tiempo estimado restante: 30.28 segundos
+Lote 70, Pérdida: 0.5981, Tiempo estimado restante: 25.70 segundos
+Lote 80, Pérdida: 0.7003, Tiempo estimado restante: 21.01 segundos
+Lote 90, Pérdida: 0.6912, Tiempo estimado restante: 16.35 segundos
+Lote 100, Pérdida: 0.7038, Tiempo estimado restante: 11.68 segundos
+Lote 110, Pérdida: 0.6929, Tiempo estimado restante: 7.01 segundos
+Lote 120, Pérdida: 0.6107, Tiempo estimado restante: 2.34 segundos
+Época 5 finalizada, Pérdida: 0.6614
+Accuracia: 0.5039, Precisión: 0.6858, Recall: 0.5039, F1 Score: 0.3435
+Tiempo total de la época 5: 80.60 segundos
+Iniciando época 6...
+Lote 0, Pérdida: 0.6744, Tiempo estimado restante: 61.78 segundos
+Lote 10, Pérdida: 0.6759, Tiempo estimado restante: 54.14 segundos
+Lote 20, Pérdida: 0.7008, Tiempo estimado restante: 49.03 segundos
+Lote 30, Pérdida: 0.6793, Tiempo estimado restante: 44.50 segundos
+Lote 40, Pérdida: 0.6763, Tiempo estimado restante: 39.74 segundos
+Lote 50, Pérdida: 0.6721, Tiempo estimado restante: 35.07 segundos
+Lote 60, Pérdida: 0.6557, Tiempo estimado restante: 30.37 segundos
+Lote 70, Pérdida: 0.6625, Tiempo estimado restante: 25.73 segundos
+Lote 80, Pérdida: 0.6820, Tiempo estimado restante: 21.04 segundos
+Lote 90, Pérdida: 0.6152, Tiempo estimado restante: 1813.86 segundos
+Lote 100, Pérdida: 0.7213, Tiempo estimado restante: 1168.57 segundos
+Lote 110, Pérdida: 0.6494, Tiempo estimado restante: 638.63 segundos
+Lote 120, Pérdida: 0.7918, Tiempo estimado restante: 195.48 segundos
+Época 6 finalizada, Pérdida: 0.6610
+Accuracia: 0.5086, Precisión: 0.5887, Recall: 0.5086, F1 Score: 0.3662
+Tiempo total de la época 6: 4760.62 segundos
+Iniciando época 7...
+Lote 0, Pérdida: 0.6845, Tiempo estimado restante: 67.99 segundos
+Lote 10, Pérdida: 0.6824, Tiempo estimado restante: 62.68 segundos
+Lote 20, Pérdida: 0.6538, Tiempo estimado restante: 58.34 segundos
+Lote 30, Pérdida: 0.6505, Tiempo estimado restante: 54.12 segundos
+Lote 40, Pérdida: 0.6600, Tiempo estimado restante: 48.05 segundos
+Lote 50, Pérdida: 0.6472, Tiempo estimado restante: 42.13 segundos
+Lote 60, Pérdida: 0.6487, Tiempo estimado restante: 36.05 segundos
+Lote 70, Pérdida: 0.5979, Tiempo estimado restante: 30.43 segundos
+Lote 80, Pérdida: 0.6862, Tiempo estimado restante: 24.88 segundos
+Lote 90, Pérdida: 0.5824, Tiempo estimado restante: 19.22 segundos
+Lote 100, Pérdida: 0.6004, Tiempo estimado restante: 13.66 segundos
+Lote 110, Pérdida: 0.7184, Tiempo estimado restante: 8.15 segundos
+Lote 120, Pérdida: 0.6751, Tiempo estimado restante: 2.76 segundos
+Época 7 finalizada, Pérdida: 0.6609
+Accuracia: 0.5019, Precisión: 0.6736, Recall: 0.5019, F1 Score: 0.3387
+Tiempo total de la época 7: 95.02 segundos
+Iniciando época 8...
+Lote 0, Pérdida: 0.6354, Tiempo estimado restante: 60.62 segundos
+Lote 10, Pérdida: 0.7049, Tiempo estimado restante: 55.84 segundos
+Lote 20, Pérdida: 0.7467, Tiempo estimado restante: 51.32 segundos
+Lote 30, Pérdida: 0.7127, Tiempo estimado restante: 47.80 segundos
+Lote 40, Pérdida: 0.6990, Tiempo estimado restante: 43.40 segundos
+Lote 50, Pérdida: 0.6318, Tiempo estimado restante: 38.38 segundos
+Lote 60, Pérdida: 0.6510, Tiempo estimado restante: 33.80 segundos
+Lote 70, Pérdida: 0.6179, Tiempo estimado restante: 29.11 segundos
+Lote 80, Pérdida: 0.6845, Tiempo estimado restante: 24.57 segundos
+Lote 90, Pérdida: 0.6626, Tiempo estimado restante: 19.63 segundos
+Lote 100, Pérdida: 0.6617, Tiempo estimado restante: 13.97 segundos
+Lote 110, Pérdida: 0.6055, Tiempo estimado restante: 8.44 segundos
+Lote 120, Pérdida: 0.5670, Tiempo estimado restante: 2.85 segundos
+Época 8 finalizada, Pérdida: 0.6607
+Accuracia: 0.5034, Precisión: 0.6795, Recall: 0.5034, F1 Score: 0.3425
+Tiempo total de la época 8: 101.00 segundos
+Iniciando época 9...
+Lote 0, Pérdida: 0.6763, Tiempo estimado restante: 62.64 segundos
+Lote 10, Pérdida: 0.7308, Tiempo estimado restante: 57.15 segundos
+Lote 20, Pérdida: 0.6131, Tiempo estimado restante: 51.66 segundos
+Lote 30, Pérdida: 0.6352, Tiempo estimado restante: 46.58 segundos
+Lote 40, Pérdida: 0.7107, Tiempo estimado restante: 41.60 segundos
+Lote 50, Pérdida: 0.6589, Tiempo estimado restante: 36.64 segundos
+Lote 60, Pérdida: 0.6872, Tiempo estimado restante: 31.71 segundos
+Lote 70, Pérdida: 0.6632, Tiempo estimado restante: 26.80 segundos
+Lote 80, Pérdida: 0.6800, Tiempo estimado restante: 21.90 segundos
+Lote 90, Pérdida: 0.6877, Tiempo estimado restante: 17.02 segundos
+Lote 100, Pérdida: 0.6550, Tiempo estimado restante: 12.15 segundos
+Lote 110, Pérdida: 0.6809, Tiempo estimado restante: 7.29 segundos
+Lote 120, Pérdida: 0.6982, Tiempo estimado restante: 2.43 segundos
+Época 9 finalizada, Pérdida: 0.6608
+Accuracia: 0.5176, Precisión: 0.5784, Recall: 0.5176, F1 Score: 0.4023
+Tiempo total de la época 9: 84.02 segundos
+Iniciando época 10...
+Lote 0, Pérdida: 0.6621, Tiempo estimado restante: 61.01 segundos
+Lote 10, Pérdida: 0.6889, Tiempo estimado restante: 56.14 segundos
+Lote 20, Pérdida: 0.6533, Tiempo estimado restante: 51.48 segundos
+Lote 30, Pérdida: 0.6550, Tiempo estimado restante: 46.73 segundos
+Lote 40, Pérdida: 0.6027, Tiempo estimado restante: 41.89 segundos
+Lote 50, Pérdida: 0.6557, Tiempo estimado restante: 36.95 segundos
+Lote 60, Pérdida: 0.6819, Tiempo estimado restante: 32.03 segundos
+Lote 70, Pérdida: 0.6568, Tiempo estimado restante: 27.10 segundos
+Lote 80, Pérdida: 0.5969, Tiempo estimado restante: 22.18 segundos
+Lote 90, Pérdida: 0.6065, Tiempo estimado restante: 17.26 segundos
+Lote 100, Pérdida: 0.8192, Tiempo estimado restante: 12.33 segundos
+Lote 110, Pérdida: 0.6942, Tiempo estimado restante: 7.41 segundos
+Lote 120, Pérdida: 0.5698, Tiempo estimado restante: 2.48 segundos
+Época 10 finalizada, Pérdida: 0.6612
+Accuracia: 0.5019, Precisión: 0.6736, Recall: 0.5019, F1 Score: 0.3387
+Tiempo total de la época 10: 85.11 segundos
+Fold 2 - Accuracy: 0.5070, Precision: 0.6268, Recall: 0.5070, F1 Score: 0.3450
+Iniciando Fold 3...
+Iniciando entrenamiento por 10 épocas...
+Iniciando época 1...
+Lote 0, Pérdida: 0.6993, Tiempo estimado restante: 60.54 segundos
+Lote 10, Pérdida: 0.7057, Tiempo estimado restante: 56.74 segundos
+Lote 20, Pérdida: 0.6908, Tiempo estimado restante: 51.69 segundos
+Lote 30, Pérdida: 0.6901, Tiempo estimado restante: 46.66 segundos
+Lote 40, Pérdida: 0.6475, Tiempo estimado restante: 41.73 segundos
+Lote 50, Pérdida: 0.6792, Tiempo estimado restante: 36.79 segundos
+Lote 60, Pérdida: 0.6581, Tiempo estimado restante: 31.86 segundos
+Lote 70, Pérdida: 0.6466, Tiempo estimado restante: 26.96 segundos
+Lote 80, Pérdida: 0.6385, Tiempo estimado restante: 22.05 segundos
+Lote 90, Pérdida: 0.6259, Tiempo estimado restante: 17.14 segundos
+Lote 100, Pérdida: 0.6305, Tiempo estimado restante: 12.24 segundos
+Lote 110, Pérdida: 0.6933, Tiempo estimado restante: 7.34 segundos
+Lote 120, Pérdida: 0.6535, Tiempo estimado restante: 2.44 segundos
+Época 1 finalizada, Pérdida: 0.6747
+Accuracia: 0.5076, Precisión: 0.2577, Recall: 0.5076, F1 Score: 0.3418
+Tiempo total de la época 1: 84.71 segundos
+Iniciando época 2...
+Lote 0, Pérdida: 0.7279, Tiempo estimado restante: 60.86 segundos
+Lote 10, Pérdida: 0.7016, Tiempo estimado restante: 56.05 segundos
+Lote 20, Pérdida: 0.6572, Tiempo estimado restante: 51.18 segundos
+Lote 30, Pérdida: 0.6165, Tiempo estimado restante: 46.29 segundos
+Lote 40, Pérdida: 0.6949, Tiempo estimado restante: 41.45 segundos
+Lote 50, Pérdida: 0.7079, Tiempo estimado restante: 36.56 segundos
+Lote 60, Pérdida: 0.6478, Tiempo estimado restante: 31.71 segundos
+Lote 70, Pérdida: 0.6070, Tiempo estimado restante: 26.83 segundos
+Lote 80, Pérdida: 0.7827, Tiempo estimado restante: 21.95 segundos
+Lote 90, Pérdida: 0.6512, Tiempo estimado restante: 17.59 segundos
+Lote 100, Pérdida: 0.7072, Tiempo estimado restante: 12.78 segundos
+Lote 110, Pérdida: 0.7127, Tiempo estimado restante: 7.62 segundos
+Lote 120, Pérdida: 0.7103, Tiempo estimado restante: 2.52 segundos
+Época 2 finalizada, Pérdida: 0.6624
+Accuracia: 0.5076, Precisión: 0.2577, Recall: 0.5076, F1 Score: 0.3418
+Tiempo total de la época 2: 86.74 segundos
+Iniciando época 3...
+Lote 0, Pérdida: 0.6039, Tiempo estimado restante: 57.42 segundos
+Lote 10, Pérdida: 0.6829, Tiempo estimado restante: 53.33 segundos
+Lote 20, Pérdida: 0.7319, Tiempo estimado restante: 49.35 segundos
+Lote 30, Pérdida: 0.6739, Tiempo estimado restante: 44.62 segundos
+Lote 40, Pérdida: 0.7668, Tiempo estimado restante: 40.07 segundos
+Lote 50, Pérdida: 0.6848, Tiempo estimado restante: 35.24 segundos
+Lote 60, Pérdida: 0.7230, Tiempo estimado restante: 30.56 segundos
+Lote 70, Pérdida: 0.6903, Tiempo estimado restante: 25.82 segundos
+Lote 80, Pérdida: 0.5684, Tiempo estimado restante: 21.14 segundos
+Lote 90, Pérdida: 0.7476, Tiempo estimado restante: 16.44 segundos
+Lote 100, Pérdida: 0.5958, Tiempo estimado restante: 11.75 segundos
+Lote 110, Pérdida: 0.5912, Tiempo estimado restante: 7.06 segundos
+Lote 120, Pérdida: 0.7123, Tiempo estimado restante: 2.35 segundos
+Época 3 finalizada, Pérdida: 0.6613
+Accuracia: 0.5076, Precisión: 0.2577, Recall: 0.5076, F1 Score: 0.3418
+Tiempo total de la época 3: 82.31 segundos
+Iniciando época 4...
+Lote 0, Pérdida: 0.6332, Tiempo estimado restante: 57.80 segundos
+Lote 10, Pérdida: 0.7107, Tiempo estimado restante: 54.27 segundos
+Lote 20, Pérdida: 0.6950, Tiempo estimado restante: 49.54 segundos
+Lote 30, Pérdida: 0.6596, Tiempo estimado restante: 44.91 segundos
+Lote 40, Pérdida: 0.6118, Tiempo estimado restante: 40.16 segundos
+Lote 50, Pérdida: 0.6947, Tiempo estimado restante: 35.41 segundos
+Lote 60, Pérdida: 0.7012, Tiempo estimado restante: 30.70 segundos
+Lote 70, Pérdida: 0.6379, Tiempo estimado restante: 25.99 segundos
+Lote 80, Pérdida: 0.6692, Tiempo estimado restante: 21.22 segundos
+Lote 90, Pérdida: 0.6132, Tiempo estimado restante: 16.50 segundos
+Lote 100, Pérdida: 0.6245, Tiempo estimado restante: 11.80 segundos
+Lote 110, Pérdida: 0.6906, Tiempo estimado restante: 7.08 segundos
+Lote 120, Pérdida: 0.6440, Tiempo estimado restante: 2.36 segundos
+Época 4 finalizada, Pérdida: 0.6614
+Accuracia: 0.5076, Precisión: 0.2577, Recall: 0.5076, F1 Score: 0.3418
+Tiempo total de la época 4: 82.28 segundos
+Iniciando época 5...
+Lote 0, Pérdida: 0.7153, Tiempo estimado restante: 57.23 segundos
+Lote 10, Pérdida: 0.6018, Tiempo estimado restante: 54.20 segundos
+Lote 20, Pérdida: 0.6509, Tiempo estimado restante: 49.38 segundos
+Lote 30, Pérdida: 0.6214, Tiempo estimado restante: 44.80 segundos
+Lote 40, Pérdida: 0.6273, Tiempo estimado restante: 40.07 segundos
+Lote 50, Pérdida: 0.6928, Tiempo estimado restante: 35.40 segundos
+Lote 60, Pérdida: 0.6395, Tiempo estimado restante: 30.69 segundos
+Lote 70, Pérdida: 0.6269, Tiempo estimado restante: 25.97 segundos
+Lote 80, Pérdida: 0.7006, Tiempo estimado restante: 21.23 segundos
+Lote 90, Pérdida: 0.6904, Tiempo estimado restante: 16.63 segundos
+Lote 100, Pérdida: 0.6732, Tiempo estimado restante: 11.86 segundos
+Lote 110, Pérdida: 0.6338, Tiempo estimado restante: 7.12 segundos
+Lote 120, Pérdida: 0.7573, Tiempo estimado restante: 2.37 segundos
+Época 5 finalizada, Pérdida: 0.6613
+Accuracia: 0.5076, Precisión: 0.2577, Recall: 0.5076, F1 Score: 0.3418
+Tiempo total de la época 5: 82.42 segundos
+Iniciando época 6...
+Lote 0, Pérdida: 0.6922, Tiempo estimado restante: 56.81 segundos
+Lote 10, Pérdida: 0.6903, Tiempo estimado restante: 54.01 segundos
+Lote 20, Pérdida: 0.6821, Tiempo estimado restante: 49.87 segundos
+Lote 30, Pérdida: 0.7037, Tiempo estimado restante: 44.95 segundos
+Lote 40, Pérdida: 0.6933, Tiempo estimado restante: 40.18 segundos
+Lote 50, Pérdida: 0.6696, Tiempo estimado restante: 35.45 segundos
+Lote 60, Pérdida: 0.6057, Tiempo estimado restante: 30.70 segundos
+Lote 70, Pérdida: 0.6824, Tiempo estimado restante: 25.99 segundos
+Lote 80, Pérdida: 0.6927, Tiempo estimado restante: 21.24 segundos
+Lote 90, Pérdida: 0.5990, Tiempo estimado restante: 16.51 segundos
+Lote 100, Pérdida: 0.7272, Tiempo estimado restante: 11.79 segundos
+Lote 110, Pérdida: 0.7002, Tiempo estimado restante: 7.07 segundos
+Lote 120, Pérdida: 0.6437, Tiempo estimado restante: 2.36 segundos
+Época 6 finalizada, Pérdida: 0.6601
+Accuracia: 0.5076, Precisión: 0.2577, Recall: 0.5076, F1 Score: 0.3418
+Tiempo total de la época 6: 82.32 segundos
+Iniciando época 7...
+Lote 0, Pérdida: 0.6354, Tiempo estimado restante: 57.58 segundos
+Lote 10, Pérdida: 0.6967, Tiempo estimado restante: 53.83 segundos
+Lote 20, Pérdida: 0.6539, Tiempo estimado restante: 49.41 segundos
+Lote 30, Pérdida: 0.6230, Tiempo estimado restante: 44.60 segundos
+Lote 40, Pérdida: 0.6411, Tiempo estimado restante: 39.95 segundos
+Lote 50, Pérdida: 0.6734, Tiempo estimado restante: 35.29 segundos
+Lote 60, Pérdida: 0.7037, Tiempo estimado restante: 30.59 segundos
+Lote 70, Pérdida: 0.5705, Tiempo estimado restante: 25.84 segundos
+Lote 80, Pérdida: 0.5926, Tiempo estimado restante: 21.16 segundos
+Lote 90, Pérdida: 0.6431, Tiempo estimado restante: 16.45 segundos
+Lote 100, Pérdida: 0.6072, Tiempo estimado restante: 11.76 segundos
+Lote 110, Pérdida: 0.6922, Tiempo estimado restante: 7.05 segundos
+Lote 120, Pérdida: 0.6396, Tiempo estimado restante: 2.35 segundos
+Época 7 finalizada, Pérdida: 0.6607
+Accuracia: 0.5076, Precisión: 0.2577, Recall: 0.5076, F1 Score: 0.3418
+Tiempo total de la época 7: 81.19 segundos
+Iniciando época 8...
+Lote 0, Pérdida: 0.6493, Tiempo estimado restante: 56.63 segundos
+Lote 10, Pérdida: 0.6755, Tiempo estimado restante: 53.14 segundos
+Lote 20, Pérdida: 0.6782, Tiempo estimado restante: 48.82 segundos
+Lote 30, Pérdida: 0.6760, Tiempo estimado restante: 44.25 segundos
+Lote 40, Pérdida: 0.6823, Tiempo estimado restante: 39.72 segundos
+Lote 50, Pérdida: 0.7244, Tiempo estimado restante: 35.05 segundos
+Lote 60, Pérdida: 0.6735, Tiempo estimado restante: 30.43 segundos
+Lote 70, Pérdida: 0.7199, Tiempo estimado restante: 25.76 segundos
+Lote 80, Pérdida: 0.6647, Tiempo estimado restante: 21.11 segundos
+Lote 90, Pérdida: 0.5651, Tiempo estimado restante: 16.41 segundos
+Lote 100, Pérdida: 0.6666, Tiempo estimado restante: 11.72 segundos
+Lote 110, Pérdida: 0.6340, Tiempo estimado restante: 7.03 segundos
+Lote 120, Pérdida: 0.6464, Tiempo estimado restante: 2.34 segundos
+Época 8 finalizada, Pérdida: 0.6599
+Accuracia: 0.5076, Precisión: 0.2577, Recall: 0.5076, F1 Score: 0.3418
+Tiempo total de la época 8: 81.90 segundos
+Iniciando época 9...
+Lote 0, Pérdida: 0.6313, Tiempo estimado restante: 58.54 segundos
+Lote 10, Pérdida: 0.6795, Tiempo estimado restante: 54.37 segundos
+Lote 20, Pérdida: 0.6287, Tiempo estimado restante: 49.29 segundos
+Lote 30, Pérdida: 0.6893, Tiempo estimado restante: 44.59 segundos
+Lote 40, Pérdida: 0.5978, Tiempo estimado restante: 39.84 segundos
+Lote 50, Pérdida: 0.6933, Tiempo estimado restante: 35.27 segundos
+Lote 60, Pérdida: 0.6634, Tiempo estimado restante: 30.50 segundos
+Lote 70, Pérdida: 0.6490, Tiempo estimado restante: 25.81 segundos
+Lote 80, Pérdida: 0.7469, Tiempo estimado restante: 21.10 segundos
+Lote 90, Pérdida: 0.6369, Tiempo estimado restante: 16.39 segundos
+Lote 100, Pérdida: 0.7203, Tiempo estimado restante: 11.73 segundos
+Lote 110, Pérdida: 0.6823, Tiempo estimado restante: 7.03 segundos
+Lote 120, Pérdida: 0.6370, Tiempo estimado restante: 2.35 segundos
+Época 9 finalizada, Pérdida: 0.6601
+Accuracia: 0.5076, Precisión: 0.2577, Recall: 0.5076, F1 Score: 0.3418
+Tiempo total de la época 9: 1857.77 segundos
+Iniciando época 10...
+Lote 0, Pérdida: 0.6583, Tiempo estimado restante: 77.67 segundos
+Lote 10, Pérdida: 0.6881, Tiempo estimado restante: 63.00 segundos
+Lote 20, Pérdida: 0.6474, Tiempo estimado restante: 57.65 segundos
+Lote 30, Pérdida: 0.7852, Tiempo estimado restante: 53.27 segundos
+Lote 40, Pérdida: 0.6078, Tiempo estimado restante: 47.54 segundos
+Lote 50, Pérdida: 0.6454, Tiempo estimado restante: 42.88 segundos
+Lote 60, Pérdida: 0.6181, Tiempo estimado restante: 36.69 segundos
+Lote 70, Pérdida: 0.6363, Tiempo estimado restante: 30.54 segundos
+Lote 80, Pérdida: 0.7208, Tiempo estimado restante: 24.67 segundos
+Lote 90, Pérdida: 0.5965, Tiempo estimado restante: 19.01 segundos
+Lote 100, Pérdida: 0.6927, Tiempo estimado restante: 13.47 segundos
+Lote 110, Pérdida: 0.6437, Tiempo estimado restante: 8.03 segundos
+Lote 120, Pérdida: 0.6583, Tiempo estimado restante: 2.67 segundos
+Época 10 finalizada, Pérdida: 0.6611
+Accuracia: 0.5076, Precisión: 0.2577, Recall: 0.5076, F1 Score: 0.3418
+Tiempo total de la época 10: 93.18 segundos
+Fold 3 - Accuracy: 0.4731, Precision: 0.2238, Recall: 0.4731, F1 Score: 0.3039
+Iniciando Fold 4...
+Iniciando entrenamiento por 10 épocas...
+Iniciando época 1...
+Lote 0, Pérdida: 0.7188, Tiempo estimado restante: 69.93 segundos
+Lote 10, Pérdida: 0.7250, Tiempo estimado restante: 72.42 segundos
+Lote 20, Pérdida: 0.6473, Tiempo estimado restante: 60.95 segundos
+Lote 30, Pérdida: 0.6157, Tiempo estimado restante: 54.67 segundos
+Lote 40, Pérdida: 0.6831, Tiempo estimado restante: 52.48 segundos
+Lote 50, Pérdida: 0.6240, Tiempo estimado restante: 46.02 segundos
+Lote 60, Pérdida: 0.6977, Tiempo estimado restante: 39.72 segundos
+Lote 70, Pérdida: 0.6830, Tiempo estimado restante: 32.92 segundos
+Lote 80, Pérdida: 0.6719, Tiempo estimado restante: 26.42 segundos
+Lote 90, Pérdida: 0.6499, Tiempo estimado restante: 20.18 segundos
+Lote 100, Pérdida: 0.6851, Tiempo estimado restante: 14.20 segundos
+Lote 110, Pérdida: 0.6828, Tiempo estimado restante: 8.41 segundos
+Lote 120, Pérdida: 0.7071, Tiempo estimado restante: 2.78 segundos
+Época 1 finalizada, Pérdida: 0.6729
+Accuracia: 0.5024, Precisión: 0.2524, Recall: 0.5024, F1 Score: 0.3360
+Tiempo total de la época 1: 92.66 segundos
+Iniciando época 2...
+Lote 0, Pérdida: 0.6813, Tiempo estimado restante: 59.66 segundos
+Lote 10, Pérdida: 0.6562, Tiempo estimado restante: 55.98 segundos
+Lote 20, Pérdida: 0.5668, Tiempo estimado restante: 51.29 segundos
+Lote 30, Pérdida: 0.6466, Tiempo estimado restante: 46.26 segundos
+Lote 40, Pérdida: 0.6239, Tiempo estimado restante: 41.37 segundos
+Lote 50, Pérdida: 0.6500, Tiempo estimado restante: 36.49 segundos
+Lote 60, Pérdida: 0.6570, Tiempo estimado restante: 31.62 segundos
+Lote 70, Pérdida: 0.6401, Tiempo estimado restante: 26.74 segundos
+Lote 80, Pérdida: 0.6717, Tiempo estimado restante: 21.88 segundos
+Lote 90, Pérdida: 0.5669, Tiempo estimado restante: 17.02 segundos
+Lote 100, Pérdida: 0.6513, Tiempo estimado restante: 12.16 segundos
+Lote 110, Pérdida: 0.7504, Tiempo estimado restante: 7.30 segundos
+Lote 120, Pérdida: 0.6792, Tiempo estimado restante: 2.43 segundos
+Época 2 finalizada, Pérdida: 0.6667
+Accuracia: 0.5024, Precisión: 0.2524, Recall: 0.5024, F1 Score: 0.3360
+Tiempo total de la época 2: 84.37 segundos
+Iniciando época 3...
+Lote 0, Pérdida: 0.6435, Tiempo estimado restante: 59.31 segundos
+Lote 10, Pérdida: 0.6325, Tiempo estimado restante: 55.58 segundos
+Lote 20, Pérdida: 0.7190, Tiempo estimado restante: 50.86 segundos
+Lote 30, Pérdida: 0.6681, Tiempo estimado restante: 46.10 segundos
+Lote 40, Pérdida: 0.6261, Tiempo estimado restante: 41.21 segundos
+Lote 50, Pérdida: 0.7559, Tiempo estimado restante: 36.37 segundos
+Lote 60, Pérdida: 0.6630, Tiempo estimado restante: 31.53 segundos
+Lote 70, Pérdida: 0.7346, Tiempo estimado restante: 26.67 segundos
+Lote 80, Pérdida: 0.6463, Tiempo estimado restante: 21.81 segundos
+Lote 90, Pérdida: 0.6457, Tiempo estimado restante: 16.96 segundos
+Lote 100, Pérdida: 0.6628, Tiempo estimado restante: 12.11 segundos
+Lote 110, Pérdida: 0.6443, Tiempo estimado restante: 7.27 segundos
+Lote 120, Pérdida: 0.6121, Tiempo estimado restante: 2.42 segundos
+Época 3 finalizada, Pérdida: 0.6662
+Accuracia: 0.5024, Precisión: 0.2524, Recall: 0.5024, F1 Score: 0.3360
+Tiempo total de la época 3: 83.88 segundos
+Iniciando época 4...
+Lote 0, Pérdida: 0.6519, Tiempo estimado restante: 60.02 segundos
+Lote 10, Pérdida: 0.6745, Tiempo estimado restante: 55.58 segundos
+Lote 20, Pérdida: 0.6991, Tiempo estimado restante: 51.18 segundos
+Lote 30, Pérdida: 0.6668, Tiempo estimado restante: 46.22 segundos
+Lote 40, Pérdida: 0.6352, Tiempo estimado restante: 41.32 segundos
+Lote 50, Pérdida: 0.6466, Tiempo estimado restante: 36.43 segundos
+Lote 60, Pérdida: 0.6523, Tiempo estimado restante: 31.58 segundos
+Lote 70, Pérdida: 0.6201, Tiempo estimado restante: 26.71 segundos
+Lote 80, Pérdida: 0.6425, Tiempo estimado restante: 21.87 segundos
+Lote 90, Pérdida: 0.6897, Tiempo estimado restante: 17.02 segundos
+Lote 100, Pérdida: 0.6459, Tiempo estimado restante: 12.16 segundos
+Lote 110, Pérdida: 0.7308, Tiempo estimado restante: 7.29 segundos
+Lote 120, Pérdida: 0.6570, Tiempo estimado restante: 2.43 segundos
+Época 4 finalizada, Pérdida: 0.6668
+Accuracia: 0.5044, Precisión: 0.6261, Recall: 0.5044, F1 Score: 0.3421
+Tiempo total de la época 4: 85.42 segundos
+Iniciando época 5...
+Lote 0, Pérdida: 0.6745, Tiempo estimado restante: 81.55 segundos
+Lote 10, Pérdida: 0.6999, Tiempo estimado restante: 67.57 segundos
+Lote 20, Pérdida: 0.6692, Tiempo estimado restante: 59.57 segundos
+Lote 30, Pérdida: 0.6710, Tiempo estimado restante: 51.90 segundos
+Lote 40, Pérdida: 0.7086, Tiempo estimado restante: 45.27 segundos
+Lote 50, Pérdida: 0.7014, Tiempo estimado restante: 39.24 segundos
+Lote 60, Pérdida: 0.6519, Tiempo estimado restante: 33.61 segundos
+Lote 70, Pérdida: 0.6589, Tiempo estimado restante: 28.18 segundos
+Lote 80, Pérdida: 0.6495, Tiempo estimado restante: 22.90 segundos
+Lote 90, Pérdida: 0.6959, Tiempo estimado restante: 17.75 segundos
+Lote 100, Pérdida: 0.6424, Tiempo estimado restante: 12.62 segundos
+Lote 110, Pérdida: 0.7165, Tiempo estimado restante: 7.55 segundos
+Lote 120, Pérdida: 0.7412, Tiempo estimado restante: 2.51 segundos
+Época 5 finalizada, Pérdida: 0.6662
+Accuracia: 0.5029, Precisión: 0.5635, Recall: 0.5029, F1 Score: 0.3384
+Tiempo total de la época 5: 86.06 segundos
+Iniciando época 6...
+Lote 0, Pérdida: 0.6650, Tiempo estimado restante: 60.05 segundos
+Lote 10, Pérdida: 0.6053, Tiempo estimado restante: 55.98 segundos
+Lote 20, Pérdida: 0.6856, Tiempo estimado restante: 51.10 segundos
+Lote 30, Pérdida: 0.6633, Tiempo estimado restante: 46.20 segundos
+Lote 40, Pérdida: 0.6000, Tiempo estimado restante: 41.22 segundos
+Lote 50, Pérdida: 0.6443, Tiempo estimado restante: 36.42 segundos
+Lote 60, Pérdida: 0.8052, Tiempo estimado restante: 31.56 segundos
+Lote 70, Pérdida: 0.7061, Tiempo estimado restante: 26.71 segundos
+Lote 80, Pérdida: 0.7483, Tiempo estimado restante: 21.87 segundos
+Lote 90, Pérdida: 0.7196, Tiempo estimado restante: 17.02 segundos
+Lote 100, Pérdida: 0.6684, Tiempo estimado restante: 12.16 segundos
+Lote 110, Pérdida: 0.6640, Tiempo estimado restante: 7.29 segundos
+Lote 120, Pérdida: 0.6038, Tiempo estimado restante: 2.43 segundos
+Época 6 finalizada, Pérdida: 0.6657
+Accuracia: 0.5024, Precisión: 0.2524, Recall: 0.5024, F1 Score: 0.3360
+Tiempo total de la época 6: 84.08 segundos
+Iniciando época 7...
+Lote 0, Pérdida: 0.6332, Tiempo estimado restante: 58.91 segundos
+Lote 10, Pérdida: 0.6893, Tiempo estimado restante: 55.46 segundos
+Lote 20, Pérdida: 0.6159, Tiempo estimado restante: 50.85 segundos
+Lote 30, Pérdida: 0.6451, Tiempo estimado restante: 46.03 segundos
+Lote 40, Pérdida: 0.7276, Tiempo estimado restante: 41.25 segundos
+Lote 50, Pérdida: 0.7490, Tiempo estimado restante: 36.39 segundos
+Lote 60, Pérdida: 0.6775, Tiempo estimado restante: 31.55 segundos
+Lote 70, Pérdida: 0.5817, Tiempo estimado restante: 26.69 segundos
+Lote 80, Pérdida: 0.6240, Tiempo estimado restante: 21.84 segundos
+Lote 90, Pérdida: 0.6908, Tiempo estimado restante: 16.99 segundos
+Lote 100, Pérdida: 0.5974, Tiempo estimado restante: 12.14 segundos
+Lote 110, Pérdida: 0.6264, Tiempo estimado restante: 7.29 segundos
+Lote 120, Pérdida: 0.7270, Tiempo estimado restante: 2.43 segundos
+Época 7 finalizada, Pérdida: 0.6660
+Accuracia: 0.5024, Precisión: 0.2524, Recall: 0.5024, F1 Score: 0.3360
+Tiempo total de la época 7: 84.95 segundos
+Iniciando época 8...
+Lote 0, Pérdida: 0.6214, Tiempo estimado restante: 58.86 segundos
+Lote 10, Pérdida: 0.6603, Tiempo estimado restante: 55.47 segundos
+Lote 20, Pérdida: 0.6360, Tiempo estimado restante: 50.91 segundos
+Lote 30, Pérdida: 0.7038, Tiempo estimado restante: 49.00 segundos
+Lote 40, Pérdida: 0.6677, Tiempo estimado restante: 43.23 segundos
+Lote 50, Pérdida: 0.6699, Tiempo estimado restante: 37.89 segundos
+Lote 60, Pérdida: 0.6469, Tiempo estimado restante: 32.65 segundos
+Lote 70, Pérdida: 0.6998, Tiempo estimado restante: 27.64 segundos
+Lote 80, Pérdida: 0.6099, Tiempo estimado restante: 22.50 segundos
+Lote 90, Pérdida: 0.6580, Tiempo estimado restante: 17.43 segundos
+Lote 100, Pérdida: 0.6539, Tiempo estimado restante: 12.41 segundos
+Lote 110, Pérdida: 0.6734, Tiempo estimado restante: 7.54 segundos
+Lote 120, Pérdida: 0.6852, Tiempo estimado restante: 2.52 segundos
+Época 8 finalizada, Pérdida: 0.6669
+Accuracia: 0.5034, Precisión: 0.6010, Recall: 0.5034, F1 Score: 0.3395
+Tiempo total de la época 8: 85.61 segundos
+Iniciando época 9...
+Lote 0, Pérdida: 0.6889, Tiempo estimado restante: 58.88 segundos
+Lote 10, Pérdida: 0.6553, Tiempo estimado restante: 58.97 segundos
+Lote 20, Pérdida: 0.6617, Tiempo estimado restante: 54.45 segundos
+Lote 30, Pérdida: 0.6376, Tiempo estimado restante: 51.04 segundos
+Lote 40, Pérdida: 0.6323, Tiempo estimado restante: 47.07 segundos
+Lote 50, Pérdida: 0.7386, Tiempo estimado restante: 41.50 segundos
+Lote 60, Pérdida: 0.6324, Tiempo estimado restante: 35.91 segundos
+Lote 70, Pérdida: 0.6721, Tiempo estimado restante: 30.48 segundos
+Lote 80, Pérdida: 0.6802, Tiempo estimado restante: 24.97 segundos
+Lote 90, Pérdida: 0.5825, Tiempo estimado restante: 19.54 segundos
+Lote 100, Pérdida: 0.6422, Tiempo estimado restante: 13.92 segundos
+Lote 110, Pérdida: 0.6761, Tiempo estimado restante: 8.38 segundos
+Lote 120, Pérdida: 0.6818, Tiempo estimado restante: 2.78 segundos
+Época 9 finalizada, Pérdida: 0.6658
+Accuracia: 0.5024, Precisión: 0.2524, Recall: 0.5024, F1 Score: 0.3360
+Tiempo total de la época 9: 97.56 segundos
+Iniciando época 10...
+Lote 0, Pérdida: 0.6453, Tiempo estimado restante: 88.43 segundos
+Lote 10, Pérdida: 0.6761, Tiempo estimado restante: 73.95 segundos
+Lote 20, Pérdida: 0.6763, Tiempo estimado restante: 66.88 segundos
+Lote 30, Pérdida: 0.7037, Tiempo estimado restante: 60.81 segundos
+Lote 40, Pérdida: 0.6846, Tiempo estimado restante: 52.87 segundos
+Lote 50, Pérdida: 0.5990, Tiempo estimado restante: 45.64 segundos
+Lote 60, Pérdida: 0.6214, Tiempo estimado restante: 38.79 segundos
+Lote 70, Pérdida: 0.7896, Tiempo estimado restante: 32.69 segundos
+Lote 80, Pérdida: 0.6330, Tiempo estimado restante: 27.04 segundos
+Lote 90, Pérdida: 0.6597, Tiempo estimado restante: 20.89 segundos
+Lote 100, Pérdida: 0.6779, Tiempo estimado restante: 14.97 segundos
+Lote 110, Pérdida: 0.6493, Tiempo estimado restante: 9.02 segundos
+Lote 120, Pérdida: 0.7530, Tiempo estimado restante: 3.01 segundos
+Época 10 finalizada, Pérdida: 0.6646
+Accuracia: 0.5024, Precisión: 0.2524, Recall: 0.5024, F1 Score: 0.3360
+Tiempo total de la época 10: 98.00 segundos
+Fold 4 - Accuracy: 0.4940, Precision: 0.2441, Recall: 0.4940, F1 Score: 0.3267
+Iniciando Fold 5...
+Iniciando entrenamiento por 10 épocas...
+Iniciando época 1...
+Lote 0, Pérdida: 0.7788, Tiempo estimado restante: 62.27 segundos
+Lote 10, Pérdida: 0.6893, Tiempo estimado restante: 56.82 segundos
+Lote 20, Pérdida: 0.6817, Tiempo estimado restante: 51.93 segundos
+Lote 30, Pérdida: 0.6538, Tiempo estimado restante: 46.88 segundos
+Lote 40, Pérdida: 0.6421, Tiempo estimado restante: 41.95 segundos
+Lote 50, Pérdida: 0.6727, Tiempo estimado restante: 37.01 segundos
+Lote 60, Pérdida: 0.6574, Tiempo estimado restante: 32.08 segundos
+Lote 70, Pérdida: 0.6426, Tiempo estimado restante: 27.19 segundos
+Lote 80, Pérdida: 0.6408, Tiempo estimado restante: 22.23 segundos
+Lote 90, Pérdida: 0.6673, Tiempo estimado restante: 17.28 segundos
+Lote 100, Pérdida: 0.6996, Tiempo estimado restante: 12.41 segundos
+Lote 110, Pérdida: 0.6692, Tiempo estimado restante: 7.57 segundos
+Lote 120, Pérdida: 0.6848, Tiempo estimado restante: 2.53 segundos
+Época 1 finalizada, Pérdida: 0.6798
+Accuracia: 0.5061, Precisión: 0.5590, Recall: 0.5061, F1 Score: 0.3706
+Tiempo total de la época 1: 87.87 segundos
+Iniciando época 2...
+Lote 0, Pérdida: 0.6722, Tiempo estimado restante: 65.42 segundos
+Lote 10, Pérdida: 0.6521, Tiempo estimado restante: 56.75 segundos
+Lote 20, Pérdida: 0.6678, Tiempo estimado restante: 52.84 segundos
+Lote 30, Pérdida: 0.6723, Tiempo estimado restante: 47.37 segundos
+Lote 40, Pérdida: 0.7266, Tiempo estimado restante: 42.53 segundos
+Lote 50, Pérdida: 0.7058, Tiempo estimado restante: 37.75 segundos
+Lote 60, Pérdida: 0.6984, Tiempo estimado restante: 32.96 segundos
+Lote 70, Pérdida: 0.6455, Tiempo estimado restante: 28.19 segundos
+Lote 80, Pérdida: 0.7041, Tiempo estimado restante: 23.06 segundos
+Lote 90, Pérdida: 0.6796, Tiempo estimado restante: 17.92 segundos
+Lote 100, Pérdida: 0.6638, Tiempo estimado restante: 12.83 segundos
+Lote 110, Pérdida: 0.6730, Tiempo estimado restante: 7.68 segundos
+Lote 120, Pérdida: 0.6901, Tiempo estimado restante: 2.57 segundos
+Época 2 finalizada, Pérdida: 0.6625
+Accuracia: 0.5001, Precisión: 0.6733, Recall: 0.5001, F1 Score: 0.3368
+Tiempo total de la época 2: 89.45 segundos
+Iniciando época 3...
+Lote 0, Pérdida: 0.6869, Tiempo estimado restante: 83.56 segundos
+Lote 10, Pérdida: 0.6236, Tiempo estimado restante: 69.05 segundos
+Lote 20, Pérdida: 0.7503, Tiempo estimado restante: 59.80 segundos
+Lote 30, Pérdida: 0.6839, Tiempo estimado restante: 52.95 segundos
+Lote 40, Pérdida: 0.6759, Tiempo estimado restante: 46.47 segundos
+Lote 50, Pérdida: 0.5815, Tiempo estimado restante: 40.78 segundos
+Lote 60, Pérdida: 0.6485, Tiempo estimado restante: 35.80 segundos
+Lote 70, Pérdida: 0.5956, Tiempo estimado restante: 30.25 segundos
+Lote 80, Pérdida: 0.6801, Tiempo estimado restante: 24.43 segundos
+Lote 90, Pérdida: 0.6326, Tiempo estimado restante: 18.81 segundos
+Lote 100, Pérdida: 0.6391, Tiempo estimado restante: 13.32 segundos
+Lote 110, Pérdida: 0.6814, Tiempo estimado restante: 7.94 segundos
+Lote 120, Pérdida: 0.6638, Tiempo estimado restante: 2.63 segundos
+Época 3 finalizada, Pérdida: 0.6623
+Accuracia: 0.5004, Precisión: 0.6789, Recall: 0.5004, F1 Score: 0.3374
+Tiempo total de la época 3: 89.56 segundos
+Iniciando época 4...
+Lote 0, Pérdida: 0.6688, Tiempo estimado restante: 59.59 segundos
+Lote 10, Pérdida: 0.6868, Tiempo estimado restante: 56.35 segundos
+Lote 20, Pérdida: 0.6447, Tiempo estimado restante: 51.57 segundos
+Lote 30, Pérdida: 0.6762, Tiempo estimado restante: 46.60 segundos
+Lote 40, Pérdida: 0.6488, Tiempo estimado restante: 41.69 segundos
+Lote 50, Pérdida: 0.7203, Tiempo estimado restante: 36.80 segundos
+Lote 60, Pérdida: 0.6260, Tiempo estimado restante: 31.90 segundos
+Lote 70, Pérdida: 0.7072, Tiempo estimado restante: 27.01 segundos
+Lote 80, Pérdida: 0.6159, Tiempo estimado restante: 22.10 segundos
+Lote 90, Pérdida: 0.5949, Tiempo estimado restante: 17.19 segundos
+Lote 100, Pérdida: 0.6340, Tiempo estimado restante: 12.28 segundos
+Lote 110, Pérdida: 0.5590, Tiempo estimado restante: 7.37 segundos
+Lote 120, Pérdida: 0.6537, Tiempo estimado restante: 2.46 segundos
+Época 4 finalizada, Pérdida: 0.6610
+Accuracia: 0.5078, Precisión: 0.6061, Recall: 0.5078, F1 Score: 0.3640
+Tiempo total de la época 4: 84.98 segundos
+Iniciando época 5...
+Lote 0, Pérdida: 0.6574, Tiempo estimado restante: 59.74 segundos
+Lote 10, Pérdida: 0.6418, Tiempo estimado restante: 55.93 segundos
+Lote 20, Pérdida: 0.6583, Tiempo estimado restante: 51.20 segundos
+Lote 30, Pérdida: 0.5941, Tiempo estimado restante: 46.93 segundos
+Lote 40, Pérdida: 0.6799, Tiempo estimado restante: 41.85 segundos
+Lote 50, Pérdida: 0.6401, Tiempo estimado restante: 36.88 segundos
+Lote 60, Pérdida: 0.6605, Tiempo estimado restante: 31.92 segundos
+Lote 70, Pérdida: 0.6079, Tiempo estimado restante: 26.99 segundos
+Lote 80, Pérdida: 0.6135, Tiempo estimado restante: 22.11 segundos
+Lote 90, Pérdida: 0.7029, Tiempo estimado restante: 17.20 segundos
+Lote 100, Pérdida: 0.5581, Tiempo estimado restante: 12.28 segundos
+Lote 110, Pérdida: 0.6904, Tiempo estimado restante: 7.36 segundos
+Lote 120, Pérdida: 0.6674, Tiempo estimado restante: 2.45 segundos
+Época 5 finalizada, Pérdida: 0.6612
+Accuracia: 0.5011, Precisión: 0.6917, Recall: 0.5011, F1 Score: 0.3390
+Tiempo total de la época 5: 85.85 segundos
+Iniciando época 6...
+Lote 0, Pérdida: 0.6751, Tiempo estimado restante: 60.80 segundos
+Lote 10, Pérdida: 0.7048, Tiempo estimado restante: 55.99 segundos
+Lote 20, Pérdida: 0.6921, Tiempo estimado restante: 52.60 segundos
+Lote 30, Pérdida: 0.7209, Tiempo estimado restante: 47.21 segundos
+Lote 40, Pérdida: 0.6710, Tiempo estimado restante: 42.08 segundos
+Lote 50, Pérdida: 0.7430, Tiempo estimado restante: 37.09 segundos
+Lote 60, Pérdida: 0.7050, Tiempo estimado restante: 32.06 segundos
+Lote 70, Pérdida: 0.6580, Tiempo estimado restante: 27.10 segundos
+Lote 80, Pérdida: 0.5659, Tiempo estimado restante: 22.14 segundos
+Lote 90, Pérdida: 0.6867, Tiempo estimado restante: 17.21 segundos
+Lote 100, Pérdida: 0.6280, Tiempo estimado restante: 12.29 segundos
+Lote 110, Pérdida: 0.5965, Tiempo estimado restante: 7.38 segundos
+Lote 120, Pérdida: 0.6210, Tiempo estimado restante: 2.46 segundos
+Época 6 finalizada, Pérdida: 0.6605
+Accuracia: 0.5073, Precisión: 0.6050, Recall: 0.5073, F1 Score: 0.3625
+Tiempo total de la época 6: 84.81 segundos
+Iniciando época 7...
+Lote 0, Pérdida: 0.6870, Tiempo estimado restante: 59.86 segundos
+Lote 10, Pérdida: 0.5670, Tiempo estimado restante: 56.15 segundos
+Lote 20, Pérdida: 0.7485, Tiempo estimado restante: 51.21 segundos
+Lote 30, Pérdida: 0.6114, Tiempo estimado restante: 46.36 segundos
+Lote 40, Pérdida: 0.6875, Tiempo estimado restante: 41.48 segundos
+Lote 50, Pérdida: 0.6768, Tiempo estimado restante: 36.63 segundos
+Lote 60, Pérdida: 0.6207, Tiempo estimado restante: 31.77 segundos
+Lote 70, Pérdida: 0.6484, Tiempo estimado restante: 26.88 segundos
+Lote 80, Pérdida: 0.6053, Tiempo estimado restante: 22.04 segundos
+Lote 90, Pérdida: 0.6134, Tiempo estimado restante: 17.14 segundos
+Lote 100, Pérdida: 0.7224, Tiempo estimado restante: 12.27 segundos
+Lote 110, Pérdida: 0.6390, Tiempo estimado restante: 7.36 segundos
+Lote 120, Pérdida: 0.6675, Tiempo estimado restante: 2.45 segundos
+Época 7 finalizada, Pérdida: 0.6603
+Accuracia: 0.5009, Precisión: 0.6880, Recall: 0.5009, F1 Score: 0.3385
+Tiempo total de la época 7: 84.85 segundos
+Iniciando época 8...
+Lote 0, Pérdida: 0.7545, Tiempo estimado restante: 59.68 segundos
+Lote 10, Pérdida: 0.6026, Tiempo estimado restante: 56.12 segundos
+Lote 20, Pérdida: 0.6522, Tiempo estimado restante: 51.31 segundos
+Lote 30, Pérdida: 0.6564, Tiempo estimado restante: 46.51 segundos
+Lote 40, Pérdida: 0.6738, Tiempo estimado restante: 41.81 segundos
+Lote 50, Pérdida: 0.5675, Tiempo estimado restante: 36.85 segundos
+Lote 60, Pérdida: 0.7214, Tiempo estimado restante: 31.94 segundos
+Lote 70, Pérdida: 0.6759, Tiempo estimado restante: 27.01 segundos
+Lote 80, Pérdida: 0.6705, Tiempo estimado restante: 22.10 segundos
+Lote 90, Pérdida: 0.6918, Tiempo estimado restante: 17.19 segundos
+Lote 100, Pérdida: 0.6213, Tiempo estimado restante: 12.27 segundos
+Lote 110, Pérdida: 0.6056, Tiempo estimado restante: 7.36 segundos
+Lote 120, Pérdida: 0.6590, Tiempo estimado restante: 2.50 segundos
+Época 8 finalizada, Pérdida: 0.6607
+Accuracia: 0.5004, Precisión: 0.6789, Recall: 0.5004, F1 Score: 0.3374
+Tiempo total de la época 8: 85.85 segundos
+Iniciando época 9...
+Lote 0, Pérdida: 0.6921, Tiempo estimado restante: 57.94 segundos
+Lote 10, Pérdida: 0.6224, Tiempo estimado restante: 55.04 segundos
+Lote 20, Pérdida: 0.6929, Tiempo estimado restante: 50.49 segundos
+Lote 30, Pérdida: 0.6310, Tiempo estimado restante: 45.81 segundos
+Lote 40, Pérdida: 0.6869, Tiempo estimado restante: 40.98 segundos
+Lote 50, Pérdida: 0.5645, Tiempo estimado restante: 36.25 segundos
+Lote 60, Pérdida: 0.6087, Tiempo estimado restante: 31.43 segundos
+Lote 70, Pérdida: 0.6092, Tiempo estimado restante: 26.59 segundos
+Lote 80, Pérdida: 0.6563, Tiempo estimado restante: 21.75 segundos
+Lote 90, Pérdida: 0.6420, Tiempo estimado restante: 16.91 segundos
+Lote 100, Pérdida: 0.5614, Tiempo estimado restante: 12.07 segundos
+Lote 110, Pérdida: 0.6962, Tiempo estimado restante: 7.24 segundos
+Lote 120, Pérdida: 0.6967, Tiempo estimado restante: 2.41 segundos
+Época 9 finalizada, Pérdida: 0.6611
+Accuracia: 0.5004, Precisión: 0.6789, Recall: 0.5004, F1 Score: 0.3374
+Tiempo total de la época 9: 83.57 segundos
+Iniciando época 10...
+Lote 0, Pérdida: 0.6908, Tiempo estimado restante: 60.42 segundos
+Lote 10, Pérdida: 0.5854, Tiempo estimado restante: 56.02 segundos
+Lote 20, Pérdida: 0.6861, Tiempo estimado restante: 51.28 segundos
+Lote 30, Pérdida: 0.6220, Tiempo estimado restante: 46.52 segundos
+Lote 40, Pérdida: 0.6671, Tiempo estimado restante: 41.77 segundos
+Lote 50, Pérdida: 0.7337, Tiempo estimado restante: 36.96 segundos
+Lote 60, Pérdida: 0.7280, Tiempo estimado restante: 32.10 segundos
+Lote 70, Pérdida: 0.7078, Tiempo estimado restante: 27.20 segundos
+Lote 80, Pérdida: 0.7277, Tiempo estimado restante: 22.29 segundos
+Lote 90, Pérdida: 0.5311, Tiempo estimado restante: 17.35 segundos
+Lote 100, Pérdida: 0.6301, Tiempo estimado restante: 12.60 segundos
+Lote 110, Pérdida: 0.6390, Tiempo estimado restante: 7.61 segundos
+Lote 120, Pérdida: 0.6733, Tiempo estimado restante: 2.56 segundos
+Época 10 finalizada, Pérdida: 0.6605
+Accuracia: 0.5011, Precisión: 0.6917, Recall: 0.5011, F1 Score: 0.3390
+Tiempo total de la época 10: 88.16 segundos
+Fold 5 - Accuracy: 0.5129, Precision: 0.5552, Recall: 0.5129, F1 Score: 0.3524
+Métricas promedio - Accuracy: 0.5013, Precision: 0.3839, Recall: 0.5013, F1 Score: 0.3366

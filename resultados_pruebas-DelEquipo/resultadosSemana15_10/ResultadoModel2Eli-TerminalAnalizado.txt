@@ -1,0 +1,24 @@
+Basándome en los resultados obtenidos en las últimas épocas y métricas del modelo, los resultados no son del todo satisfactorios.
+
+Accuracy: El modelo parece estar alcanzando una precisión promedio cercana al 50%. Dado que un modelo aleatorio para un problema de clasificación binaria también tendría una precisión del 50%, 
+este resultado sugiere que el modelo no está aprendiendo a distinguir bien entre las clases.
+
+Precisión y Recall: Aunque hay alguna mejora en precisión y recall en comparación con los primeros lotes, los valores siguen siendo bajos. 
+Esto indica que el modelo tiene problemas tanto para identificar correctamente las instancias positivas como para minimizar las falsas alarmas.
+
+F1 Score: El F1 Score promedio también es bajo, lo que confirma que el balance entre precisión y recall no es óptimo.
+
+Métricas consistentes: El hecho de que las métricas no mejoren significativamente a medida que avanzan las épocas indica que el modelo podría estar estancado 
+y no está aprendiendo de manera efectiva.
+
+Posibles razones por las que el modelo no está aprendiendo adecuadamente:
+
+Datos de entrenamiento insuficientes o de baja calidad.
+
+Problemas con el preprocesamiento de datos.
+
+Parámetros del modelo no optimizados.
+
+Tasa de aprendizaje inadecuada.
+
+Estructura del modelo que no se adapta bien a los datos.
