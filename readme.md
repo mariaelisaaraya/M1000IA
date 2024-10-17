@@ -2,7 +2,7 @@
 
 1. Carpetas Imagenes sin nevos.
 
-   1.1. Se subio al [drive](https://drive.google.com/drive/folders/1TwvbjPg7L-1Bkbd98IqCnHw8GM8IpQBH?usp=drive_link)  la imagenes el total de las mismas son 5021. Corroborar que todas usemos las mismas imagenes. Estas son las carpetas sin nevos.
+   1.1. Se subio al [drive](https://drive.google.com/drive/folders/1TwvbjPg7L-1Bkbd98IqCnHw8GM8IpQBH?usp=drive_link)  la imagenes el total de las mismas son 5021. Corroborar que todas usemos las mismas imagenes. Estas son las imagenes sin nevos.
 
 3. Utilizar Metadatos filtrados.
    
