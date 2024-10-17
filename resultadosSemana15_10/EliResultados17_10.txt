@@ -1,0 +1,133 @@
+Cargando imágenes...
+Imágenes cargadas. Total: 5021
+Iniciando Fold 1...
+Iniciando entrenamiento por 40 épocas...
+Iniciando época 1...
+Época 1 finalizada, Pérdida: 0.6708
+Accuracia: 0.5966, Precisión: 0.5966, Recall: 0.5966, F1 Score: 0.5966
+Tiempo total de la época 1: 94.65 segundos
+Iniciando época 2...
+Época 2 finalizada, Pérdida: 0.6660
+Accuracia: 0.6026, Precisión: 0.6033, Recall: 0.6026, F1 Score: 0.6015
+Tiempo total de la época 2: 98.29 segundos
+Iniciando época 3...
+Época 3 finalizada, Pérdida: 0.6652
+Accuracia: 0.5996, Precisión: 0.6033, Recall: 0.5996, F1 Score: 0.5950
+Tiempo total de la época 3: 92.69 segundos
+Iniciando época 4...
+Época 4 finalizada, Pérdida: 0.6658
+Accuracia: 0.5989, Precisión: 0.5989, Recall: 0.5989, F1 Score: 0.5989
+Tiempo total de la época 4: 88.83 segundos
+Iniciando época 5...
+Época 5 finalizada, Pérdida: 0.6653
+Accuracia: 0.6036, Precisión: 0.6078, Recall: 0.6036, F1 Score: 0.5987
+Tiempo total de la época 5: 88.93 segundos
+Iniciando época 6...
+Época 6 finalizada, Pérdida: 0.6646
+Accuracia: 0.6046, Precisión: 0.6046, Recall: 0.6046, F1 Score: 0.6046
+Tiempo total de la época 6: 92.70 segundos
+Iniciando época 7...
+Época 7 finalizada, Pérdida: 0.6645
+Accuracia: 0.6011, Precisión: 0.6050, Recall: 0.6011, F1 Score: 0.5964
+Tiempo total de la época 7: 97.57 segundos
+Iniciando época 8...
+Época 8 finalizada, Pérdida: 0.6643
+Accuracia: 0.6016, Precisión: 0.6026, Recall: 0.6016, F1 Score: 0.6001
+Tiempo total de la época 8: 92.99 segundos
+Iniciando época 9...
+Época 9 finalizada, Pérdida: 0.6643
+Accuracia: 0.6036, Precisión: 0.6047, Recall: 0.6036, F1 Score: 0.6020
+Tiempo total de la época 9: 97.25 segundos
+Iniciando época 10...
+Época 10 finalizada, Pérdida: 0.6625
+Accuracia: 0.5999, Precisión: 0.6079, Recall: 0.5999, F1 Score: 0.5909
+Tiempo total de la época 10: 97.35 segundos
+Iniciando época 11...
+Época 11 finalizada, Pérdida: 0.6641
+Accuracia: 0.6066, Precisión: 0.6066, Recall: 0.6066, F1 Score: 0.6065
+Tiempo total de la época 11: 105.09 segundos
+Iniciando época 12...
+Época 12 finalizada, Pérdida: 0.6638
+Accuracia: 0.5996, Precisión: 0.6033, Recall: 0.5996, F1 Score: 0.5950
+Tiempo total de la época 12: 96.17 segundos
+Iniciando época 13...
+Época 13 finalizada, Pérdida: 0.6639
+Accuracia: 0.5944, Precisión: 0.5973, Recall: 0.5944, F1 Score: 0.5903
+Tiempo total de la época 13: 109.20 segundos
+Iniciando época 14...
+Época 14 finalizada, Pérdida: 0.6630
+Accuracia: 0.5959, Precisión: 0.5990, Recall: 0.5959, F1 Score: 0.5917
+Tiempo total de la época 14: 115.63 segundos
+Iniciando época 15...
+Época 15 finalizada, Pérdida: 0.6639
+Accuracia: 0.6096, Precisión: 0.6147, Recall: 0.6096, F1 Score: 0.6042
+Tiempo total de la época 15: 127.51 segundos
+Iniciando época 16...
+Época 16 finalizada, Pérdida: 0.6637
+Accuracia: 0.5946, Precisión: 0.5976, Recall: 0.5946, F1 Score: 0.5905
+Tiempo total de la época 16: 123.90 segundos
+Iniciando época 17...
+Época 17 finalizada, Pérdida: 0.6638
+Accuracia: 0.6051, Precisión: 0.6063, Recall: 0.6051, F1 Score: 0.6034
+Tiempo total de la época 17: 125.26 segundos
+Iniciando época 18...
+Época 18 finalizada, Pérdida: 0.6638
+Accuracia: 0.5996, Precisión: 0.6033, Recall: 0.5996, F1 Score: 0.5950
+Tiempo total de la época 18: 156.01 segundos
+Iniciando época 19...
+Época 19 finalizada, Pérdida: 0.6635
+Accuracia: 0.6036, Precisión: 0.6047, Recall: 0.6036, F1 Score: 0.6020
+Tiempo total de la época 19: 166.17 segundos
+Iniciando época 20...
+Época 20 finalizada, Pérdida: 0.6628
+Accuracia: 0.6011, Precisión: 0.6050, Recall: 0.6011, F1 Score: 0.5964
+Tiempo total de la época 20: 141.59 segundos
+Iniciando época 21...
+Época 21 finalizada, Pérdida: 0.6630
+Accuracia: 0.6036, Precisión: 0.6078, Recall: 0.6036, F1 Score: 0.5987
+Tiempo total de la época 21: 123.30 segundos
+Iniciando época 22...
+Época 22 finalizada, Pérdida: 0.6633
+Accuracia: 0.6016, Precisión: 0.6100, Recall: 0.6016, F1 Score: 0.5925
+Tiempo total de la época 22: 134.82 segundos
+Iniciando época 23...
+Época 23 finalizada, Pérdida: 0.6637
+Accuracia: 0.5991, Precisión: 0.6026, Recall: 0.5991, F1 Score: 0.5947
+Tiempo total de la época 23: 139.92 segundos
+Iniciando época 24...
+Época 24 finalizada, Pérdida: 0.6634
+Accuracia: 0.6051, Precisión: 0.6095, Recall: 0.6051, F1 Score: 0.6001
+Tiempo total de la época 24: 152.86 segundos
+Iniciando época 25...
+Época 25 finalizada, Pérdida: 0.6635
+Accuracia: 0.5996, Precisión: 0.6033, Recall: 0.5996, F1 Score: 0.5950
+Tiempo total de la época 25: 135.93 segundos
+Iniciando época 26...
+Época 26 finalizada, Pérdida: 0.6630
+Accuracia: 0.5996, Precisión: 0.6033, Recall: 0.5996, F1 Score: 0.5950
+Tiempo total de la época 26: 114.95 segundos
+Iniciando época 27...
+Época 27 finalizada, Pérdida: 0.6627
+Accuracia: 0.5996, Precisión: 0.6033, Recall: 0.5996, F1 Score: 0.5950
+Tiempo total de la época 27: 132.76 segundos
+Iniciando época 28...
+Época 28 finalizada, Pérdida: 0.6623
+Accuracia: 0.5924, Precisión: 0.5951, Recall: 0.5924, F1 Score: 0.5884
+Tiempo total de la época 28: 138.51 segundos
+Iniciando época 29...
+Época 29 finalizada, Pérdida: 0.6629
+Accuracia: 0.5996, Precisión: 0.6033, Recall: 0.5996, F1 Score: 0.5950
+Tiempo total de la época 29: 143.35 segundos
+Iniciando época 30...
+Época 30 finalizada, Pérdida: 0.6629
+Accuracia: 0.5976, Precisión: 0.6010, Recall: 0.5976, F1 Score: 0.5933
+Tiempo total de la época 30: 145.71 segundos
+Iniciando época 31...
+Época 31 finalizada, Pérdida: 0.6628
+Accuracia: 0.5996, Precisión: 0.6033, Recall: 0.5996, F1 Score: 0.5950
+Tiempo total de la época 31: 168.00 segundos
+Iniciando época 32...
+Época 32 finalizada, Pérdida: 0.6625
+Accuracia: 0.6051, Precisión: 0.6095, Recall: 0.6051, F1 Score: 0.6001
+Tiempo total de la época 32: 177.23 segundos
+Iniciando época 33...
