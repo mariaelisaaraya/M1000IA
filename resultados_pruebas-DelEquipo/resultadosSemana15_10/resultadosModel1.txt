@@ -1,0 +1,422 @@
+PS C:\Users\GINXT\OneDrive - Bayer\Personal Data\Kat\IA> & "c:/Users/GINXT/OneDrive - Bayer/
+PS C:\Users\GINXT\OneDrive - Bayer\Personal Data\Kat\IA> & "c:/Users/GINXT/OneDrive - Bayer/
+PS C:\Users\GINXT\OneDrive - Bayer\Personal Data\Kat\IA> & "c:/Users/GINXT/OneDrive - Bayer/
+PS C:\Users\GINXT\OneDrive - Bayer\Personal Data\Kat\IA> & "c:/Users/GINXT/OneDrive - Bayer/
+PS C:\Users\GINXT\OneDrive - Bayer\Personal Data\Kat\IA> & "c:/Users/GINXT/OneDrive - Bayer/
+PS C:\Users\GINXT\OneDrive - Bayer\Personal Data\Kat\IA> & "c:/Users/GINXT/OneDrive - Bayer/
+PS C:\Users\GINXT\OneDrive - Bayer\Personal Data\Kat\IA> & "c:/Users/GINXT/OneDrive - Bayer/
+PS C:\Users\GINXT\OneDrive - Bayer\Personal Data\Kat\IA> & "c:/Users/GINXT/OneDrive - Bayer/
+PS C:\Users\GINXT\OneDrive - Bayer\Personal Data\Kat\IA> & "c:/Users/GINXT/OneDrive - Bayer/
+PS C:\Users\GINXT\OneDrive - Bayer\Personal Data\Kat\IA> & "c:/Users/GINXT/OneDrive - Bayer/Personal Data/Kat/IA/venv/Scripts/python.exe" "c:/Users/GINXT/OneDrive - Bayer/Personal Data/Kat/IA/model1.py"
+Traceback (most recent call last):
+  File "c:\Users\GINXT\OneDrive - Bayer\Personal Data\Kat\IA\model1.py", line 54, in <module>
+    encoder = OneHotEncoder(sparse=False)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: OneHotEncoder.__init__() got an unexpected keyword argument 'sparse'
+PS C:\Users\GINXT\OneDrive - Bayer\Personal Data\Kat\IA> & "c:/Users/GINXT/OneDrive - Bayer/Persr/Personal Data/Kat/IA/venv/Scripts/python.exe" "c:/Users/GINXT/OneDrive - Bayer/Personal Data/Kat/IA/model1.py"
+Fold 1
+Epoch 1/40, Loss: 0.6664001374017625
+Accuracy: 0.6280, Precision: 0.6350, Recall: 0.6280, F1 Score: 0.6223
+Epoch 2/40, Loss: 0.65058652701832
+Accuracy: 0.6307, Precision: 0.6500, Recall: 0.6307, F1 Score: 0.6196
+Epoch 3/40, Loss: 0.6308667837154298
+Accuracy: 0.6733, Precision: 0.6735, Recall: 0.6733, F1 Score: 0.6731
+Epoch 4/40, Loss: 0.6080026011618357
+Accuracy: 0.6536, Precision: 0.6713, Recall: 0.6536, F1 Score: 0.6436
+Epoch 5/40, Loss: 0.5864956700612628
+Accuracy: 0.7064, Precision: 0.7080, Recall: 0.7064, F1 Score: 0.7057
+Epoch 6/40, Loss: 0.5539919937413836
+Accuracy: 0.7092, Precision: 0.7127, Recall: 0.7092, F1 Score: 0.7082
+Epoch 7/40, Loss: 0.5583370335045315
+Accuracy: 0.7249, Precision: 0.7255, Recall: 0.7249, F1 Score: 0.7247
+Epoch 8/40, Loss: 0.5467650230441775
+Accuracy: 0.7204, Precision: 0.7204, Recall: 0.7204, F1 Score: 0.7204
+Epoch 9/40, Loss: 0.5433444402047566
+Accuracy: 0.7291, Precision: 0.7367, Recall: 0.7291, F1 Score: 0.7266
+Epoch 10/40, Loss: 0.5291146827595574
+Accuracy: 0.7375, Precision: 0.7377, Recall: 0.7375, F1 Score: 0.7375
+Epoch 11/40, Loss: 0.5310541098079984
+Accuracy: 0.7428, Precision: 0.7434, Recall: 0.7428, F1 Score: 0.7427
+Epoch 12/40, Loss: 0.5258104869770626
+Accuracy: 0.7363, Precision: 0.7400, Recall: 0.7363, F1 Score: 0.7351
+Epoch 13/40, Loss: 0.5276553782205733
+Accuracy: 0.7306, Precision: 0.7323, Recall: 0.7306, F1 Score: 0.7299
+Epoch 14/40, Loss: 0.513945095359333
+Accuracy: 0.7480, Precision: 0.7482, Recall: 0.7480, F1 Score: 0.7480
+Epoch 15/40, Loss: 0.5065526449018054
+Accuracy: 0.7281, Precision: 0.7287, Recall: 0.7281, F1 Score: 0.7280
+Epoch 16/40, Loss: 0.5092222562858036
+Accuracy: 0.7570, Precision: 0.7572, Recall: 0.7570, F1 Score: 0.7569
+Epoch 17/40, Loss: 0.4908355450819409
+Accuracy: 0.7498, Precision: 0.7514, Recall: 0.7498, F1 Score: 0.7492
+Epoch 18/40, Loss: 0.49455816286896903
+Accuracy: 0.7371, Precision: 0.7448, Recall: 0.7371, F1 Score: 0.7352
+Epoch 19/40, Loss: 0.49890201148532687
+Accuracy: 0.7622, Precision: 0.7747, Recall: 0.7622, F1 Score: 0.7592
+Epoch 20/40, Loss: 0.4813456343752997
+Accuracy: 0.7607, Precision: 0.7653, Recall: 0.7607, F1 Score: 0.7595
+Epoch 21/40, Loss: 0.47697381107580095
+Accuracy: 0.7694, Precision: 0.7704, Recall: 0.7694, F1 Score: 0.7693
+Epoch 22/40, Loss: 0.4831410726857564
+Accuracy: 0.7662, Precision: 0.7701, Recall: 0.7662, F1 Score: 0.7652
+Epoch 23/40, Loss: 0.4725749090550438
+Accuracy: 0.7779, Precision: 0.7783, Recall: 0.7779, F1 Score: 0.7779
+Epoch 24/40, Loss: 0.4644436814955303
+Accuracy: 0.7739, Precision: 0.7739, Recall: 0.7739, F1 Score: 0.7739
+Epoch 25/40, Loss: 0.46948255835071445
+Accuracy: 0.7565, Precision: 0.7718, Recall: 0.7565, F1 Score: 0.7533
+Epoch 26/40, Loss: 0.45806081734952475
+Accuracy: 0.7644, Precision: 0.7733, Recall: 0.7644, F1 Score: 0.7623
+Epoch 27/40, Loss: 0.45431814023426603
+Accuracy: 0.7916, Precision: 0.7920, Recall: 0.7916, F1 Score: 0.7915
+Epoch 28/40, Loss: 0.4702794700860977
+Accuracy: 0.7789, Precision: 0.7808, Recall: 0.7789, F1 Score: 0.7786
+Epoch 29/40, Loss: 0.4542292007614696
+Accuracy: 0.7799, Precision: 0.7859, Recall: 0.7799, F1 Score: 0.7785
+Epoch 30/40, Loss: 0.4663887197772662
+Accuracy: 0.7951, Precision: 0.7951, Recall: 0.7951, F1 Score: 0.7951
+Epoch 31/40, Loss: 0.46204453446562327
+Accuracy: 0.7809, Precision: 0.7829, Recall: 0.7809, F1 Score: 0.7804
+Epoch 32/40, Loss: 0.4551231052194323
+Accuracy: 0.7824, Precision: 0.7898, Recall: 0.7824, F1 Score: 0.7812
+Epoch 33/40, Loss: 0.44862665460696294
+Accuracy: 0.7941, Precision: 0.7941, Recall: 0.7941, F1 Score: 0.7941
+Epoch 34/40, Loss: 0.4546191083296897
+Accuracy: 0.7871, Precision: 0.7887, Recall: 0.7871, F1 Score: 0.7867
+Epoch 35/40, Loss: 0.44753788458922555
+Accuracy: 0.7923, Precision: 0.7927, Recall: 0.7923, F1 Score: 0.7923
+Epoch 36/40, Loss: 0.4469065200241785
+Accuracy: 0.7866, Precision: 0.7876, Recall: 0.7866, F1 Score: 0.7865
+Epoch 37/40, Loss: 0.446880308526849
+Accuracy: 0.7971, Precision: 0.8017, Recall: 0.7971, F1 Score: 0.7961
+Epoch 38/40, Loss: 0.44418554362796603
+Accuracy: 0.7911, Precision: 0.7916, Recall: 0.7911, F1 Score: 0.7909
+Epoch 39/40, Loss: 0.43853689079719876
+Accuracy: 0.7941, Precision: 0.7973, Recall: 0.7941, F1 Score: 0.7936
+Epoch 40/40, Loss: 0.4351104883447526
+Accuracy: 0.8048, Precision: 0.8058, Recall: 0.8048, F1 Score: 0.8047
+Fold 2
+Epoch 1/40, Loss: 0.44241963729025824
+Accuracy: 0.7956, Precision: 0.7970, Recall: 0.7956, F1 Score: 0.7954
+Epoch 2/40, Loss: 0.44134697081550717
+Accuracy: 0.7959, Precision: 0.7963, Recall: 0.7959, F1 Score: 0.7958
+Epoch 3/40, Loss: 0.43330305105163935
+Accuracy: 0.7966, Precision: 0.8026, Recall: 0.7966, F1 Score: 0.7956
+Epoch 4/40, Loss: 0.4303163159934301
+Accuracy: 0.7999, Precision: 0.8010, Recall: 0.7999, F1 Score: 0.7996
+Epoch 5/40, Loss: 0.4315852471996868
+Accuracy: 0.8031, Precision: 0.8031, Recall: 0.8031, F1 Score: 0.8031
+Epoch 6/40, Loss: 0.4241672943508814
+Accuracy: 0.7981, Precision: 0.8025, Recall: 0.7981, F1 Score: 0.7974
+Epoch 7/40, Loss: 0.42988284523524933
+Accuracy: 0.7969, Precision: 0.8073, Recall: 0.7969, F1 Score: 0.7951
+Epoch 8/40, Loss: 0.4362954552921038
+Accuracy: 0.7969, Precision: 0.7984, Recall: 0.7969, F1 Score: 0.7966
+Epoch 9/40, Loss: 0.4343254660803174
+Accuracy: 0.8046, Precision: 0.8056, Recall: 0.8046, F1 Score: 0.8044
+Epoch 10/40, Loss: 0.4236465418149555
+Accuracy: 0.8053, Precision: 0.8105, Recall: 0.8053, F1 Score: 0.8045
+Epoch 11/40, Loss: 0.4239991328545979
+Accuracy: 0.8113, Precision: 0.8114, Recall: 0.8113, F1 Score: 0.8113
+Epoch 12/40, Loss: 0.42013184418753974
+Accuracy: 0.8068, Precision: 0.8068, Recall: 0.8068, F1 Score: 0.8068
+Epoch 13/40, Loss: 0.42340234182183706
+Accuracy: 0.8053, Precision: 0.8104, Recall: 0.8053, F1 Score: 0.8045
+Epoch 14/40, Loss: 0.4280094021842593
+Accuracy: 0.8130, Precision: 0.8130, Recall: 0.8130, F1 Score: 0.8130
+Epoch 15/40, Loss: 0.41760376202208654
+Accuracy: 0.7772, Precision: 0.7889, Recall: 0.7772, F1 Score: 0.7749
+Epoch 16/40, Loss: 0.41599967295215245
+Accuracy: 0.8048, Precision: 0.8052, Recall: 0.8048, F1 Score: 0.8048
+Epoch 17/40, Loss: 0.41744470986581983
+Accuracy: 0.7981, Precision: 0.8025, Recall: 0.7981, F1 Score: 0.7974
+Epoch 18/40, Loss: 0.4312351473740169
+Accuracy: 0.8001, Precision: 0.8002, Recall: 0.8001, F1 Score: 0.8001
+Epoch 19/40, Loss: 0.40964816191366743
+Accuracy: 0.8163, Precision: 0.8187, Recall: 0.8163, F1 Score: 0.8159
+Epoch 20/40, Loss: 0.4053031528989474
+Accuracy: 0.8205, Precision: 0.8233, Recall: 0.8205, F1 Score: 0.8201
+Epoch 21/40, Loss: 0.40136803473745075
+Accuracy: 0.8086, Precision: 0.8126, Recall: 0.8086, F1 Score: 0.8080
+Epoch 22/40, Loss: 0.41178147080871796
+Accuracy: 0.8076, Precision: 0.8179, Recall: 0.8076, F1 Score: 0.8060
+Epoch 23/40, Loss: 0.40713531039063894
+Accuracy: 0.8188, Precision: 0.8194, Recall: 0.8188, F1 Score: 0.8187
+Epoch 24/40, Loss: 0.39463254241716295
+Accuracy: 0.8252, Precision: 0.8254, Recall: 0.8252, F1 Score: 0.8252
+Epoch 25/40, Loss: 0.4180831504719598
+Accuracy: 0.8205, Precision: 0.8210, Recall: 0.8205, F1 Score: 0.8204
+Epoch 26/40, Loss: 0.405516403062003
+Accuracy: 0.8145, Precision: 0.8221, Recall: 0.8145, F1 Score: 0.8135
+Epoch 27/40, Loss: 0.3950335104314108
+Accuracy: 0.8235, Precision: 0.8238, Recall: 0.8235, F1 Score: 0.8235
+Epoch 28/40, Loss: 0.39429471357947304
+Accuracy: 0.8190, Precision: 0.8193, Recall: 0.8190, F1 Score: 0.8190
+Epoch 29/40, Loss: 0.3982447399979546
+Accuracy: 0.8280, Precision: 0.8287, Recall: 0.8280, F1 Score: 0.8279
+Epoch 30/40, Loss: 0.3946798589257967
+Accuracy: 0.8051, Precision: 0.8171, Recall: 0.8051, F1 Score: 0.8032
+Epoch 31/40, Loss: 0.4031103861237329
+Accuracy: 0.8198, Precision: 0.8203, Recall: 0.8198, F1 Score: 0.8197
+Epoch 32/40, Loss: 0.40240185814244406
+Accuracy: 0.8347, Precision: 0.8353, Recall: 0.8347, F1 Score: 0.8346
+Epoch 33/40, Loss: 0.37907670414637007
+Accuracy: 0.8290, Precision: 0.8292, Recall: 0.8290, F1 Score: 0.8289
+Epoch 34/40, Loss: 0.41872929225838373
+Accuracy: 0.7961, Precision: 0.8132, Recall: 0.7961, F1 Score: 0.7933
+Epoch 35/40, Loss: 0.4010187294038515
+Accuracy: 0.8287, Precision: 0.8301, Recall: 0.8287, F1 Score: 0.8286
+Epoch 36/40, Loss: 0.3831024794351487
+Accuracy: 0.8337, Precision: 0.8348, Recall: 0.8337, F1 Score: 0.8336
+Epoch 37/40, Loss: 0.38712849456166465
+Accuracy: 0.8282, Precision: 0.8284, Recall: 0.8282, F1 Score: 0.8282
+Epoch 38/40, Loss: 0.3882315493528805
+Accuracy: 0.8255, Precision: 0.8314, Recall: 0.8255, F1 Score: 0.8247
+Epoch 39/40, Loss: 0.3837992888357904
+Accuracy: 0.8320, Precision: 0.8384, Recall: 0.8320, F1 Score: 0.8312
+Epoch 40/40, Loss: 0.3703686274469845
+Accuracy: 0.8317, Precision: 0.8320, Recall: 0.8317, F1 Score: 0.8317
+Fold 3
+Epoch 1/40, Loss: 0.4129798115482406
+Accuracy: 0.8260, Precision: 0.8264, Recall: 0.8260, F1 Score: 0.8260
+Epoch 2/40, Loss: 0.40031217677252634
+Accuracy: 0.8116, Precision: 0.8231, Recall: 0.8116, F1 Score: 0.8095
+Epoch 3/40, Loss: 0.3962194852176167
+Accuracy: 0.8242, Precision: 0.8246, Recall: 0.8242, F1 Score: 0.8242
+Epoch 4/40, Loss: 0.3954544152532305
+Accuracy: 0.8265, Precision: 0.8282, Recall: 0.8265, F1 Score: 0.8264
+Epoch 5/40, Loss: 0.3987497616381872
+Accuracy: 0.8237, Precision: 0.8292, Recall: 0.8237, F1 Score: 0.8232
+Epoch 6/40, Loss: 0.39063314845164615
+Accuracy: 0.8384, Precision: 0.8394, Recall: 0.8384, F1 Score: 0.8384
+Epoch 7/40, Loss: 0.38492949306964874
+Accuracy: 0.8252, Precision: 0.8253, Recall: 0.8252, F1 Score: 0.8252
+Epoch 8/40, Loss: 0.3847636225677672
+Accuracy: 0.8322, Precision: 0.8323, Recall: 0.8322, F1 Score: 0.8322
+Epoch 9/40, Loss: 0.39234175473924665
+Accuracy: 0.8235, Precision: 0.8244, Recall: 0.8235, F1 Score: 0.8235
+Epoch 10/40, Loss: 0.3899024412745521
+Accuracy: 0.8317, Precision: 0.8328, Recall: 0.8317, F1 Score: 0.8315
+Epoch 11/40, Loss: 0.38993854134801836
+Accuracy: 0.8300, Precision: 0.8361, Recall: 0.8300, F1 Score: 0.8290
+Epoch 12/40, Loss: 0.37831057525343365
+Accuracy: 0.8407, Precision: 0.8408, Recall: 0.8407, F1 Score: 0.8406
+Epoch 13/40, Loss: 0.38183481991291046
+Accuracy: 0.8195, Precision: 0.8297, Recall: 0.8195, F1 Score: 0.8184
+Epoch 14/40, Loss: 0.3905053957114144
+Accuracy: 0.8409, Precision: 0.8409, Recall: 0.8409, F1 Score: 0.8409
+Epoch 15/40, Loss: 0.3859667854886206
+Accuracy: 0.8350, Precision: 0.8365, Recall: 0.8350, F1 Score: 0.8346
+Epoch 16/40, Loss: 0.3688892803731419
+Accuracy: 0.8315, Precision: 0.8343, Recall: 0.8315, F1 Score: 0.8313
+Epoch 17/40, Loss: 0.39134916710475137
+Accuracy: 0.8277, Precision: 0.8278, Recall: 0.8277, F1 Score: 0.8277
+Epoch 18/40, Loss: 0.37864774288166136
+Accuracy: 0.8511, Precision: 0.8512, Recall: 0.8511, F1 Score: 0.8511
+Epoch 19/40, Loss: 0.37403927010203164
+Accuracy: 0.8459, Precision: 0.8469, Recall: 0.8459, F1 Score: 0.8457
+Epoch 20/40, Loss: 0.3765237939263147
+Accuracy: 0.8427, Precision: 0.8430, Recall: 0.8427, F1 Score: 0.8426
+Epoch 21/40, Loss: 0.3701818924811151
+Accuracy: 0.8399, Precision: 0.8426, Recall: 0.8399, F1 Score: 0.8397
+Epoch 22/40, Loss: 0.3669358373634399
+Accuracy: 0.8519, Precision: 0.8529, Recall: 0.8519, F1 Score: 0.8518
+Epoch 23/40, Loss: 0.3643940607943232
+Accuracy: 0.8486, Precision: 0.8491, Recall: 0.8486, F1 Score: 0.8486
+Epoch 24/40, Loss: 0.3758754913532545
+Accuracy: 0.8452, Precision: 0.8456, Recall: 0.8452, F1 Score: 0.8452
+Epoch 25/40, Loss: 0.3672992147150494
+Accuracy: 0.8439, Precision: 0.8444, Recall: 0.8439, F1 Score: 0.8438
+Epoch 26/40, Loss: 0.361905542039682
+Accuracy: 0.8559, Precision: 0.8567, Recall: 0.8559, F1 Score: 0.8557
+Epoch 27/40, Loss: 0.3561580706210363
+Accuracy: 0.8496, Precision: 0.8497, Recall: 0.8496, F1 Score: 0.8496
+Epoch 28/40, Loss: 0.358092111727548
+Accuracy: 0.8514, Precision: 0.8516, Recall: 0.8514, F1 Score: 0.8513
+Epoch 29/40, Loss: 0.3532904012808724
+Accuracy: 0.8230, Precision: 0.8266, Recall: 0.8230, F1 Score: 0.8223
+Epoch 30/40, Loss: 0.36739979838095016
+Accuracy: 0.8464, Precision: 0.8466, Recall: 0.8464, F1 Score: 0.8463
+Epoch 31/40, Loss: 0.3583914702019048
+Accuracy: 0.8564, Precision: 0.8568, Recall: 0.8564, F1 Score: 0.8564
+Epoch 32/40, Loss: 0.3532272654156836
+Accuracy: 0.8544, Precision: 0.8555, Recall: 0.8544, F1 Score: 0.8542
+Epoch 33/40, Loss: 0.3485091519024637
+Accuracy: 0.8596, Precision: 0.8613, Recall: 0.8596, F1 Score: 0.8595
+Epoch 34/40, Loss: 0.3545083272315207
+Accuracy: 0.8626, Precision: 0.8639, Recall: 0.8626, F1 Score: 0.8625
+Epoch 35/40, Loss: 0.34562368726446513
+Accuracy: 0.8701, Precision: 0.8701, Recall: 0.8701, F1 Score: 0.8701
+Epoch 36/40, Loss: 0.3590628561519441
+Accuracy: 0.8636, Precision: 0.8647, Recall: 0.8636, F1 Score: 0.8635
+Epoch 37/40, Loss: 0.34251756433929714
+Accuracy: 0.8596, Precision: 0.8611, Recall: 0.8596, F1 Score: 0.8594
+Epoch 38/40, Loss: 0.35194624392759233
+Accuracy: 0.8653, Precision: 0.8660, Recall: 0.8653, F1 Score: 0.8652
+Epoch 39/40, Loss: 0.35025635822897866
+Accuracy: 0.8720, Precision: 0.8723, Recall: 0.8720, F1 Score: 0.8720
+Epoch 40/40, Loss: 0.33794474306087646
+Accuracy: 0.8710, Precision: 0.8711, Recall: 0.8710, F1 Score: 0.8711
+Fold 4
+Epoch 1/40, Loss: 0.3700471003613775
+Accuracy: 0.8521, Precision: 0.8537, Recall: 0.8521, F1 Score: 0.8520
+Epoch 2/40, Loss: 0.37609298799246077
+Accuracy: 0.8496, Precision: 0.8510, Recall: 0.8496, F1 Score: 0.8495
+Epoch 3/40, Loss: 0.375723277056028
+Accuracy: 0.8531, Precision: 0.8540, Recall: 0.8531, F1 Score: 0.8530
+Epoch 4/40, Loss: 0.3603341987445241
+Accuracy: 0.8471, Precision: 0.8493, Recall: 0.8471, F1 Score: 0.8469
+Epoch 5/40, Loss: 0.3487442304927205
+Accuracy: 0.8496, Precision: 0.8498, Recall: 0.8496, F1 Score: 0.8496
+Epoch 6/40, Loss: 0.35648386038485025
+Accuracy: 0.8521, Precision: 0.8535, Recall: 0.8521, F1 Score: 0.8520
+Epoch 7/40, Loss: 0.35859228315807523
+Accuracy: 0.8449, Precision: 0.8459, Recall: 0.8449, F1 Score: 0.8448
+Epoch 8/40, Loss: 0.3656795289781358
+Accuracy: 0.8628, Precision: 0.8629, Recall: 0.8628, F1 Score: 0.8628
+Epoch 9/40, Loss: 0.35520309671050027
+Accuracy: 0.8681, Precision: 0.8681, Recall: 0.8681, F1 Score: 0.8681
+Epoch 10/40, Loss: 0.3434161018757593
+Accuracy: 0.8576, Precision: 0.8596, Recall: 0.8576, F1 Score: 0.8574
+Epoch 11/40, Loss: 0.3484429137574302
+Accuracy: 0.8638, Precision: 0.8665, Recall: 0.8638, F1 Score: 0.8636
+Epoch 12/40, Loss: 0.345008339200701
+Accuracy: 0.8653, Precision: 0.8654, Recall: 0.8653, F1 Score: 0.8653
+Epoch 13/40, Loss: 0.3407121955875366
+Accuracy: 0.8708, Precision: 0.8711, Recall: 0.8708, F1 Score: 0.8708
+Epoch 14/40, Loss: 0.3434834275690336
+Accuracy: 0.8656, Precision: 0.8659, Recall: 0.8656, F1 Score: 0.8655
+Epoch 15/40, Loss: 0.3270172231963703
+Accuracy: 0.8693, Precision: 0.8693, Recall: 0.8693, F1 Score: 0.8693
+Epoch 16/40, Loss: 0.34170176550036385
+Accuracy: 0.8696, Precision: 0.8702, Recall: 0.8696, F1 Score: 0.8695
+Epoch 17/40, Loss: 0.3460858091711998
+Accuracy: 0.8691, Precision: 0.8695, Recall: 0.8691, F1 Score: 0.8690
+Epoch 18/40, Loss: 0.3428904724026483
+Accuracy: 0.8686, Precision: 0.8690, Recall: 0.8686, F1 Score: 0.8685
+Epoch 19/40, Loss: 0.33763226630195736
+Accuracy: 0.8656, Precision: 0.8685, Recall: 0.8656, F1 Score: 0.8653
+Epoch 20/40, Loss: 0.3235117519895236
+Accuracy: 0.8740, Precision: 0.8743, Recall: 0.8740, F1 Score: 0.8740
+Epoch 21/40, Loss: 0.3287736003597577
+Accuracy: 0.8750, Precision: 0.8757, Recall: 0.8750, F1 Score: 0.8750
+Epoch 22/40, Loss: 0.3353495843826778
+Accuracy: 0.8720, Precision: 0.8725, Recall: 0.8720, F1 Score: 0.8720
+Epoch 23/40, Loss: 0.3582215415579932
+Accuracy: 0.8818, Precision: 0.8823, Recall: 0.8818, F1 Score: 0.8817
+Epoch 24/40, Loss: 0.34404860496047945
+Accuracy: 0.8780, Precision: 0.8781, Recall: 0.8780, F1 Score: 0.8780
+Epoch 25/40, Loss: 0.31984756271990517
+Accuracy: 0.8798, Precision: 0.8804, Recall: 0.8798, F1 Score: 0.8797
+Epoch 26/40, Loss: 0.31661647948480787
+Accuracy: 0.8750, Precision: 0.8752, Recall: 0.8750, F1 Score: 0.8750
+Epoch 27/40, Loss: 0.330383951583552
+Accuracy: 0.8805, Precision: 0.8812, Recall: 0.8805, F1 Score: 0.8805
+Epoch 28/40, Loss: 0.3113113020265859
+Accuracy: 0.8770, Precision: 0.8782, Recall: 0.8770, F1 Score: 0.8769
+Epoch 29/40, Loss: 0.3323724404095657
+Accuracy: 0.8725, Precision: 0.8752, Recall: 0.8725, F1 Score: 0.8723
+Epoch 30/40, Loss: 0.3187226941661229
+Accuracy: 0.8723, Precision: 0.8733, Recall: 0.8723, F1 Score: 0.8722
+Epoch 31/40, Loss: 0.32260808206739877
+Accuracy: 0.8902, Precision: 0.8902, Recall: 0.8902, F1 Score: 0.8902
+Epoch 32/40, Loss: 0.3163803615976894
+Accuracy: 0.8925, Precision: 0.8927, Recall: 0.8925, F1 Score: 0.8924
+Epoch 33/40, Loss: 0.32214389173757463
+Accuracy: 0.8800, Precision: 0.8822, Recall: 0.8800, F1 Score: 0.8798
+Epoch 34/40, Loss: 0.32242850498074577
+Accuracy: 0.8790, Precision: 0.8800, Recall: 0.8790, F1 Score: 0.8790
+Epoch 35/40, Loss: 0.3042369923066525
+Accuracy: 0.8835, Precision: 0.8835, Recall: 0.8835, F1 Score: 0.8835
+Epoch 36/40, Loss: 0.32445725331467296
+Accuracy: 0.8823, Precision: 0.8823, Recall: 0.8823, F1 Score: 0.8822
+Epoch 37/40, Loss: 0.327529438549564
+Accuracy: 0.8895, Precision: 0.8900, Recall: 0.8895, F1 Score: 0.8894
+Epoch 38/40, Loss: 0.3042806021514393
+Accuracy: 0.8897, Precision: 0.8897, Recall: 0.8897, F1 Score: 0.8897
+Epoch 39/40, Loss: 0.2944209460937788
+Accuracy: 0.8997, Precision: 0.8997, Recall: 0.8997, F1 Score: 0.8997
+Epoch 40/40, Loss: 0.29301776524100986
+Accuracy: 0.8837, Precision: 0.8848, Recall: 0.8837, F1 Score: 0.8837
+Fold 5
+Epoch 1/40, Loss: 0.3403448312883339
+Accuracy: 0.8696, Precision: 0.8715, Recall: 0.8696, F1 Score: 0.8694
+Epoch 2/40, Loss: 0.3253735437516182
+Accuracy: 0.8770, Precision: 0.8770, Recall: 0.8770, F1 Score: 0.8770
+Epoch 3/40, Loss: 0.3112441412513218
+Accuracy: 0.8835, Precision: 0.8837, Recall: 0.8835, F1 Score: 0.8835
+Epoch 4/40, Loss: 0.30113842208234093
+Accuracy: 0.8880, Precision: 0.8885, Recall: 0.8880, F1 Score: 0.8879
+Epoch 5/40, Loss: 0.3128499376868445
+Accuracy: 0.8925, Precision: 0.8930, Recall: 0.8925, F1 Score: 0.8924
+Epoch 6/40, Loss: 0.3082910112681843
+Accuracy: 0.8947, Precision: 0.8949, Recall: 0.8947, F1 Score: 0.8947
+Epoch 7/40, Loss: 0.31280691283089773
+Accuracy: 0.9012, Precision: 0.9023, Recall: 0.9012, F1 Score: 0.9011
+Epoch 8/40, Loss: 0.316241560710801
+Accuracy: 0.8887, Precision: 0.8898, Recall: 0.8887, F1 Score: 0.8887
+Epoch 9/40, Loss: 0.3075646670564773
+Accuracy: 0.8994, Precision: 0.8994, Recall: 0.8994, F1 Score: 0.8994
+Epoch 10/40, Loss: 0.3092828971289453
+Accuracy: 0.8927, Precision: 0.8945, Recall: 0.8927, F1 Score: 0.8926
+Epoch 11/40, Loss: 0.29616729524873553
+Accuracy: 0.8887, Precision: 0.8889, Recall: 0.8887, F1 Score: 0.8887
+Epoch 12/40, Loss: 0.29724105956062435
+Accuracy: 0.8788, Precision: 0.8856, Recall: 0.8788, F1 Score: 0.8783
+Epoch 13/40, Loss: 0.29651681274648695
+Accuracy: 0.8954, Precision: 0.8956, Recall: 0.8954, F1 Score: 0.8954
+Epoch 14/40, Loss: 0.3114212491209545
+Accuracy: 0.8753, Precision: 0.8767, Recall: 0.8753, F1 Score: 0.8752
+Epoch 15/40, Loss: 0.28945583992061164
+Accuracy: 0.9029, Precision: 0.9037, Recall: 0.9029, F1 Score: 0.9029
+Epoch 16/40, Loss: 0.28862611145254163
+Accuracy: 0.8979, Precision: 0.8983, Recall: 0.8979, F1 Score: 0.8979
+Epoch 17/40, Loss: 0.30537751831469084
+Accuracy: 0.9054, Precision: 0.9055, Recall: 0.9054, F1 Score: 0.9054
+Epoch 18/40, Loss: 0.291994236291401
+Accuracy: 0.8999, Precision: 0.9004, Recall: 0.8999, F1 Score: 0.8999
+Epoch 19/40, Loss: 0.29858997813056387
+Accuracy: 0.9101, Precision: 0.9101, Recall: 0.9101, F1 Score: 0.9101
+Epoch 20/40, Loss: 0.2924164207208724
+Accuracy: 0.8897, Precision: 0.8916, Recall: 0.8897, F1 Score: 0.8896
+Epoch 21/40, Loss: 0.28304459828706013
+Accuracy: 0.8932, Precision: 0.8938, Recall: 0.8932, F1 Score: 0.8932
+Epoch 22/40, Loss: 0.28477860064733596
+Accuracy: 0.9014, Precision: 0.9016, Recall: 0.9014, F1 Score: 0.9014
+Epoch 23/40, Loss: 0.2906842542782662
+Accuracy: 0.9084, Precision: 0.9084, Recall: 0.9084, F1 Score: 0.9084
+Epoch 24/40, Loss: 0.2815773419089734
+Accuracy: 0.8947, Precision: 0.8949, Recall: 0.8947, F1 Score: 0.8947
+Epoch 25/40, Loss: 0.2872597455741867
+Accuracy: 0.9019, Precision: 0.9026, Recall: 0.9019, F1 Score: 0.9019
+Epoch 26/40, Loss: 0.2759466165351489
+Accuracy: 0.9032, Precision: 0.9035, Recall: 0.9032, F1 Score: 0.9031
+Epoch 27/40, Loss: 0.2812191972893382
+Accuracy: 0.9104, Precision: 0.9104, Recall: 0.9104, F1 Score: 0.9104
+Epoch 28/40, Loss: 0.2719271306894601
+Accuracy: 0.9116, Precision: 0.9116, Recall: 0.9116, F1 Score: 0.9116
+Epoch 29/40, Loss: 0.27476750331975164
+Accuracy: 0.9146, Precision: 0.9147, Recall: 0.9146, F1 Score: 0.9146
+Epoch 30/40, Loss: 0.26942903501173804
+Accuracy: 0.9191, Precision: 0.9191, Recall: 0.9191, F1 Score: 0.9191
+Epoch 31/40, Loss: 0.26975748214929823
+Accuracy: 0.9206, Precision: 0.9207, Recall: 0.9206, F1 Score: 0.9206
+Epoch 32/40, Loss: 0.28470221528458217
+Accuracy: 0.9079, Precision: 0.9084, Recall: 0.9079, F1 Score: 0.9079
+Epoch 33/40, Loss: 0.27188893496280625
+Accuracy: 0.9159, Precision: 0.9159, Recall: 0.9159, F1 Score: 0.9159
+Epoch 34/40, Loss: 0.27296725051507115
+Accuracy: 0.9116, Precision: 0.9119, Recall: 0.9116, F1 Score: 0.9116
+Epoch 35/40, Loss: 0.26782929010334466
+Accuracy: 0.9151, Precision: 0.9153, Recall: 0.9151, F1 Score: 0.9151
+Epoch 36/40, Loss: 0.2654774296614859
+Accuracy: 0.9183, Precision: 0.9185, Recall: 0.9183, F1 Score: 0.9183
+Epoch 37/40, Loss: 0.26205090935977676
+Accuracy: 0.9246, Precision: 0.9246, Recall: 0.9246, F1 Score: 0.9246
+Epoch 38/40, Loss: 0.26053348686250427
+Accuracy: 0.9246, Precision: 0.9246, Recall: 0.9246, F1 Score: 0.9246
+Epoch 39/40, Loss: 0.2673011119403536
+Accuracy: 0.9183, Precision: 0.9184, Recall: 0.9183, F1 Score: 0.9183
+Epoch 40/40, Loss: 0.26031959080506883
+Accuracy: 0.9191, Precision: 0.9199, Recall: 0.9191, F1 Score: 0.9191
+PS C:\Users\GINXT\OneDrive - Bayer\Personal Data\Kat\IA>
