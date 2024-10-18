@@ -1,0 +1,1001 @@
+lesion_id,image_id,dx,age,sex,localization,classification,dataset
+ham_84648,generated_0.jpg,mel,58.0,male,back,1,synthetic
+ham_139040,generated_1.jpg,mel,88.0,female,upper extremity,1,synthetic
+ham_819216,generated_2.jpg,mel,48.0,female,lower extremity,1,synthetic
+ham_419452,generated_3.jpg,mel,58.0,female,back,1,synthetic
+ham_409740,generated_4.jpg,bcc,65.0,female,face,1,synthetic
+ham_943670,generated_5.jpg,bcc,62.0,female,face,1,synthetic
+ham_32806,generated_6.jpg,mel,78.0,female,back,1,synthetic
+ham_74202,generated_7.jpg,bcc,66.0,female,face,1,synthetic
+ham_471728,generated_8.jpg,mel,74.0,male,face,1,synthetic
+ham_661384,generated_9.jpg,bcc,84.0,female,face,1,synthetic
+ham_310950,generated_10.jpg,mel,59.0,female,arm,1,synthetic
+ham_350888,generated_11.jpg,bcc,65.0,male,face,1,synthetic
+ham_269985,generated_12.jpg,bcc,38.0,female,forearm,1,synthetic
+ham_716186,generated_13.jpg,bcc,48.0,female,face,1,synthetic
+ham_13954,generated_14.jpg,bcc,51.0,male,nose,1,synthetic
+ham_241760,generated_15.jpg,bcc,67.0,female,face,1,synthetic
+ham_497427,generated_16.jpg,mel,70.0,male,chest,1,synthetic
+ham_443923,generated_17.jpg,mel,35.0,male,chest,1,synthetic
+ham_849449,generated_18.jpg,bcc,75.0,female,lower extremity,1,synthetic
+ham_862820,generated_19.jpg,bcc,54.0,male,lower extremity,1,synthetic
+ham_303435,generated_20.jpg,mel,50.0,male,face,1,synthetic
+ham_969248,generated_21.jpg,mel,76.0,female,foot,1,synthetic
+ham_334756,generated_22.jpg,bcc,50.0,female,back,1,synthetic
+ham_142215,generated_23.jpg,bcc,57.0,female,neck,1,synthetic
+ham_144561,generated_24.jpg,mel,62.0,female,arm,1,synthetic
+ham_689460,generated_25.jpg,mel,78.0,male,face,1,synthetic
+ham_118902,generated_26.jpg,mel,65.0,female,face,1,synthetic
+ham_148680,generated_27.jpg,mel,42.0,female,upper extremity,1,synthetic
+ham_927924,generated_28.jpg,bcc,51.0,female,back,1,synthetic
+ham_317277,generated_29.jpg,bcc,36.0,male,nose,1,synthetic
+ham_544355,generated_30.jpg,bcc,89.0,male,neck,1,synthetic
+ham_64133,generated_31.jpg,mel,67.0,male,face,1,synthetic
+ham_496313,generated_32.jpg,bcc,67.0,male,back,1,synthetic
+ham_406996,generated_33.jpg,bcc,69.0,male,hand,1,synthetic
+ham_478997,generated_34.jpg,bcc,50.0,female,back,1,synthetic
+ham_68157,generated_35.jpg,bcc,67.0,male,chest,1,synthetic
+ham_329645,generated_36.jpg,mel,54.0,male,abdomen,1,synthetic
+ham_369805,generated_37.jpg,mel,70.0,male,back,1,synthetic
+ham_623385,generated_38.jpg,mel,35.0,female,lower extremity,1,synthetic
+ham_189210,generated_39.jpg,mel,70.0,male,chest,1,synthetic
+ham_552792,generated_40.jpg,mel,48.0,male,back,1,synthetic
+ham_622825,generated_41.jpg,mel,78.0,male,abdomen,1,synthetic
+ham_830285,generated_42.jpg,mel,58.0,female,back,1,synthetic
+ham_511107,generated_43.jpg,mel,54.0,female,back,1,synthetic
+ham_357804,generated_44.jpg,bcc,56.0,female,nose,1,synthetic
+ham_103481,generated_45.jpg,mel,69.0,male,upper extremity,1,synthetic
+ham_198985,generated_46.jpg,bcc,40.0,male,chest,1,synthetic
+ham_529127,generated_47.jpg,mel,67.0,male,foot,1,synthetic
+ham_691357,generated_48.jpg,bcc,78.0,female,ear,1,synthetic
+ham_88702,generated_49.jpg,bcc,71.0,male,lower extremity,1,synthetic
+ham_630542,generated_50.jpg,bcc,76.0,female,lower extremity,1,synthetic
+ham_489064,generated_51.jpg,bcc,44.0,male,back,1,synthetic
+ham_373695,generated_52.jpg,bcc,48.0,female,neck,1,synthetic
+ham_799343,generated_53.jpg,mel,71.0,male,lower extremity,1,synthetic
+ham_828751,generated_54.jpg,mel,55.0,female,chest,1,synthetic
+ham_644053,generated_55.jpg,mel,58.0,male,back,1,synthetic
+ham_443682,generated_56.jpg,bcc,59.0,female,back,1,synthetic
+ham_686344,generated_57.jpg,mel,50.0,male,upper extremity,1,synthetic
+ham_623353,generated_58.jpg,mel,84.0,female,foot,1,synthetic
+ham_852751,generated_59.jpg,mel,40.0,male,lower extremity,1,synthetic
+ham_114354,generated_60.jpg,mel,69.0,male,chest,1,synthetic
+ham_829161,generated_61.jpg,mel,88.0,female,trunk,1,synthetic
+ham_295284,generated_62.jpg,bcc,62.0,female,face,1,synthetic
+ham_555949,generated_63.jpg,bcc,50.0,female,back,1,synthetic
+ham_9085,generated_64.jpg,bcc,63.0,male,face,1,synthetic
+ham_723531,generated_65.jpg,bcc,66.0,male,face,1,synthetic
+ham_265648,generated_66.jpg,bcc,49.0,male,forearm,1,synthetic
+ham_201197,generated_67.jpg,bcc,73.0,female,face,1,synthetic
+ham_394638,generated_68.jpg,mel,75.0,female,back,1,synthetic
+ham_580425,generated_69.jpg,mel,58.0,female,lower extremity,1,synthetic
+ham_878992,generated_70.jpg,mel,26.0,female,upper extremity,1,synthetic
+ham_777104,generated_71.jpg,mel,75.0,female,face,1,synthetic
+ham_357482,generated_72.jpg,bcc,63.0,male,back,1,synthetic
+ham_863399,generated_73.jpg,bcc,84.0,male,nose,1,synthetic
+ham_699384,generated_74.jpg,mel,67.0,male,upper extremity,1,synthetic
+ham_920747,generated_75.jpg,mel,74.0,female,trunk,1,synthetic
+ham_57194,generated_76.jpg,mel,85.0,male,ear,1,synthetic
+ham_797297,generated_77.jpg,mel,68.0,female,upper extremity,1,synthetic
+ham_770865,generated_78.jpg,mel,33.0,male,abdomen,1,synthetic
+ham_91157,generated_79.jpg,mel,57.0,male,chest,1,synthetic
+ham_998068,generated_80.jpg,bcc,62.0,female,face,1,synthetic
+ham_508666,generated_81.jpg,bcc,23.0,male,back,1,synthetic
+ham_707725,generated_82.jpg,mel,45.0,female,neck,1,synthetic
+ham_247685,generated_83.jpg,mel,45.0,female,upper extremity,1,synthetic
+ham_584112,generated_84.jpg,mel,52.0,male,chest,1,synthetic
+ham_850295,generated_85.jpg,bcc,74.0,male,neck,1,synthetic
+ham_304615,generated_86.jpg,mel,35.0,male,back,1,synthetic
+ham_796739,generated_87.jpg,bcc,49.0,female,nose,1,synthetic
+ham_685576,generated_88.jpg,mel,61.0,female,back,1,synthetic
+ham_806919,generated_89.jpg,mel,80.0,male,upper extremity,1,synthetic
+ham_706618,generated_90.jpg,mel,66.0,male,upper extremity,1,synthetic
+ham_685025,generated_91.jpg,bcc,86.0,male,face,1,synthetic
+ham_982229,generated_92.jpg,mel,69.0,female,thigh,1,synthetic
+ham_284144,generated_93.jpg,bcc,45.0,male,neck,1,synthetic
+ham_998003,generated_94.jpg,bcc,80.0,male,neck,1,synthetic
+ham_692,generated_95.jpg,bcc,46.0,female,back,1,synthetic
+ham_392582,generated_96.jpg,bcc,43.0,female,back,1,synthetic
+ham_535575,generated_97.jpg,bcc,73.0,female,upper extremity,1,synthetic
+ham_660726,generated_98.jpg,bcc,54.0,male,forearm,1,synthetic
+ham_233053,generated_99.jpg,bcc,83.0,female,upper extremity,1,synthetic
+ham_162051,generated_100.jpg,mel,53.0,female,foot,1,synthetic
+ham_347719,generated_101.jpg,mel,46.0,male,back,1,synthetic
+ham_579546,generated_102.jpg,bcc,83.0,female,neck,1,synthetic
+ham_263466,generated_103.jpg,bcc,51.0,male,back,1,synthetic
+ham_479457,generated_104.jpg,bcc,82.0,female,scalp,1,synthetic
+ham_551329,generated_105.jpg,bcc,65.0,female,face,1,synthetic
+ham_937022,generated_106.jpg,bcc,69.0,female,chest,1,synthetic
+ham_253049,generated_107.jpg,bcc,75.0,male,trunk,1,synthetic
+ham_636489,generated_108.jpg,bcc,61.0,female,back,1,synthetic
+ham_128145,generated_109.jpg,mel,81.0,male,back,1,synthetic
+ham_637060,generated_110.jpg,bcc,48.0,male,back,1,synthetic
+ham_895748,generated_111.jpg,bcc,42.0,male,neck,1,synthetic
+ham_488122,generated_112.jpg,bcc,52.0,female,chest,1,synthetic
+ham_302368,generated_113.jpg,mel,59.0,male,upper extremity,1,synthetic
+ham_608145,generated_114.jpg,bcc,70.0,male,lower extremity,1,synthetic
+ham_744390,generated_115.jpg,mel,62.0,male,trunk,1,synthetic
+ham_163624,generated_116.jpg,mel,64.0,female,foot,1,synthetic
+ham_179011,generated_117.jpg,bcc,78.0,female,back,1,synthetic
+ham_395338,generated_118.jpg,mel,62.0,male,back,1,synthetic
+ham_400817,generated_119.jpg,bcc,70.0,female,nose,1,synthetic
+ham_545456,generated_120.jpg,bcc,71.0,female,back,1,synthetic
+ham_893580,generated_121.jpg,mel,61.0,male,lower extremity,1,synthetic
+ham_594200,generated_122.jpg,mel,70.0,female,upper extremity,1,synthetic
+ham_350999,generated_123.jpg,bcc,63.0,male,back,1,synthetic
+ham_405215,generated_124.jpg,mel,72.0,female,neck,1,synthetic
+ham_388855,generated_125.jpg,bcc,73.0,male,face,1,synthetic
+ham_829886,generated_126.jpg,bcc,86.0,female,chest,1,synthetic
+ham_945671,generated_127.jpg,bcc,59.0,male,back,1,synthetic
+ham_414676,generated_128.jpg,bcc,72.0,female,nose,1,synthetic
+ham_139714,generated_129.jpg,bcc,72.0,male,forearm,1,synthetic
+ham_65718,generated_130.jpg,bcc,51.0,male,back,1,synthetic
+ham_530275,generated_131.jpg,bcc,84.0,female,back,1,synthetic
+ham_211576,generated_132.jpg,bcc,77.0,female,upper extremity,1,synthetic
+ham_950838,generated_133.jpg,mel,84.0,male,trunk,1,synthetic
+ham_308514,generated_134.jpg,bcc,90.0,male,face,1,synthetic
+ham_973873,generated_135.jpg,bcc,71.0,male,forearm,1,synthetic
+ham_822847,generated_136.jpg,bcc,55.0,male,chest,1,synthetic
+ham_729629,generated_137.jpg,bcc,70.0,female,face,1,synthetic
+ham_738185,generated_138.jpg,bcc,80.0,female,chest,1,synthetic
+ham_808078,generated_139.jpg,bcc,53.0,female,face,1,synthetic
+ham_246847,generated_140.jpg,bcc,75.0,male,face,1,synthetic
+ham_61899,generated_141.jpg,bcc,54.0,female,back,1,synthetic
+ham_753695,generated_142.jpg,bcc,52.0,male,trunk,1,synthetic
+ham_552806,generated_143.jpg,mel,52.0,male,upper extremity,1,synthetic
+ham_635230,generated_144.jpg,mel,71.0,female,back,1,synthetic
+ham_612917,generated_145.jpg,bcc,77.0,female,face,1,synthetic
+ham_248386,generated_146.jpg,mel,58.0,male,back,1,synthetic
+ham_332980,generated_147.jpg,mel,68.0,female,back,1,synthetic
+ham_408611,generated_148.jpg,bcc,49.0,female,lower extremity,1,synthetic
+ham_857097,generated_149.jpg,mel,78.0,male,upper extremity,1,synthetic
+ham_199608,generated_150.jpg,bcc,61.0,female,chest,1,synthetic
+ham_473178,generated_151.jpg,mel,83.0,male,foot,1,synthetic
+ham_899502,generated_152.jpg,bcc,84.0,male,nose,1,synthetic
+ham_726255,generated_153.jpg,mel,73.0,male,foot,1,synthetic
+ham_475616,generated_154.jpg,mel,51.0,female,lower extremity,1,synthetic
+ham_446718,generated_155.jpg,bcc,53.0,female,back,1,synthetic
+ham_896429,generated_156.jpg,bcc,80.0,female,back,1,synthetic
+ham_278938,generated_157.jpg,mel,77.0,male,upper extremity,1,synthetic
+ham_890759,generated_158.jpg,mel,75.0,female,lower extremity,1,synthetic
+ham_183350,generated_159.jpg,bcc,66.0,male,face,1,synthetic
+ham_412041,generated_160.jpg,mel,41.0,female,neck,1,synthetic
+ham_826808,generated_161.jpg,mel,55.0,male,upper extremity,1,synthetic
+ham_320765,generated_162.jpg,bcc,66.0,male,ear,1,synthetic
+ham_10819,generated_163.jpg,mel,68.0,male,back,1,synthetic
+ham_342107,generated_164.jpg,bcc,78.0,female,face,1,synthetic
+ham_603283,generated_165.jpg,bcc,49.0,male,trunk,1,synthetic
+ham_545853,generated_166.jpg,bcc,85.0,female,back,1,synthetic
+ham_732228,generated_167.jpg,bcc,41.0,female,nose,1,synthetic
+ham_996404,generated_168.jpg,bcc,53.0,male,chest,1,synthetic
+ham_251849,generated_169.jpg,bcc,45.0,female,face,1,synthetic
+ham_315854,generated_170.jpg,bcc,85.0,female,nose,1,synthetic
+ham_170394,generated_171.jpg,bcc,44.0,female,upper extremity,1,synthetic
+ham_476925,generated_172.jpg,bcc,58.0,female,chest,1,synthetic
+ham_767935,generated_173.jpg,mel,61.0,male,lower extremity,1,synthetic
+ham_17563,generated_174.jpg,bcc,68.0,male,lower extremity,1,synthetic
+ham_770404,generated_175.jpg,mel,75.0,male,trunk,1,synthetic
+ham_450550,generated_176.jpg,mel,71.0,male,neck,1,synthetic
+ham_848097,generated_177.jpg,bcc,56.0,female,face,1,synthetic
+ham_833510,generated_178.jpg,mel,52.0,female,back,1,synthetic
+ham_213172,generated_179.jpg,bcc,78.0,female,forearm,1,synthetic
+ham_953111,generated_180.jpg,mel,78.0,male,upper extremity,1,synthetic
+ham_232873,generated_181.jpg,bcc,79.0,male,face,1,synthetic
+ham_86696,generated_182.jpg,mel,57.0,female,upper extremity,1,synthetic
+ham_697915,generated_183.jpg,mel,73.0,male,back,1,synthetic
+ham_418139,generated_184.jpg,mel,59.0,male,lower extremity,1,synthetic
+ham_127994,generated_185.jpg,mel,57.0,female,trunk,1,synthetic
+ham_964665,generated_186.jpg,mel,85.0,female,back,1,synthetic
+ham_932318,generated_187.jpg,bcc,70.0,female,face,1,synthetic
+ham_811212,generated_188.jpg,mel,68.0,male,ear,1,synthetic
+ham_482848,generated_189.jpg,mel,74.0,male,face,1,synthetic
+ham_806871,generated_190.jpg,bcc,75.0,female,back,1,synthetic
+ham_104208,generated_191.jpg,bcc,61.0,female,face,1,synthetic
+ham_331675,generated_192.jpg,mel,72.0,female,upper extremity,1,synthetic
+ham_492601,generated_193.jpg,mel,53.0,female,back,1,synthetic
+ham_287912,generated_194.jpg,mel,69.0,female,back,1,synthetic
+ham_898216,generated_195.jpg,bcc,63.0,male,scalp,1,synthetic
+ham_395961,generated_196.jpg,bcc,68.0,male,face,1,synthetic
+ham_823918,generated_197.jpg,mel,36.0,female,back,1,synthetic
+ham_363527,generated_198.jpg,bcc,87.0,male,chest,1,synthetic
+ham_863988,generated_199.jpg,bcc,71.0,male,lower extremity,1,synthetic
+ham_891914,generated_200.jpg,mel,85.0,female,back,1,synthetic
+ham_763360,generated_201.jpg,bcc,69.0,female,back,1,synthetic
+ham_640352,generated_202.jpg,mel,70.0,male,lower extremity,1,synthetic
+ham_368535,generated_203.jpg,mel,50.0,female,upper extremity,1,synthetic
+ham_666729,generated_204.jpg,bcc,85.0,male,face,1,synthetic
+ham_717955,generated_205.jpg,bcc,67.0,male,back,1,synthetic
+ham_324743,generated_206.jpg,bcc,83.0,male,nose,1,synthetic
+ham_611822,generated_207.jpg,bcc,89.0,male,chest,1,synthetic
+ham_205190,generated_208.jpg,bcc,70.0,male,chest,1,synthetic
+ham_922661,generated_209.jpg,bcc,56.0,female,ear,1,synthetic
+ham_443652,generated_210.jpg,bcc,78.0,male,arm,1,synthetic
+ham_697587,generated_211.jpg,bcc,88.0,female,face,1,synthetic
+ham_899452,generated_212.jpg,bcc,53.0,female,neck,1,synthetic
+ham_376128,generated_213.jpg,bcc,77.0,female,face,1,synthetic
+ham_781282,generated_214.jpg,mel,47.0,male,back,1,synthetic
+ham_990906,generated_215.jpg,mel,53.0,female,trunk,1,synthetic
+ham_972275,generated_216.jpg,mel,70.0,female,upper extremity,1,synthetic
+ham_868685,generated_217.jpg,mel,66.0,female,neck,1,synthetic
+ham_167119,generated_218.jpg,mel,67.0,male,back,1,synthetic
+ham_103646,generated_219.jpg,mel,77.0,female,upper extremity,1,synthetic
+ham_394407,generated_220.jpg,mel,74.0,male,upper extremity,1,synthetic
+ham_654215,generated_221.jpg,mel,41.0,male,back,1,synthetic
+ham_332135,generated_222.jpg,bcc,71.0,male,neck,1,synthetic
+ham_364142,generated_223.jpg,bcc,40.0,female,nose,1,synthetic
+ham_439354,generated_224.jpg,mel,56.0,male,back,1,synthetic
+ham_732274,generated_225.jpg,mel,51.0,male,back,1,synthetic
+ham_598135,generated_226.jpg,mel,28.0,female,lower extremity,1,synthetic
+ham_269945,generated_227.jpg,bcc,70.0,male,lower extremity,1,synthetic
+ham_503449,generated_228.jpg,bcc,47.0,male,nose,1,synthetic
+ham_602096,generated_229.jpg,mel,62.0,male,chest,1,synthetic
+ham_889296,generated_230.jpg,bcc,45.0,male,upper extremity,1,synthetic
+ham_276717,generated_231.jpg,bcc,61.0,male,back,1,synthetic
+ham_247881,generated_232.jpg,mel,73.0,female,lower extremity,1,synthetic
+ham_83627,generated_233.jpg,bcc,60.0,female,arm,1,synthetic
+ham_821509,generated_234.jpg,mel,70.0,female,foot,1,synthetic
+ham_548003,generated_235.jpg,mel,86.0,female,trunk,1,synthetic
+ham_19068,generated_236.jpg,bcc,79.0,female,face,1,synthetic
+ham_833915,generated_237.jpg,bcc,87.0,female,scalp,1,synthetic
+ham_800726,generated_238.jpg,bcc,71.0,male,neck,1,synthetic
+ham_38378,generated_239.jpg,mel,40.0,female,back,1,synthetic
+ham_599381,generated_240.jpg,bcc,77.0,male,scalp,1,synthetic
+ham_923975,generated_241.jpg,mel,36.0,female,back,1,synthetic
+ham_761853,generated_242.jpg,bcc,76.0,male,nose,1,synthetic
+ham_672873,generated_243.jpg,bcc,70.0,female,trunk,1,synthetic
+ham_952818,generated_244.jpg,mel,58.0,male,forearm,1,synthetic
+ham_970581,generated_245.jpg,bcc,53.0,male,chest,1,synthetic
+ham_801902,generated_246.jpg,mel,59.0,male,chest,1,synthetic
+ham_377821,generated_247.jpg,bcc,80.0,female,upper extremity,1,synthetic
+ham_926482,generated_248.jpg,bcc,48.0,male,chest,1,synthetic
+ham_807145,generated_249.jpg,mel,27.0,female,upper extremity,1,synthetic
+ham_623305,generated_250.jpg,bcc,58.0,male,chest,1,synthetic
+ham_280999,generated_251.jpg,mel,71.0,male,lower extremity,1,synthetic
+ham_418358,generated_252.jpg,bcc,73.0,male,back,1,synthetic
+ham_725709,generated_253.jpg,bcc,57.0,male,face,1,synthetic
+ham_514667,generated_254.jpg,bcc,68.0,female,lip,1,synthetic
+ham_319326,generated_255.jpg,mel,55.0,male,back,1,synthetic
+ham_605101,generated_256.jpg,bcc,49.0,male,back,1,synthetic
+ham_193313,generated_257.jpg,bcc,61.0,female,face,1,synthetic
+ham_738874,generated_258.jpg,bcc,40.0,male,neck,1,synthetic
+ham_292243,generated_259.jpg,bcc,72.0,male,chest,1,synthetic
+ham_922360,generated_260.jpg,bcc,66.0,female,face,1,synthetic
+ham_276736,generated_261.jpg,bcc,67.0,female,back,1,synthetic
+ham_976265,generated_262.jpg,bcc,72.0,female,neck,1,synthetic
+ham_165850,generated_263.jpg,mel,63.0,male,foot,1,synthetic
+ham_214645,generated_264.jpg,bcc,51.0,male,nose,1,synthetic
+ham_413756,generated_265.jpg,mel,35.0,female,back,1,synthetic
+ham_231628,generated_266.jpg,mel,56.0,male,lower extremity,1,synthetic
+ham_904760,generated_267.jpg,mel,54.0,male,back,1,synthetic
+ham_614488,generated_268.jpg,bcc,71.0,female,nose,1,synthetic
+ham_537745,generated_269.jpg,mel,86.0,male,upper extremity,1,synthetic
+ham_506102,generated_270.jpg,mel,66.0,male,foot,1,synthetic
+ham_895627,generated_271.jpg,mel,61.0,female,upper extremity,1,synthetic
+ham_444676,generated_272.jpg,mel,60.0,male,back,1,synthetic
+ham_362720,generated_273.jpg,mel,42.0,female,lower extremity,1,synthetic
+ham_308961,generated_274.jpg,bcc,51.0,male,face,1,synthetic
+ham_652811,generated_275.jpg,bcc,74.0,male,face,1,synthetic
+ham_772449,generated_276.jpg,bcc,87.0,female,lower extremity,1,synthetic
+ham_396829,generated_277.jpg,mel,46.0,female,back,1,synthetic
+ham_851565,generated_278.jpg,bcc,58.0,male,nose,1,synthetic
+ham_411923,generated_279.jpg,mel,44.0,female,upper extremity,1,synthetic
+ham_884099,generated_280.jpg,bcc,70.0,male,back,1,synthetic
+ham_984306,generated_281.jpg,mel,80.0,male,chest,1,synthetic
+ham_580839,generated_282.jpg,bcc,50.0,male,back,1,synthetic
+ham_869923,generated_283.jpg,mel,52.0,female,back,1,synthetic
+ham_374430,generated_284.jpg,bcc,55.0,female,chest,1,synthetic
+ham_467378,generated_285.jpg,bcc,67.0,male,chest,1,synthetic
+ham_362069,generated_286.jpg,bcc,73.0,male,face,1,synthetic
+ham_528757,generated_287.jpg,mel,50.0,male,foot,1,synthetic
+ham_185197,generated_288.jpg,bcc,72.0,male,face,1,synthetic
+ham_895746,generated_289.jpg,bcc,84.0,male,face,1,synthetic
+ham_911472,generated_290.jpg,mel,74.0,male,hand,1,synthetic
+ham_941442,generated_291.jpg,bcc,80.0,female,lower extremity,1,synthetic
+ham_764145,generated_292.jpg,bcc,67.0,male,back,1,synthetic
+ham_856271,generated_293.jpg,mel,59.0,male,lower extremity,1,synthetic
+ham_549507,generated_294.jpg,bcc,76.0,male,face,1,synthetic
+ham_475185,generated_295.jpg,mel,50.0,male,upper extremity,1,synthetic
+ham_442083,generated_296.jpg,mel,62.0,male,lower extremity,1,synthetic
+ham_958489,generated_297.jpg,mel,72.0,male,face,1,synthetic
+ham_377220,generated_298.jpg,mel,21.0,female,chest,1,synthetic
+ham_512109,generated_299.jpg,bcc,70.0,male,chest,1,synthetic
+ham_813413,generated_300.jpg,mel,64.0,male,back,1,synthetic
+ham_678021,generated_301.jpg,mel,75.0,female,upper extremity,1,synthetic
+ham_436779,generated_302.jpg,bcc,84.0,female,nose,1,synthetic
+ham_379712,generated_303.jpg,bcc,64.0,male,back,1,synthetic
+ham_747258,generated_304.jpg,bcc,68.0,female,face,1,synthetic
+ham_422464,generated_305.jpg,mel,75.0,male,upper extremity,1,synthetic
+ham_78153,generated_306.jpg,bcc,75.0,female,face,1,synthetic
+ham_184335,generated_307.jpg,mel,61.0,male,upper extremity,1,synthetic
+ham_430383,generated_308.jpg,mel,51.0,male,back,1,synthetic
+ham_507448,generated_309.jpg,bcc,20.0,male,chest,1,synthetic
+ham_112277,generated_310.jpg,mel,78.0,female,face,1,synthetic
+ham_453405,generated_311.jpg,mel,60.0,male,upper extremity,1,synthetic
+ham_941083,generated_312.jpg,mel,62.0,male,trunk,1,synthetic
+ham_8999,generated_313.jpg,mel,74.0,male,neck,1,synthetic
+ham_322257,generated_314.jpg,mel,60.0,male,upper extremity,1,synthetic
+ham_902534,generated_315.jpg,bcc,61.0,male,face,1,synthetic
+ham_349967,generated_316.jpg,bcc,76.0,male,face,1,synthetic
+ham_874431,generated_317.jpg,mel,60.0,female,trunk,1,synthetic
+ham_120632,generated_318.jpg,mel,56.0,female,back,1,synthetic
+ham_653247,generated_319.jpg,bcc,70.0,male,lip,1,synthetic
+ham_312186,generated_320.jpg,bcc,66.0,female,face,1,synthetic
+ham_329831,generated_321.jpg,bcc,58.0,female,back,1,synthetic
+ham_820987,generated_322.jpg,mel,71.0,male,trunk,1,synthetic
+ham_906237,generated_323.jpg,bcc,78.0,female,forearm,1,synthetic
+ham_20182,generated_324.jpg,mel,60.0,female,back,1,synthetic
+ham_947683,generated_325.jpg,mel,49.0,female,lower extremity,1,synthetic
+ham_449178,generated_326.jpg,mel,55.0,female,chest,1,synthetic
+ham_616769,generated_327.jpg,bcc,52.0,female,back,1,synthetic
+ham_391163,generated_328.jpg,bcc,58.0,female,back,1,synthetic
+ham_135695,generated_329.jpg,mel,75.0,female,back,1,synthetic
+ham_995527,generated_330.jpg,bcc,84.0,male,face,1,synthetic
+ham_502787,generated_331.jpg,mel,60.0,male,back,1,synthetic
+ham_904573,generated_332.jpg,bcc,63.0,male,back,1,synthetic
+ham_415628,generated_333.jpg,mel,64.0,male,thigh,1,synthetic
+ham_220628,generated_334.jpg,mel,54.0,female,upper extremity,1,synthetic
+ham_130550,generated_335.jpg,bcc,72.0,female,back,1,synthetic
+ham_634520,generated_336.jpg,mel,55.0,female,lower extremity,1,synthetic
+ham_782276,generated_337.jpg,mel,80.0,male,upper extremity,1,synthetic
+ham_754216,generated_338.jpg,bcc,53.0,male,nose,1,synthetic
+ham_425567,generated_339.jpg,mel,83.0,female,abdomen,1,synthetic
+ham_678286,generated_340.jpg,mel,48.0,female,upper extremity,1,synthetic
+ham_805812,generated_341.jpg,bcc,69.0,male,upper extremity,1,synthetic
+ham_508636,generated_342.jpg,bcc,52.0,female,chest,1,synthetic
+ham_306334,generated_343.jpg,bcc,48.0,female,face,1,synthetic
+ham_371696,generated_344.jpg,mel,60.0,female,back,1,synthetic
+ham_618717,generated_345.jpg,bcc,45.0,male,chest,1,synthetic
+ham_426750,generated_346.jpg,bcc,64.0,male,hand,1,synthetic
+ham_231086,generated_347.jpg,mel,56.0,female,upper extremity,1,synthetic
+ham_568162,generated_348.jpg,bcc,51.0,male,face,1,synthetic
+ham_585648,generated_349.jpg,bcc,84.0,male,face,1,synthetic
+ham_571136,generated_350.jpg,bcc,61.0,male,chest,1,synthetic
+ham_469194,generated_351.jpg,mel,77.0,female,back,1,synthetic
+ham_839300,generated_352.jpg,mel,54.0,male,upper extremity,1,synthetic
+ham_43816,generated_353.jpg,bcc,46.0,female,forearm,1,synthetic
+ham_613340,generated_354.jpg,bcc,56.0,male,nose,1,synthetic
+ham_506459,generated_355.jpg,mel,63.0,female,lower extremity,1,synthetic
+ham_655693,generated_356.jpg,bcc,65.0,female,neck,1,synthetic
+ham_596341,generated_357.jpg,mel,25.0,male,lower extremity,1,synthetic
+ham_882423,generated_358.jpg,mel,62.0,female,back,1,synthetic
+ham_973251,generated_359.jpg,bcc,66.0,male,face,1,synthetic
+ham_565340,generated_360.jpg,mel,56.0,female,lower extremity,1,synthetic
+ham_146720,generated_361.jpg,mel,26.0,female,lower extremity,1,synthetic
+ham_926913,generated_362.jpg,bcc,57.0,male,face,1,synthetic
+ham_992543,generated_363.jpg,mel,76.0,male,lower extremity,1,synthetic
+ham_331105,generated_364.jpg,mel,82.0,female,face,1,synthetic
+ham_552214,generated_365.jpg,mel,75.0,male,back,1,synthetic
+ham_460319,generated_366.jpg,bcc,49.0,female,chest,1,synthetic
+ham_915941,generated_367.jpg,bcc,80.0,male,nose,1,synthetic
+ham_944570,generated_368.jpg,bcc,76.0,male,back,1,synthetic
+ham_897599,generated_369.jpg,bcc,73.0,female,chest,1,synthetic
+ham_411004,generated_370.jpg,bcc,56.0,female,arm,1,synthetic
+ham_870570,generated_371.jpg,mel,34.0,female,lower extremity,1,synthetic
+ham_493322,generated_372.jpg,bcc,59.0,female,forearm,1,synthetic
+ham_213664,generated_373.jpg,mel,69.0,male,upper extremity,1,synthetic
+ham_106475,generated_374.jpg,mel,72.0,male,thigh,1,synthetic
+ham_18351,generated_375.jpg,bcc,65.0,female,lower extremity,1,synthetic
+ham_293427,generated_376.jpg,bcc,70.0,male,face,1,synthetic
+ham_178240,generated_377.jpg,bcc,52.0,female,abdomen,1,synthetic
+ham_139132,generated_378.jpg,bcc,80.0,female,thigh,1,synthetic
+ham_164590,generated_379.jpg,bcc,55.0,female,neck,1,synthetic
+ham_313059,generated_380.jpg,bcc,80.0,male,chest,1,synthetic
+ham_280016,generated_381.jpg,bcc,76.0,female,face,1,synthetic
+ham_703643,generated_382.jpg,bcc,42.0,female,face,1,synthetic
+ham_132219,generated_383.jpg,mel,43.0,male,upper extremity,1,synthetic
+ham_293518,generated_384.jpg,bcc,81.0,male,face,1,synthetic
+ham_236405,generated_385.jpg,mel,62.0,female,lower extremity,1,synthetic
+ham_596282,generated_386.jpg,bcc,63.0,female,face,1,synthetic
+ham_823182,generated_387.jpg,bcc,60.0,female,back,1,synthetic
+ham_37172,generated_388.jpg,bcc,60.0,female,back,1,synthetic
+ham_634004,generated_389.jpg,bcc,72.0,female,face,1,synthetic
+ham_761036,generated_390.jpg,mel,40.0,male,lower extremity,1,synthetic
+ham_155233,generated_391.jpg,bcc,88.0,female,chest,1,synthetic
+ham_400732,generated_392.jpg,bcc,80.0,female,back,1,synthetic
+ham_65482,generated_393.jpg,mel,46.0,female,upper extremity,1,synthetic
+ham_70919,generated_394.jpg,mel,55.0,female,lower extremity,1,synthetic
+ham_391666,generated_395.jpg,mel,65.0,female,lower extremity,1,synthetic
+ham_220673,generated_396.jpg,bcc,71.0,female,face,1,synthetic
+ham_368704,generated_397.jpg,bcc,72.0,female,face,1,synthetic
+ham_617685,generated_398.jpg,mel,39.0,male,chest,1,synthetic
+ham_532838,generated_399.jpg,bcc,63.0,female,nose,1,synthetic
+ham_248184,generated_400.jpg,bcc,37.0,female,nose,1,synthetic
+ham_246499,generated_401.jpg,mel,66.0,male,back,1,synthetic
+ham_490376,generated_402.jpg,mel,71.0,female,neck,1,synthetic
+ham_887145,generated_403.jpg,mel,69.0,female,back,1,synthetic
+ham_484150,generated_404.jpg,mel,67.0,female,lower extremity,1,synthetic
+ham_772811,generated_405.jpg,mel,57.0,male,face,1,synthetic
+ham_848937,generated_406.jpg,bcc,76.0,male,face,1,synthetic
+ham_475561,generated_407.jpg,mel,59.0,female,lower extremity,1,synthetic
+ham_749113,generated_408.jpg,bcc,55.0,female,forearm,1,synthetic
+ham_68182,generated_409.jpg,bcc,64.0,male,lower extremity,1,synthetic
+ham_357548,generated_410.jpg,bcc,53.0,female,face,1,synthetic
+ham_782156,generated_411.jpg,mel,38.0,male,chest,1,synthetic
+ham_576672,generated_412.jpg,mel,74.0,male,abdomen,1,synthetic
+ham_554612,generated_413.jpg,bcc,69.0,male,ear,1,synthetic
+ham_933630,generated_414.jpg,bcc,75.0,male,nose,1,synthetic
+ham_226951,generated_415.jpg,bcc,39.0,male,back,1,synthetic
+ham_524167,generated_416.jpg,bcc,86.0,female,face,1,synthetic
+ham_502844,generated_417.jpg,mel,67.0,male,back,1,synthetic
+ham_728820,generated_418.jpg,mel,76.0,male,back,1,synthetic
+ham_766936,generated_419.jpg,mel,35.0,male,back,1,synthetic
+ham_937810,generated_420.jpg,bcc,64.0,female,face,1,synthetic
+ham_125963,generated_421.jpg,bcc,74.0,female,face,1,synthetic
+ham_928216,generated_422.jpg,mel,44.0,male,lower extremity,1,synthetic
+ham_45238,generated_423.jpg,bcc,66.0,male,back,1,synthetic
+ham_457887,generated_424.jpg,bcc,78.0,male,chest,1,synthetic
+ham_80091,generated_425.jpg,mel,77.0,male,lower extremity,1,synthetic
+ham_434676,generated_426.jpg,bcc,34.0,male,chest,1,synthetic
+ham_521348,generated_427.jpg,bcc,53.0,female,neck,1,synthetic
+ham_425439,generated_428.jpg,bcc,80.0,male,back,1,synthetic
+ham_917127,generated_429.jpg,bcc,60.0,female,hand,1,synthetic
+ham_327913,generated_430.jpg,bcc,61.0,female,back,1,synthetic
+ham_558542,generated_431.jpg,mel,53.0,female,upper extremity,1,synthetic
+ham_190775,generated_432.jpg,bcc,59.0,female,face,1,synthetic
+ham_548890,generated_433.jpg,mel,58.0,female,back,1,synthetic
+ham_564063,generated_434.jpg,bcc,54.0,male,face,1,synthetic
+ham_378147,generated_435.jpg,mel,70.0,male,upper extremity,1,synthetic
+ham_979977,generated_436.jpg,bcc,52.0,female,chest,1,synthetic
+ham_55281,generated_437.jpg,mel,37.0,male,chest,1,synthetic
+ham_150882,generated_438.jpg,bcc,81.0,male,back,1,synthetic
+ham_79471,generated_439.jpg,bcc,39.0,male,face,1,synthetic
+ham_752464,generated_440.jpg,mel,45.0,female,abdomen,1,synthetic
+ham_930036,generated_441.jpg,mel,64.0,male,back,1,synthetic
+ham_640030,generated_442.jpg,mel,42.0,male,lower extremity,1,synthetic
+ham_177223,generated_443.jpg,bcc,70.0,male,face,1,synthetic
+ham_919168,generated_444.jpg,bcc,80.0,female,upper extremity,1,synthetic
+ham_571268,generated_445.jpg,bcc,65.0,male,back,1,synthetic
+ham_470973,generated_446.jpg,mel,70.0,female,neck,1,synthetic
+ham_84113,generated_447.jpg,mel,73.0,female,back,1,synthetic
+ham_590453,generated_448.jpg,bcc,57.0,male,chest,1,synthetic
+ham_46631,generated_449.jpg,bcc,54.0,female,chest,1,synthetic
+ham_217531,generated_450.jpg,mel,46.0,female,lower extremity,1,synthetic
+ham_793424,generated_451.jpg,bcc,61.0,male,chest,1,synthetic
+ham_367213,generated_452.jpg,mel,67.0,female,back,1,synthetic
+ham_237684,generated_453.jpg,bcc,54.0,female,hand,1,synthetic
+ham_43186,generated_454.jpg,bcc,84.0,female,face,1,synthetic
+ham_60663,generated_455.jpg,bcc,73.0,male,upper extremity,1,synthetic
+ham_182004,generated_456.jpg,bcc,68.0,female,back,1,synthetic
+ham_944820,generated_457.jpg,bcc,50.0,female,back,1,synthetic
+ham_676726,generated_458.jpg,mel,52.0,female,lower extremity,1,synthetic
+ham_573676,generated_459.jpg,mel,72.0,female,upper extremity,1,synthetic
+ham_224978,generated_460.jpg,mel,67.0,male,back,1,synthetic
+ham_324344,generated_461.jpg,bcc,35.0,male,nose,1,synthetic
+ham_925000,generated_462.jpg,mel,72.0,male,lower extremity,1,synthetic
+ham_739320,generated_463.jpg,bcc,88.0,female,thigh,1,synthetic
+ham_734019,generated_464.jpg,mel,40.0,male,back,1,synthetic
+ham_351324,generated_465.jpg,mel,46.0,male,back,1,synthetic
+ham_602452,generated_466.jpg,mel,40.0,female,face,1,synthetic
+ham_385575,generated_467.jpg,bcc,64.0,male,chest,1,synthetic
+ham_711848,generated_468.jpg,mel,40.0,male,face,1,synthetic
+ham_907014,generated_469.jpg,bcc,84.0,male,face,1,synthetic
+ham_808960,generated_470.jpg,bcc,59.0,male,face,1,synthetic
+ham_39051,generated_471.jpg,bcc,48.0,male,neck,1,synthetic
+ham_678476,generated_472.jpg,bcc,73.0,female,arm,1,synthetic
+ham_373074,generated_473.jpg,bcc,57.0,female,thigh,1,synthetic
+ham_491299,generated_474.jpg,bcc,53.0,male,face,1,synthetic
+ham_263345,generated_475.jpg,bcc,35.0,male,face,1,synthetic
+ham_177521,generated_476.jpg,bcc,71.0,male,chest,1,synthetic
+ham_110040,generated_477.jpg,mel,52.0,female,back,1,synthetic
+ham_991795,generated_478.jpg,bcc,92.0,male,face,1,synthetic
+ham_444527,generated_479.jpg,bcc,82.0,male,face,1,synthetic
+ham_656625,generated_480.jpg,bcc,65.0,female,back,1,synthetic
+ham_560480,generated_481.jpg,bcc,49.0,male,back,1,synthetic
+ham_831353,generated_482.jpg,bcc,66.0,male,face,1,synthetic
+ham_491155,generated_483.jpg,mel,68.0,male,upper extremity,1,synthetic
+ham_484700,generated_484.jpg,mel,87.0,female,upper extremity,1,synthetic
+ham_895885,generated_485.jpg,bcc,68.0,male,forearm,1,synthetic
+ham_497148,generated_486.jpg,bcc,72.0,female,lip,1,synthetic
+ham_370400,generated_487.jpg,mel,31.0,male,neck,1,synthetic
+ham_773542,generated_488.jpg,bcc,90.0,female,face,1,synthetic
+ham_54919,generated_489.jpg,bcc,61.0,female,forearm,1,synthetic
+ham_426659,generated_490.jpg,mel,80.0,male,face,1,synthetic
+ham_995064,generated_491.jpg,mel,56.0,female,lower extremity,1,synthetic
+ham_332766,generated_492.jpg,bcc,40.0,male,upper extremity,1,synthetic
+ham_158692,generated_493.jpg,bcc,70.0,male,back,1,synthetic
+ham_919203,generated_494.jpg,bcc,55.0,female,back,1,synthetic
+ham_809894,generated_495.jpg,mel,21.0,male,upper extremity,1,synthetic
+ham_909427,generated_496.jpg,mel,82.0,female,face,1,synthetic
+ham_247238,generated_497.jpg,bcc,70.0,male,neck,1,synthetic
+ham_910752,generated_498.jpg,bcc,67.0,female,abdomen,1,synthetic
+ham_313330,generated_499.jpg,bcc,61.0,female,face,1,synthetic
+ham_506457,generated_500.jpg,bcc,75.0,male,lower extremity,1,synthetic
+ham_663095,generated_501.jpg,bcc,53.0,female,back,1,synthetic
+ham_749052,generated_502.jpg,mel,52.0,male,upper extremity,1,synthetic
+ham_809038,generated_503.jpg,mel,71.0,female,lower extremity,1,synthetic
+ham_605888,generated_504.jpg,bcc,58.0,male,back,1,synthetic
+ham_718939,generated_505.jpg,bcc,62.0,female,arm,1,synthetic
+ham_152676,generated_506.jpg,mel,60.0,female,face,1,synthetic
+ham_782094,generated_507.jpg,bcc,67.0,male,back,1,synthetic
+ham_908464,generated_508.jpg,bcc,55.0,female,back,1,synthetic
+ham_803819,generated_509.jpg,mel,86.0,female,lower extremity,1,synthetic
+ham_896975,generated_510.jpg,mel,40.0,female,back,1,synthetic
+ham_821281,generated_511.jpg,mel,71.0,female,lower extremity,1,synthetic
+ham_244260,generated_512.jpg,mel,47.0,female,lower extremity,1,synthetic
+ham_71028,generated_513.jpg,mel,57.0,male,back,1,synthetic
+ham_822360,generated_514.jpg,bcc,65.0,male,abdomen,1,synthetic
+ham_282976,generated_515.jpg,bcc,79.0,male,face,1,synthetic
+ham_527410,generated_516.jpg,mel,46.0,female,abdomen,1,synthetic
+ham_474690,generated_517.jpg,bcc,88.0,female,nose,1,synthetic
+ham_907109,generated_518.jpg,bcc,78.0,female,back,1,synthetic
+ham_216540,generated_519.jpg,bcc,79.0,female,lower extremity,1,synthetic
+ham_259429,generated_520.jpg,bcc,37.0,male,nose,1,synthetic
+ham_448101,generated_521.jpg,bcc,43.0,male,forearm,1,synthetic
+ham_637488,generated_522.jpg,mel,28.0,male,upper extremity,1,synthetic
+ham_615077,generated_523.jpg,mel,75.0,male,back,1,synthetic
+ham_578679,generated_524.jpg,mel,80.0,female,lower extremity,1,synthetic
+ham_454661,generated_525.jpg,mel,85.0,male,chest,1,synthetic
+ham_985827,generated_526.jpg,mel,53.0,female,face,1,synthetic
+ham_300303,generated_527.jpg,mel,66.0,male,trunk,1,synthetic
+ham_381724,generated_528.jpg,bcc,62.0,female,back,1,synthetic
+ham_200297,generated_529.jpg,mel,69.0,male,upper extremity,1,synthetic
+ham_242213,generated_530.jpg,mel,83.0,male,face,1,synthetic
+ham_251192,generated_531.jpg,bcc,56.0,male,back,1,synthetic
+ham_784670,generated_532.jpg,mel,62.0,male,back,1,synthetic
+ham_173,generated_533.jpg,mel,89.0,female,chest,1,synthetic
+ham_624091,generated_534.jpg,bcc,48.0,male,back,1,synthetic
+ham_740564,generated_535.jpg,mel,40.0,male,neck,1,synthetic
+ham_942596,generated_536.jpg,mel,57.0,male,back,1,synthetic
+ham_739816,generated_537.jpg,bcc,67.0,female,back,1,synthetic
+ham_263337,generated_538.jpg,mel,50.0,male,back,1,synthetic
+ham_550719,generated_539.jpg,bcc,49.0,male,abdomen,1,synthetic
+ham_956067,generated_540.jpg,mel,44.0,female,abdomen,1,synthetic
+ham_993280,generated_541.jpg,mel,57.0,female,lower extremity,1,synthetic
+ham_597635,generated_542.jpg,mel,64.0,male,back,1,synthetic
+ham_217252,generated_543.jpg,bcc,35.0,female,abdomen,1,synthetic
+ham_322037,generated_544.jpg,bcc,56.0,female,face,1,synthetic
+ham_941273,generated_545.jpg,mel,48.0,female,thigh,1,synthetic
+ham_873067,generated_546.jpg,bcc,60.0,female,nose,1,synthetic
+ham_886364,generated_547.jpg,bcc,85.0,male,scalp,1,synthetic
+ham_487145,generated_548.jpg,bcc,81.0,female,face,1,synthetic
+ham_597267,generated_549.jpg,bcc,38.0,male,face,1,synthetic
+ham_465031,generated_550.jpg,bcc,58.0,female,face,1,synthetic
+ham_962098,generated_551.jpg,mel,51.0,female,back,1,synthetic
+ham_765327,generated_552.jpg,mel,52.0,female,upper extremity,1,synthetic
+ham_229021,generated_553.jpg,bcc,90.0,female,back,1,synthetic
+ham_295811,generated_554.jpg,bcc,71.0,female,arm,1,synthetic
+ham_999082,generated_555.jpg,bcc,64.0,male,neck,1,synthetic
+ham_697167,generated_556.jpg,bcc,52.0,female,back,1,synthetic
+ham_920356,generated_557.jpg,mel,55.0,male,face,1,synthetic
+ham_908788,generated_558.jpg,bcc,57.0,male,nose,1,synthetic
+ham_641147,generated_559.jpg,bcc,42.0,male,back,1,synthetic
+ham_596185,generated_560.jpg,bcc,77.0,male,face,1,synthetic
+ham_411323,generated_561.jpg,mel,25.0,female,lower extremity,1,synthetic
+ham_800180,generated_562.jpg,bcc,48.0,male,back,1,synthetic
+ham_251702,generated_563.jpg,bcc,60.0,female,back,1,synthetic
+ham_756594,generated_564.jpg,bcc,52.0,female,face,1,synthetic
+ham_340293,generated_565.jpg,bcc,38.0,male,chest,1,synthetic
+ham_709957,generated_566.jpg,mel,60.0,female,back,1,synthetic
+ham_294855,generated_567.jpg,mel,60.0,female,upper extremity,1,synthetic
+ham_503446,generated_568.jpg,bcc,66.0,male,face,1,synthetic
+ham_724322,generated_569.jpg,mel,68.0,female,back,1,synthetic
+ham_966588,generated_570.jpg,bcc,48.0,male,neck,1,synthetic
+ham_861527,generated_571.jpg,bcc,57.0,male,forearm,1,synthetic
+ham_641137,generated_572.jpg,bcc,64.0,female,face,1,synthetic
+ham_772971,generated_573.jpg,mel,78.0,male,upper extremity,1,synthetic
+ham_849507,generated_574.jpg,bcc,66.0,female,upper extremity,1,synthetic
+ham_916127,generated_575.jpg,mel,56.0,female,back,1,synthetic
+ham_327125,generated_576.jpg,mel,67.0,female,back,1,synthetic
+ham_268100,generated_577.jpg,bcc,71.0,male,upper extremity,1,synthetic
+ham_346854,generated_578.jpg,bcc,77.0,female,nose,1,synthetic
+ham_622121,generated_579.jpg,mel,30.0,male,lower extremity,1,synthetic
+ham_347139,generated_580.jpg,bcc,84.0,male,nose,1,synthetic
+ham_463061,generated_581.jpg,mel,77.0,male,back,1,synthetic
+ham_140400,generated_582.jpg,mel,37.0,female,back,1,synthetic
+ham_365783,generated_583.jpg,mel,53.0,female,upper extremity,1,synthetic
+ham_468792,generated_584.jpg,mel,48.0,male,back,1,synthetic
+ham_726540,generated_585.jpg,mel,52.0,male,lower extremity,1,synthetic
+ham_899154,generated_586.jpg,bcc,65.0,female,nose,1,synthetic
+ham_13613,generated_587.jpg,bcc,70.0,male,lower extremity,1,synthetic
+ham_215967,generated_588.jpg,bcc,71.0,female,forearm,1,synthetic
+ham_819133,generated_589.jpg,bcc,71.0,male,chest,1,synthetic
+ham_482473,generated_590.jpg,mel,56.0,male,lower extremity,1,synthetic
+ham_860646,generated_591.jpg,bcc,77.0,female,face,1,synthetic
+ham_184430,generated_592.jpg,bcc,80.0,male,face,1,synthetic
+ham_352468,generated_593.jpg,bcc,69.0,male,back,1,synthetic
+ham_999571,generated_594.jpg,mel,86.0,male,back,1,synthetic
+ham_679675,generated_595.jpg,bcc,59.0,female,arm,1,synthetic
+ham_331667,generated_596.jpg,bcc,66.0,female,nose,1,synthetic
+ham_334763,generated_597.jpg,bcc,47.0,female,chest,1,synthetic
+ham_415808,generated_598.jpg,bcc,62.0,female,back,1,synthetic
+ham_905511,generated_599.jpg,mel,52.0,male,back,1,synthetic
+ham_71231,generated_600.jpg,bcc,70.0,female,face,1,synthetic
+ham_857520,generated_601.jpg,mel,77.0,female,lower extremity,1,synthetic
+ham_190043,generated_602.jpg,mel,90.0,male,face,1,synthetic
+ham_712863,generated_603.jpg,mel,78.0,male,scalp,1,synthetic
+ham_512149,generated_604.jpg,mel,68.0,female,upper extremity,1,synthetic
+ham_691756,generated_605.jpg,mel,83.0,female,face,1,synthetic
+ham_778353,generated_606.jpg,bcc,61.0,female,neck,1,synthetic
+ham_86580,generated_607.jpg,bcc,81.0,male,face,1,synthetic
+ham_334486,generated_608.jpg,mel,57.0,female,forearm,1,synthetic
+ham_758175,generated_609.jpg,bcc,74.0,male,forearm,1,synthetic
+ham_642597,generated_610.jpg,bcc,59.0,male,nose,1,synthetic
+ham_934279,generated_611.jpg,mel,33.0,male,back,1,synthetic
+ham_797097,generated_612.jpg,mel,71.0,female,back,1,synthetic
+ham_558744,generated_613.jpg,bcc,49.0,male,chest,1,synthetic
+ham_820358,generated_614.jpg,bcc,78.0,female,back,1,synthetic
+ham_280003,generated_615.jpg,bcc,79.0,female,face,1,synthetic
+ham_967482,generated_616.jpg,mel,58.0,female,lower extremity,1,synthetic
+ham_347602,generated_617.jpg,mel,61.0,female,upper extremity,1,synthetic
+ham_931949,generated_618.jpg,bcc,78.0,male,face,1,synthetic
+ham_766500,generated_619.jpg,bcc,78.0,male,face,1,synthetic
+ham_491565,generated_620.jpg,mel,53.0,female,upper extremity,1,synthetic
+ham_296601,generated_621.jpg,mel,30.0,male,abdomen,1,synthetic
+ham_437641,generated_622.jpg,bcc,77.0,female,lower extremity,1,synthetic
+ham_182303,generated_623.jpg,bcc,74.0,male,back,1,synthetic
+ham_152923,generated_624.jpg,bcc,40.0,male,face,1,synthetic
+ham_727164,generated_625.jpg,mel,85.0,male,lower extremity,1,synthetic
+ham_674400,generated_626.jpg,bcc,44.0,male,back,1,synthetic
+ham_836644,generated_627.jpg,mel,58.0,male,back,1,synthetic
+ham_640886,generated_628.jpg,bcc,50.0,female,chest,1,synthetic
+ham_723871,generated_629.jpg,bcc,75.0,male,back,1,synthetic
+ham_670534,generated_630.jpg,mel,66.0,male,back,1,synthetic
+ham_442700,generated_631.jpg,mel,55.0,female,back,1,synthetic
+ham_439916,generated_632.jpg,bcc,81.0,male,lower extremity,1,synthetic
+ham_83336,generated_633.jpg,mel,53.0,female,upper extremity,1,synthetic
+ham_663986,generated_634.jpg,bcc,71.0,male,back,1,synthetic
+ham_450822,generated_635.jpg,bcc,66.0,female,nose,1,synthetic
+ham_800841,generated_636.jpg,bcc,79.0,female,lower extremity,1,synthetic
+ham_504324,generated_637.jpg,mel,83.0,female,lower extremity,1,synthetic
+ham_871985,generated_638.jpg,mel,60.0,female,back,1,synthetic
+ham_864149,generated_639.jpg,mel,41.0,male,chest,1,synthetic
+ham_193804,generated_640.jpg,bcc,70.0,female,face,1,synthetic
+ham_410239,generated_641.jpg,mel,60.0,male,back,1,synthetic
+ham_476073,generated_642.jpg,bcc,66.0,female,arm,1,synthetic
+ham_788545,generated_643.jpg,mel,77.0,male,ear,1,synthetic
+ham_803293,generated_644.jpg,mel,75.0,female,back,1,synthetic
+ham_398381,generated_645.jpg,mel,86.0,male,back,1,synthetic
+ham_989133,generated_646.jpg,bcc,68.0,male,lower extremity,1,synthetic
+ham_262343,generated_647.jpg,bcc,76.0,male,upper extremity,1,synthetic
+ham_443384,generated_648.jpg,bcc,50.0,female,nose,1,synthetic
+ham_424906,generated_649.jpg,mel,50.0,female,foot,1,synthetic
+ham_531483,generated_650.jpg,bcc,57.0,male,arm,1,synthetic
+ham_553618,generated_651.jpg,bcc,56.0,female,face,1,synthetic
+ham_710883,generated_652.jpg,bcc,42.0,male,neck,1,synthetic
+ham_784735,generated_653.jpg,mel,62.0,male,back,1,synthetic
+ham_149637,generated_654.jpg,mel,70.0,male,chest,1,synthetic
+ham_76754,generated_655.jpg,mel,48.0,female,face,1,synthetic
+ham_544156,generated_656.jpg,mel,68.0,female,scalp,1,synthetic
+ham_640556,generated_657.jpg,bcc,69.0,female,chest,1,synthetic
+ham_449757,generated_658.jpg,mel,26.0,male,back,1,synthetic
+ham_334945,generated_659.jpg,bcc,75.0,female,nose,1,synthetic
+ham_653489,generated_660.jpg,mel,51.0,male,abdomen,1,synthetic
+ham_579536,generated_661.jpg,mel,77.0,male,back,1,synthetic
+ham_134127,generated_662.jpg,mel,70.0,male,chest,1,synthetic
+ham_534188,generated_663.jpg,bcc,70.0,male,forearm,1,synthetic
+ham_81122,generated_664.jpg,bcc,62.0,male,forearm,1,synthetic
+ham_263685,generated_665.jpg,mel,63.0,male,arm,1,synthetic
+ham_431675,generated_666.jpg,bcc,83.0,male,face,1,synthetic
+ham_693342,generated_667.jpg,mel,71.0,female,abdomen,1,synthetic
+ham_663543,generated_668.jpg,bcc,86.0,female,face,1,synthetic
+ham_158340,generated_669.jpg,bcc,75.0,male,upper extremity,1,synthetic
+ham_676759,generated_670.jpg,bcc,78.0,female,back,1,synthetic
+ham_768691,generated_671.jpg,bcc,64.0,male,face,1,synthetic
+ham_104970,generated_672.jpg,mel,55.0,female,back,1,synthetic
+ham_987764,generated_673.jpg,bcc,44.0,female,face,1,synthetic
+ham_637850,generated_674.jpg,mel,51.0,male,upper extremity,1,synthetic
+ham_2460,generated_675.jpg,bcc,44.0,male,chest,1,synthetic
+ham_55620,generated_676.jpg,bcc,43.0,female,face,1,synthetic
+ham_435093,generated_677.jpg,mel,55.0,female,chest,1,synthetic
+ham_428301,generated_678.jpg,bcc,83.0,female,back,1,synthetic
+ham_486656,generated_679.jpg,mel,70.0,male,back,1,synthetic
+ham_29749,generated_680.jpg,bcc,68.0,male,hand,1,synthetic
+ham_625550,generated_681.jpg,bcc,69.0,male,lower extremity,1,synthetic
+ham_665397,generated_682.jpg,mel,48.0,female,back,1,synthetic
+ham_684526,generated_683.jpg,bcc,62.0,male,face,1,synthetic
+ham_818861,generated_684.jpg,bcc,66.0,female,nose,1,synthetic
+ham_586081,generated_685.jpg,bcc,69.0,male,upper extremity,1,synthetic
+ham_860318,generated_686.jpg,bcc,79.0,male,arm,1,synthetic
+ham_774318,generated_687.jpg,mel,76.0,male,face,1,synthetic
+ham_961565,generated_688.jpg,mel,56.0,female,back,1,synthetic
+ham_809018,generated_689.jpg,mel,73.0,male,chest,1,synthetic
+ham_618089,generated_690.jpg,bcc,52.0,female,chest,1,synthetic
+ham_165340,generated_691.jpg,bcc,69.0,female,back,1,synthetic
+ham_47357,generated_692.jpg,mel,69.0,male,face,1,synthetic
+ham_363898,generated_693.jpg,mel,43.0,male,face,1,synthetic
+ham_86963,generated_694.jpg,mel,84.0,male,upper extremity,1,synthetic
+ham_949471,generated_695.jpg,bcc,49.0,female,face,1,synthetic
+ham_550345,generated_696.jpg,bcc,62.0,male,face,1,synthetic
+ham_661945,generated_697.jpg,mel,59.0,female,lower extremity,1,synthetic
+ham_158195,generated_698.jpg,mel,33.0,male,abdomen,1,synthetic
+ham_394542,generated_699.jpg,bcc,75.0,female,back,1,synthetic
+ham_320301,generated_700.jpg,mel,62.0,female,back,1,synthetic
+ham_163796,generated_701.jpg,bcc,29.0,male,back,1,synthetic
+ham_664124,generated_702.jpg,mel,30.0,male,upper extremity,1,synthetic
+ham_526327,generated_703.jpg,bcc,57.0,male,neck,1,synthetic
+ham_82924,generated_704.jpg,bcc,72.0,female,arm,1,synthetic
+ham_830677,generated_705.jpg,bcc,81.0,male,chest,1,synthetic
+ham_165239,generated_706.jpg,bcc,67.0,female,face,1,synthetic
+ham_185082,generated_707.jpg,bcc,82.0,male,forearm,1,synthetic
+ham_331567,generated_708.jpg,bcc,69.0,male,nose,1,synthetic
+ham_322808,generated_709.jpg,bcc,55.0,female,forearm,1,synthetic
+ham_756135,generated_710.jpg,bcc,57.0,male,forearm,1,synthetic
+ham_255881,generated_711.jpg,mel,57.0,male,back,1,synthetic
+ham_449801,generated_712.jpg,bcc,75.0,female,face,1,synthetic
+ham_489245,generated_713.jpg,bcc,72.0,female,back,1,synthetic
+ham_374868,generated_714.jpg,bcc,76.0,female,back,1,synthetic
+ham_646597,generated_715.jpg,bcc,79.0,male,nose,1,synthetic
+ham_694348,generated_716.jpg,mel,60.0,female,back,1,synthetic
+ham_141133,generated_717.jpg,bcc,79.0,male,forearm,1,synthetic
+ham_851888,generated_718.jpg,mel,67.0,female,scalp,1,synthetic
+ham_138583,generated_719.jpg,mel,53.0,female,trunk,1,synthetic
+ham_28744,generated_720.jpg,bcc,50.0,male,chest,1,synthetic
+ham_759688,generated_721.jpg,mel,55.0,female,lower extremity,1,synthetic
+ham_849183,generated_722.jpg,mel,80.0,male,upper extremity,1,synthetic
+ham_903696,generated_723.jpg,bcc,73.0,male,upper extremity,1,synthetic
+ham_465504,generated_724.jpg,mel,74.0,male,upper extremity,1,synthetic
+ham_276380,generated_725.jpg,mel,57.0,male,face,1,synthetic
+ham_301899,generated_726.jpg,bcc,47.0,female,face,1,synthetic
+ham_147002,generated_727.jpg,mel,88.0,female,upper extremity,1,synthetic
+ham_375986,generated_728.jpg,bcc,76.0,female,nose,1,synthetic
+ham_688432,generated_729.jpg,bcc,72.0,female,face,1,synthetic
+ham_989534,generated_730.jpg,bcc,69.0,female,back,1,synthetic
+ham_540466,generated_731.jpg,mel,66.0,female,back,1,synthetic
+ham_688586,generated_732.jpg,bcc,56.0,male,arm,1,synthetic
+ham_972145,generated_733.jpg,bcc,69.0,female,face,1,synthetic
+ham_87761,generated_734.jpg,bcc,59.0,female,nose,1,synthetic
+ham_987818,generated_735.jpg,mel,65.0,female,back,1,synthetic
+ham_550520,generated_736.jpg,bcc,61.0,male,face,1,synthetic
+ham_543498,generated_737.jpg,mel,62.0,male,thigh,1,synthetic
+ham_556858,generated_738.jpg,mel,58.0,female,upper extremity,1,synthetic
+ham_872492,generated_739.jpg,bcc,77.0,male,back,1,synthetic
+ham_523915,generated_740.jpg,bcc,46.0,male,back,1,synthetic
+ham_290266,generated_741.jpg,bcc,81.0,female,face,1,synthetic
+ham_44209,generated_742.jpg,mel,36.0,male,lower extremity,1,synthetic
+ham_787793,generated_743.jpg,bcc,72.0,female,chest,1,synthetic
+ham_230458,generated_744.jpg,mel,57.0,male,chest,1,synthetic
+ham_930215,generated_745.jpg,bcc,56.0,female,face,1,synthetic
+ham_380411,generated_746.jpg,mel,39.0,male,abdomen,1,synthetic
+ham_262604,generated_747.jpg,bcc,43.0,male,chest,1,synthetic
+ham_870662,generated_748.jpg,bcc,81.0,male,face,1,synthetic
+ham_159710,generated_749.jpg,bcc,53.0,male,forearm,1,synthetic
+ham_947919,generated_750.jpg,mel,40.0,female,upper extremity,1,synthetic
+ham_996692,generated_751.jpg,mel,66.0,female,lower extremity,1,synthetic
+ham_141843,generated_752.jpg,bcc,77.0,male,forearm,1,synthetic
+ham_789211,generated_753.jpg,bcc,64.0,male,face,1,synthetic
+ham_176979,generated_754.jpg,bcc,47.0,female,back,1,synthetic
+ham_46167,generated_755.jpg,mel,82.0,male,lower extremity,1,synthetic
+ham_290081,generated_756.jpg,bcc,71.0,female,face,1,synthetic
+ham_617639,generated_757.jpg,mel,85.0,female,upper extremity,1,synthetic
+ham_46350,generated_758.jpg,mel,53.0,male,upper extremity,1,synthetic
+ham_795198,generated_759.jpg,bcc,58.0,male,back,1,synthetic
+ham_783273,generated_760.jpg,bcc,39.0,male,face,1,synthetic
+ham_83898,generated_761.jpg,mel,32.0,female,abdomen,1,synthetic
+ham_188035,generated_762.jpg,mel,45.0,female,back,1,synthetic
+ham_895321,generated_763.jpg,mel,49.0,male,back,1,synthetic
+ham_629892,generated_764.jpg,mel,58.0,male,back,1,synthetic
+ham_722587,generated_765.jpg,bcc,89.0,male,scalp,1,synthetic
+ham_15506,generated_766.jpg,mel,84.0,female,back,1,synthetic
+ham_620177,generated_767.jpg,mel,21.0,male,upper extremity,1,synthetic
+ham_286967,generated_768.jpg,bcc,61.0,female,face,1,synthetic
+ham_375889,generated_769.jpg,mel,45.0,female,lower extremity,1,synthetic
+ham_171739,generated_770.jpg,bcc,55.0,male,face,1,synthetic
+ham_786947,generated_771.jpg,bcc,46.0,male,face,1,synthetic
+ham_54312,generated_772.jpg,bcc,79.0,male,upper extremity,1,synthetic
+ham_68902,generated_773.jpg,bcc,67.0,male,arm,1,synthetic
+ham_924959,generated_774.jpg,bcc,59.0,male,nose,1,synthetic
+ham_948568,generated_775.jpg,bcc,35.0,female,neck,1,synthetic
+ham_938618,generated_776.jpg,mel,68.0,male,back,1,synthetic
+ham_742166,generated_777.jpg,mel,62.0,male,back,1,synthetic
+ham_898864,generated_778.jpg,bcc,63.0,female,nose,1,synthetic
+ham_402921,generated_779.jpg,mel,56.0,male,upper extremity,1,synthetic
+ham_212526,generated_780.jpg,mel,69.0,female,upper extremity,1,synthetic
+ham_542139,generated_781.jpg,bcc,70.0,male,face,1,synthetic
+ham_971285,generated_782.jpg,bcc,81.0,female,neck,1,synthetic
+ham_596287,generated_783.jpg,mel,27.0,female,upper extremity,1,synthetic
+ham_702706,generated_784.jpg,mel,63.0,female,face,1,synthetic
+ham_738101,generated_785.jpg,mel,48.0,male,back,1,synthetic
+ham_966140,generated_786.jpg,bcc,81.0,male,nose,1,synthetic
+ham_524298,generated_787.jpg,mel,38.0,male,back,1,synthetic
+ham_802970,generated_788.jpg,bcc,67.0,female,trunk,1,synthetic
+ham_639093,generated_789.jpg,mel,55.0,male,back,1,synthetic
+ham_583448,generated_790.jpg,bcc,75.0,female,face,1,synthetic
+ham_444651,generated_791.jpg,mel,50.0,female,back,1,synthetic
+ham_292892,generated_792.jpg,bcc,79.0,male,face,1,synthetic
+ham_384491,generated_793.jpg,mel,78.0,female,lower extremity,1,synthetic
+ham_431865,generated_794.jpg,mel,76.0,male,upper extremity,1,synthetic
+ham_162889,generated_795.jpg,bcc,41.0,male,upper extremity,1,synthetic
+ham_576862,generated_796.jpg,bcc,56.0,male,face,1,synthetic
+ham_179366,generated_797.jpg,mel,35.0,female,neck,1,synthetic
+ham_597259,generated_798.jpg,mel,41.0,male,lower extremity,1,synthetic
+ham_756167,generated_799.jpg,mel,50.0,female,back,1,synthetic
+ham_769482,generated_800.jpg,mel,81.0,female,upper extremity,1,synthetic
+ham_242775,generated_801.jpg,bcc,70.0,male,face,1,synthetic
+ham_432537,generated_802.jpg,bcc,63.0,male,neck,1,synthetic
+ham_69612,generated_803.jpg,mel,72.0,female,thigh,1,synthetic
+ham_237018,generated_804.jpg,mel,77.0,male,abdomen,1,synthetic
+ham_647080,generated_805.jpg,mel,63.0,female,lower extremity,1,synthetic
+ham_728577,generated_806.jpg,bcc,77.0,male,chest,1,synthetic
+ham_592112,generated_807.jpg,bcc,82.0,male,chest,1,synthetic
+ham_925024,generated_808.jpg,bcc,63.0,female,chest,1,synthetic
+ham_863205,generated_809.jpg,bcc,56.0,female,back,1,synthetic
+ham_145999,generated_810.jpg,mel,61.0,female,lower extremity,1,synthetic
+ham_848348,generated_811.jpg,mel,58.0,female,lower extremity,1,synthetic
+ham_13966,generated_812.jpg,bcc,63.0,male,back,1,synthetic
+ham_594351,generated_813.jpg,mel,84.0,female,back,1,synthetic
+ham_906859,generated_814.jpg,mel,62.0,male,back,1,synthetic
+ham_755563,generated_815.jpg,mel,47.0,male,upper extremity,1,synthetic
+ham_926140,generated_816.jpg,bcc,37.0,female,arm,1,synthetic
+ham_727631,generated_817.jpg,mel,44.0,male,back,1,synthetic
+ham_368268,generated_818.jpg,mel,56.0,male,lower extremity,1,synthetic
+ham_36197,generated_819.jpg,mel,66.0,female,back,1,synthetic
+ham_559870,generated_820.jpg,bcc,67.0,male,nose,1,synthetic
+ham_363342,generated_821.jpg,bcc,25.0,male,back,1,synthetic
+ham_770080,generated_822.jpg,bcc,85.0,female,face,1,synthetic
+ham_780308,generated_823.jpg,mel,75.0,male,abdomen,1,synthetic
+ham_768959,generated_824.jpg,mel,28.0,female,back,1,synthetic
+ham_581235,generated_825.jpg,bcc,58.0,female,back,1,synthetic
+ham_677963,generated_826.jpg,bcc,73.0,male,nose,1,synthetic
+ham_42554,generated_827.jpg,bcc,63.0,female,lower extremity,1,synthetic
+ham_853193,generated_828.jpg,mel,66.0,female,back,1,synthetic
+ham_189632,generated_829.jpg,bcc,54.0,male,chest,1,synthetic
+ham_773059,generated_830.jpg,mel,33.0,female,upper extremity,1,synthetic
+ham_947825,generated_831.jpg,mel,53.0,male,chest,1,synthetic
+ham_707578,generated_832.jpg,bcc,80.0,male,lower extremity,1,synthetic
+ham_893585,generated_833.jpg,mel,49.0,female,trunk,1,synthetic
+ham_244779,generated_834.jpg,mel,35.0,male,back,1,synthetic
+ham_772582,generated_835.jpg,bcc,51.0,male,face,1,synthetic
+ham_626259,generated_836.jpg,bcc,52.0,female,nose,1,synthetic
+ham_383796,generated_837.jpg,mel,72.0,female,forearm,1,synthetic
+ham_902466,generated_838.jpg,bcc,87.0,female,face,1,synthetic
+ham_377721,generated_839.jpg,mel,55.0,female,upper extremity,1,synthetic
+ham_191262,generated_840.jpg,bcc,56.0,female,chest,1,synthetic
+ham_72111,generated_841.jpg,bcc,73.0,male,nose,1,synthetic
+ham_725198,generated_842.jpg,bcc,56.0,female,chest,1,synthetic
+ham_824943,generated_843.jpg,mel,51.0,male,ear,1,synthetic
+ham_295644,generated_844.jpg,bcc,45.0,female,back,1,synthetic
+ham_516176,generated_845.jpg,mel,73.0,female,face,1,synthetic
+ham_901894,generated_846.jpg,mel,84.0,female,lower extremity,1,synthetic
+ham_259719,generated_847.jpg,bcc,83.0,male,back,1,synthetic
+ham_181927,generated_848.jpg,bcc,63.0,female,neck,1,synthetic
+ham_468763,generated_849.jpg,bcc,82.0,male,back,1,synthetic
+ham_718419,generated_850.jpg,bcc,70.0,female,face,1,synthetic
+ham_40219,generated_851.jpg,bcc,65.0,female,back,1,synthetic
+ham_891085,generated_852.jpg,bcc,78.0,male,back,1,synthetic
+ham_989179,generated_853.jpg,bcc,61.0,male,chest,1,synthetic
+ham_475013,generated_854.jpg,bcc,41.0,male,back,1,synthetic
+ham_261685,generated_855.jpg,mel,27.0,female,lower extremity,1,synthetic
+ham_677765,generated_856.jpg,mel,82.0,female,upper extremity,1,synthetic
+ham_133117,generated_857.jpg,bcc,74.0,male,neck,1,synthetic
+ham_618249,generated_858.jpg,mel,58.0,female,upper extremity,1,synthetic
+ham_922337,generated_859.jpg,mel,38.0,male,upper extremity,1,synthetic
+ham_477403,generated_860.jpg,bcc,57.0,female,forearm,1,synthetic
+ham_769346,generated_861.jpg,mel,61.0,male,back,1,synthetic
+ham_520905,generated_862.jpg,bcc,62.0,female,face,1,synthetic
+ham_704639,generated_863.jpg,bcc,62.0,male,chest,1,synthetic
+ham_560737,generated_864.jpg,bcc,77.0,male,face,1,synthetic
+ham_937992,generated_865.jpg,bcc,75.0,male,face,1,synthetic
+ham_184307,generated_866.jpg,bcc,46.0,female,ear,1,synthetic
+ham_238299,generated_867.jpg,bcc,52.0,female,chest,1,synthetic
+ham_426074,generated_868.jpg,mel,73.0,female,ear,1,synthetic
+ham_228076,generated_869.jpg,mel,46.0,female,back,1,synthetic
+ham_843343,generated_870.jpg,mel,61.0,male,upper extremity,1,synthetic
+ham_664510,generated_871.jpg,bcc,69.0,female,face,1,synthetic
+ham_419199,generated_872.jpg,bcc,81.0,male,lower extremity,1,synthetic
+ham_629191,generated_873.jpg,bcc,59.0,female,face,1,synthetic
+ham_815017,generated_874.jpg,mel,86.0,male,chest,1,synthetic
+ham_715558,generated_875.jpg,bcc,45.0,male,back,1,synthetic
+ham_455648,generated_876.jpg,mel,65.0,female,chest,1,synthetic
+ham_840858,generated_877.jpg,bcc,70.0,male,upper extremity,1,synthetic
+ham_615670,generated_878.jpg,mel,75.0,female,foot,1,synthetic
+ham_303817,generated_879.jpg,mel,75.0,male,back,1,synthetic
+ham_923289,generated_880.jpg,mel,70.0,female,back,1,synthetic
+ham_211750,generated_881.jpg,bcc,74.0,male,back,1,synthetic
+ham_426600,generated_882.jpg,mel,52.0,female,trunk,1,synthetic
+ham_549454,generated_883.jpg,mel,51.0,female,abdomen,1,synthetic
+ham_827223,generated_884.jpg,mel,80.0,female,upper extremity,1,synthetic
+ham_885841,generated_885.jpg,bcc,60.0,male,face,1,synthetic
+ham_473834,generated_886.jpg,bcc,65.0,male,face,1,synthetic
+ham_71700,generated_887.jpg,bcc,90.0,female,back,1,synthetic
+ham_295128,generated_888.jpg,mel,83.0,male,upper extremity,1,synthetic
+ham_413808,generated_889.jpg,mel,63.0,male,upper extremity,1,synthetic
+ham_486332,generated_890.jpg,bcc,47.0,female,chest,1,synthetic
+ham_969508,generated_891.jpg,bcc,33.0,male,face,1,synthetic
+ham_146657,generated_892.jpg,mel,64.0,female,back,1,synthetic
+ham_375722,generated_893.jpg,bcc,67.0,female,face,1,synthetic
+ham_518663,generated_894.jpg,mel,59.0,female,lower extremity,1,synthetic
+ham_569246,generated_895.jpg,mel,62.0,female,back,1,synthetic
+ham_989158,generated_896.jpg,mel,33.0,female,upper extremity,1,synthetic
+ham_334657,generated_897.jpg,bcc,43.0,female,face,1,synthetic
+ham_695706,generated_898.jpg,bcc,78.0,male,face,1,synthetic
+ham_940285,generated_899.jpg,bcc,82.0,female,neck,1,synthetic
+ham_615491,generated_900.jpg,bcc,64.0,female,forearm,1,synthetic
+ham_895033,generated_901.jpg,mel,66.0,female,chest,1,synthetic
+ham_880395,generated_902.jpg,bcc,85.0,female,face,1,synthetic
+ham_937594,generated_903.jpg,mel,58.0,female,upper extremity,1,synthetic
+ham_745864,generated_904.jpg,mel,72.0,male,upper extremity,1,synthetic
+ham_51543,generated_905.jpg,mel,54.0,female,face,1,synthetic
+ham_846742,generated_906.jpg,bcc,60.0,male,back,1,synthetic
+ham_72535,generated_907.jpg,bcc,80.0,female,face,1,synthetic
+ham_730306,generated_908.jpg,bcc,57.0,female,face,1,synthetic
+ham_807226,generated_909.jpg,mel,44.0,male,upper extremity,1,synthetic
+ham_922797,generated_910.jpg,mel,27.0,female,upper extremity,1,synthetic
+ham_768034,generated_911.jpg,bcc,44.0,female,chest,1,synthetic
+ham_770969,generated_912.jpg,bcc,74.0,male,hand,1,synthetic
+ham_174437,generated_913.jpg,mel,87.0,female,upper extremity,1,synthetic
+ham_12578,generated_914.jpg,bcc,66.0,male,ear,1,synthetic
+ham_491555,generated_915.jpg,bcc,71.0,female,forearm,1,synthetic
+ham_240369,generated_916.jpg,mel,50.0,female,lower extremity,1,synthetic
+ham_39850,generated_917.jpg,bcc,62.0,female,face,1,synthetic
+ham_535808,generated_918.jpg,bcc,51.0,male,face,1,synthetic
+ham_293667,generated_919.jpg,mel,41.0,female,face,1,synthetic
+ham_147635,generated_920.jpg,mel,59.0,male,neck,1,synthetic
+ham_669952,generated_921.jpg,mel,61.0,male,upper extremity,1,synthetic
+ham_620152,generated_922.jpg,bcc,64.0,male,face,1,synthetic
+ham_216628,generated_923.jpg,bcc,73.0,male,ear,1,synthetic
+ham_616777,generated_924.jpg,bcc,79.0,female,back,1,synthetic
+ham_252346,generated_925.jpg,bcc,64.0,female,scalp,1,synthetic
+ham_799837,generated_926.jpg,bcc,65.0,male,face,1,synthetic
+ham_472125,generated_927.jpg,bcc,79.0,female,back,1,synthetic
+ham_153281,generated_928.jpg,bcc,67.0,male,back,1,synthetic
+ham_869951,generated_929.jpg,bcc,74.0,male,face,1,synthetic
+ham_73872,generated_930.jpg,bcc,62.0,male,neck,1,synthetic
+ham_452332,generated_931.jpg,bcc,87.0,male,back,1,synthetic
+ham_633289,generated_932.jpg,bcc,38.0,male,chest,1,synthetic
+ham_402291,generated_933.jpg,bcc,66.0,male,face,1,synthetic
+ham_354930,generated_934.jpg,mel,80.0,female,lower extremity,1,synthetic
+ham_836560,generated_935.jpg,mel,30.0,female,back,1,synthetic
+ham_232181,generated_936.jpg,bcc,53.0,female,chest,1,synthetic
+ham_13030,generated_937.jpg,mel,75.0,male,foot,1,synthetic
+ham_459548,generated_938.jpg,bcc,43.0,female,chest,1,synthetic
+ham_119146,generated_939.jpg,bcc,67.0,female,back,1,synthetic
+ham_133650,generated_940.jpg,bcc,75.0,female,lower extremity,1,synthetic
+ham_446526,generated_941.jpg,bcc,66.0,female,neck,1,synthetic
+ham_226459,generated_942.jpg,bcc,76.0,male,nose,1,synthetic
+ham_284702,generated_943.jpg,mel,52.0,female,back,1,synthetic
+ham_3407,generated_944.jpg,bcc,89.0,male,nose,1,synthetic
+ham_818665,generated_945.jpg,mel,55.0,female,upper extremity,1,synthetic
+ham_969574,generated_946.jpg,bcc,89.0,female,scalp,1,synthetic
+ham_501047,generated_947.jpg,mel,51.0,female,abdomen,1,synthetic
+ham_314369,generated_948.jpg,mel,69.0,male,upper extremity,1,synthetic
+ham_762002,generated_949.jpg,mel,46.0,female,lower extremity,1,synthetic
+ham_765557,generated_950.jpg,bcc,57.0,female,back,1,synthetic
+ham_312703,generated_951.jpg,bcc,63.0,male,nose,1,synthetic
+ham_211717,generated_952.jpg,mel,69.0,male,back,1,synthetic
+ham_285586,generated_953.jpg,bcc,64.0,female,nose,1,synthetic
+ham_622713,generated_954.jpg,bcc,82.0,male,face,1,synthetic
+ham_836556,generated_955.jpg,mel,68.0,female,foot,1,synthetic
+ham_274576,generated_956.jpg,bcc,76.0,female,ear,1,synthetic
+ham_357499,generated_957.jpg,bcc,73.0,male,chest,1,synthetic
+ham_369748,generated_958.jpg,mel,64.0,male,foot,1,synthetic
+ham_743283,generated_959.jpg,bcc,66.0,female,chest,1,synthetic
+ham_675523,generated_960.jpg,bcc,62.0,male,chest,1,synthetic
+ham_793238,generated_961.jpg,mel,75.0,male,abdomen,1,synthetic
+ham_706514,generated_962.jpg,mel,70.0,male,lower extremity,1,synthetic
+ham_483859,generated_963.jpg,mel,74.0,male,face,1,synthetic
+ham_86770,generated_964.jpg,mel,70.0,male,lower extremity,1,synthetic
+ham_8527,generated_965.jpg,bcc,63.0,male,face,1,synthetic
+ham_5205,generated_966.jpg,bcc,57.0,female,scalp,1,synthetic
+ham_157894,generated_967.jpg,bcc,71.0,female,nose,1,synthetic
+ham_525657,generated_968.jpg,mel,74.0,female,abdomen,1,synthetic
+ham_85984,generated_969.jpg,mel,49.0,female,face,1,synthetic
+ham_541290,generated_970.jpg,mel,37.0,male,lower extremity,1,synthetic
+ham_161042,generated_971.jpg,bcc,78.0,female,back,1,synthetic
+ham_903041,generated_972.jpg,bcc,67.0,male,chest,1,synthetic
+ham_829428,generated_973.jpg,mel,58.0,male,lower extremity,1,synthetic
+ham_715638,generated_974.jpg,mel,62.0,female,upper extremity,1,synthetic
+ham_284855,generated_975.jpg,bcc,58.0,male,chest,1,synthetic
+ham_400790,generated_976.jpg,bcc,68.0,female,chest,1,synthetic
+ham_51512,generated_977.jpg,bcc,61.0,male,face,1,synthetic
+ham_535368,generated_978.jpg,mel,82.0,female,face,1,synthetic
+ham_578038,generated_979.jpg,bcc,84.0,male,face,1,synthetic
+ham_163915,generated_980.jpg,bcc,51.0,male,neck,1,synthetic
+ham_624835,generated_981.jpg,bcc,57.0,female,neck,1,synthetic
+ham_878221,generated_982.jpg,mel,74.0,female,upper extremity,1,synthetic
+ham_525766,generated_983.jpg,mel,55.0,male,back,1,synthetic
+ham_697331,generated_984.jpg,mel,67.0,male,face,1,synthetic
+ham_196387,generated_985.jpg,bcc,50.0,male,chest,1,synthetic
+ham_984334,generated_986.jpg,mel,59.0,female,face,1,synthetic
+ham_400888,generated_987.jpg,bcc,32.0,male,face,1,synthetic
+ham_299045,generated_988.jpg,bcc,63.0,male,chest,1,synthetic
+ham_932098,generated_989.jpg,mel,64.0,male,back,1,synthetic
+ham_884231,generated_990.jpg,bcc,73.0,female,face,1,synthetic
+ham_834314,generated_991.jpg,mel,69.0,female,back,1,synthetic
+ham_531655,generated_992.jpg,mel,49.0,male,abdomen,1,synthetic
+ham_502499,generated_993.jpg,mel,36.0,male,trunk,1,synthetic
+ham_183315,generated_994.jpg,bcc,45.0,female,abdomen,1,synthetic
+ham_860034,generated_995.jpg,mel,58.0,female,lower extremity,1,synthetic
+ham_973388,generated_996.jpg,mel,75.0,female,back,1,synthetic
+ham_829320,generated_997.jpg,bcc,36.0,male,abdomen,1,synthetic
+ham_474352,generated_998.jpg,mel,67.0,male,upper extremity,1,synthetic
+ham_365849,generated_999.jpg,bcc,76.0,male,back,1,synthetic
