@@ -173,7 +173,7 @@ def train_model(model, train_loader, num_epochs=40, threshold=0.5):
         print(f'Accuracy: {accuracy:.4f}, Precision: {precision:.4f}, Recall: {recall:.4f}, F1 Score: {f1:.4f}')
 
 # Realizar Cross-Validation
-kf = KFold(n_splits=5, shuffle=True, random_state=42)
+kf = KFold(n_splits=3, shuffle=True, random_state=42)
 
 for fold, (train_idx, val_idx) in enumerate(kf.split(dataset)):
     print(f"Fold {fold + 1}")
@@ -187,5 +187,6 @@ for fold, (train_idx, val_idx) in enumerate(kf.split(dataset)):
     train_model(model, train_loader)
 
 # Guardar el modelo entrenado
-torch.save(model, 'modelo_entrenadomok.pth')
+torch.save(model, 'modelo_entrenado_completo.pth')  # Guardar el modelo completo
+torch.save(model.state_dict(), 'pesos_modelo.pth')  # Guardar solo los pesos
 
