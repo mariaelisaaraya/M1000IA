@@ -1,0 +1,214 @@
+/* Estilos para resultado.html con ajustes y diseño responsive */
+
+body {
+    font-family: "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    background-color: #000;
+    color: #999;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+nav {
+    width: 96%;
+    background: linear-gradient(to right, #333ACC 0%, #46E6E6 100%);
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+nav .logo {
+    display: flex;
+    align-items: center;
+}
+
+nav .logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+nav .logo span {
+    font-size: 28px;
+    font-weight: bold;
+    color: #46E6E6;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    color: #6037f5;
+}
+
+h1{
+    color: #46E6E6;
+}
+
+.container {
+    background: linear-gradient(to right,#252529, #999999, #999999, #252529);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    max-width: 600px;
+    text-align: center;
+    margin-top: 100px; /* Ajuste el margen superior para compensar el nav fijo #f0e3efd0 */
+}
+
+
+.transparent-box {
+    border: solid 1px #333; /* Borde sólido */
+    border-radius: 10px; /* Esquinas redondeadas */
+    background: rgba(74, 82, 85, 0.5); /* Fondo translúcido */
+    -webkit-backdrop-filter: blur(5px); /* Efecto de desenfoque para Webkit */
+    backdrop-filter: blur(5px); /* Efecto de desenfoque estándar */
+    overflow: hidden; /* Ocultar desbordes */
+    text-align: center; /* Alinear texto al centro */
+    padding: 20px; /* Espaciado interno */
+    margin: 20px auto; /* Margen automático para centrar */
+    max-width: 600px; /* Ancho máximo */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Sombra para dar profundidad */
+}
+
+h2{
+    color: black;
+}
+
+p{
+   color: #353434;
+}
+
+.result {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.result span {
+    color: #FF5252;  /* Color para resultados malignos */
+    text-transform: uppercase;
+
+}
+
+.result-benigno span {
+    color: #46E6E6;  /* Color para resultados benignos */
+    text-transform: uppercase;
+}
+
+.result-inconcluso span {
+    color: #FFA726;  /* Color para resultados inconclusos */
+    text-transform: uppercase;
+}
+
+/* Botón para volver o realizar otro análisis */
+.button-container {
+    margin-top: 30px;
+}
+
+button {
+    background-color: #46E6E6;
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    color: #000;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #333ACC;
+}
+
+/* ----- Diseño responsive ----- */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 15px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        width: 100%;
+        padding: 10px 0;
+        gap: 10px;
+    }
+
+    nav ul li a {
+        font-size: 16px;
+    }
+
+    .container {
+        padding: 20px;
+        width: 90%;
+        margin-top: 80px; /* Ajustamos para pantallas pequeñas */
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .result {
+        font-size: 22px;
+    }
+
+    button {
+        padding: 12px;
+        font-size: 14px;
+    }
+}
+
+/* Para pantallas aún más pequeñas */
+@media (max-width: 480px) {
+    nav .logo img {
+        height: 30px;
+    }
+
+    nav .logo span {
+        font-size: 20px;
+    }
+
+    nav ul li a {
+        font-size: 14px;
+    }
+
+    .container {
+        padding: 15px;
+        width: 95%;
+        margin-top: 60px; /* Ajustamos para pantallas más pequeñas */
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    .result {
+        font-size: 18px;
+    }
+
+    button {
+        padding: 10px;
+        font-size: 12px;
+    }
+}
+
+
+/* falta ajuste para pantalas mas 2000px */
