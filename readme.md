@@ -21,7 +21,8 @@
     3.4. Lu el suyo con metadatos e imagenes filtradas, subir TXT resultados
 
 
-# Guía para Levantar la Interfaz de la Aplicación
+# Guía para Levantar la Interfaz de la Aplicación 
+- ### Carpeta Interfaz
 
 ## Requisitos Previos
 
@@ -36,42 +37,7 @@
    ```bash
    python apiokc.py
    ```
-## Instalación de Dependencias
 
-Si encuentras errores relacionados con Flask o CORS, asegúrate de instalarlos dentro del entorno virtual:
-
-```bash
-pip install Flask
-pip install flask-cors
-```
-
-Aquí tienes todo el contenido en formato Markdown, listo para que lo copies y lo pegues en tu archivo README.md.
-
-markdown
-Copiar código
-# Guía para Levantar la Interfaz de la Aplicación
-
-## Requisitos Previos
-
-1. Asegúrate de que el entorno virtual esté activado (debería verse como `(env)` en la terminal).
-2. Debes estar dentro de la carpeta `interfaz`.
-
-## Pasos para Ejecutar la Aplicación
-
-1. Abre la terminal en la parte inferior (donde dice `bash - interfaz`).
-2. Ejecuta el siguiente comando para correr la aplicación:
-
-```bash
-python apiokc.py
-```
-   
-Instalación de Dependencias
-Si encuentras errores relacionados con Flask o CORS, asegúrate de instalarlos dentro del entorno virtual:
-
-```bash
-pip install Flask
-pip install flask-cors
-```
 
 ## Errores Comunes
 
@@ -92,6 +58,14 @@ Puedes probar la ruta básica:
 def index():
     return "Bienvenido a la aplicación Flask"
 ```
+
+3. Si encuentras errores relacionados con Flask o CORS, asegúrate de instalarlos dentro del entorno virtual:
+
+```bash
+pip install Flask
+pip install flask-cors
+```
+
 
 ## Error al Abrir el HTML
 
