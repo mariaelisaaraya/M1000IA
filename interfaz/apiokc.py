@@ -9,14 +9,14 @@ from torchvision import transforms
 import torch.nn as nn
 from werkzeug.utils import secure_filename
 
-# Inicializa Flask
+# Inicializar Flask
 app = Flask(__name__)
 
-# Configura CORS
+# Configurar CORS
 CORS(app)
 
 # Define la ruta donde se almacenarán las imágenes subidas
-UPLOAD_FOLDER = os.path.join(app.root_path, 'uploads') 
+UPLOAD_FOLDER = os.path.join(app.root_path, 'uploads')  
 ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg', 'gif'}
 
 # Configura la carpeta de subida
@@ -28,6 +28,7 @@ if not os.path.exists(app.config['UPLOAD_FOLDER']):
 # Función para verificar el formato de la imagen
 def allowed_file(filename):
     return '.' in filename and filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
+
 
 # Modelo con múltiples entradas (imagen y metadatos)
 class MultiInputModel(nn.Module):
@@ -42,7 +43,7 @@ class MultiInputModel(nn.Module):
         self.fc1_input_size = 128 * (image_height // 8) * (image_width // 8)
         self.fc1 = nn.Linear(self.fc1_input_size, 128)
         self.fc_meta = nn.Linear(num_metadata_features, 64)
-        self.fc_output = nn.Linear(128 + 64, num_classes)
+        self.fc_output = nn.Linear(128 + 64, 2)
 
     def forward(self, img, meta):
         x = self.pool(F.relu(self.conv1(img)))
@@ -63,20 +64,39 @@ image_height, image_width = 128, 128
 
 # Inicializar el modelo
 num_metadata_features = 2
-num_classes = 2  # 0 y 1
+num_classes = 2  
 model = MultiInputModel(num_metadata_features, num_classes)
 
-# Carga el modelo entrenado
+
+# Definir la ubicación del dispositivo (solo CPU)
+device = torch.device('cpu')
+
+# Función para verificar el estado del modelo
+def check_model_state():
+    state = model.state_dict()
+    for layer, params in state.items():
+        print(f"Layer: {layer}, Weights size: {params.size()}")  # Mostrar el tamaño de los pesos en lugar de imprimir todo
+
+
+
+# Definir la ubicación del dispositivo (solo CPU)
+device = torch.device('cpu')
+
+# Cargar el modelo entrenado
 try:
-    model.load_state_dict(torch.load('modelo_entrenadomok.pth', map_location='cpu'))
-    model.eval()
-    print("Modelo cargado exitosamente.")
+    model.load_state_dict(torch.load('modelo_entrenadomok.pth', map_location=device))
+    print("Modelo cargado exitosamente.")  # Mensaje de éxito al cargar el modelo
+
+    # Imprimir las clases y pesos del modelo después de cargarlo
+    print("Estado del modelo (pesos y clases):")
+    check_model_state()
+
 except FileNotFoundError:
-    print("Error: El archivo 'modelo_entrenadomok.pth' no se encuentra.")
+    print("Error: El archivo 'modelo_entrenadomok.pth' no se encuentra. Asegúrate de que la ruta sea correcta.")
 except RuntimeError as e:
-    print(f"Error de ejecución al cargar el modelo: {str(e)}.")
+    print(f"Error de ejecución al cargar el modelo: {str(e)}. Asegúrate de que el modelo y los pesos sean compatibles.")
 except Exception as e:
-    print(f"Error desconocido al cargar el modelo: {str(e)}.")
+    print(f"Error desconocido al cargar el modelo: {str(e)}")
 
 # Transformaciones para la imagen
 transform = transforms.Compose([
@@ -87,11 +107,11 @@ transform = transforms.Compose([
 # Función de predicción con imagen y metadatos
 def predict_with_metadata(image_path, age, sex):
     try:
-        # Carga y transforma la imagen
+        # Cargar y transformar la imagen
         image = Image.open(image_path).convert('RGB')
         image = transform(image).unsqueeze(0)
 
-        # Crea el tensor de metadatos con 'age' y 'sex'
+        # Crear el tensor de metadatos con 'age' y 'sex'
         if sex not in ['male', 'female']:
             raise ValueError("Sexo debe ser 'male' o 'female'.")
         
@@ -99,14 +119,14 @@ def predict_with_metadata(image_path, age, sex):
         metadata = [age, sex_numeric]
         metadata_tensor = torch.tensor(metadata).float().unsqueeze(0)
 
-        # Realiza la predicción 
+        # Realizar la predicción sin cálculo de gradiente
         with torch.no_grad():
             output = model(image, metadata_tensor)
             probabilities = F.softmax(output, dim=1)
             predicted_class = torch.argmax(probabilities, dim=1).item()
             predicted_probabilities = probabilities.squeeze().tolist()
 
-        # Devuelve tanto la clase predicha como las probabilidades originales --(ver ojo¡¡¿)
+        # Devolver tanto la clase predicha como las probabilidades originales
         return predicted_class, predicted_probabilities
 
     except Exception as e:
@@ -132,7 +152,7 @@ def result_endpoint():
     except Exception as e:
         return jsonify({'error': str(e)}), 500
     
-@app.after_request         # Verificar esto luego
+@app.after_request
 def disable_cache(response):
     response.headers['Cache-Control'] = 'no-store'
     response.headers['Pragma'] = 'no-cache'
@@ -147,25 +167,25 @@ def predict_endpoint():
         print("Verificando estado del modelo antes de la predicción:")
         check_model_state()
 
-        # Obtiene los metadatos de edad y sexo
+        # Obtener los metadatos de edad y sexo
         age = request.form.get('edad')
         sex = request.form.get('sexo')
 
-        # Verifica si los metadatos están presentes
+        # Verificar si los metadatos están presentes
         if not age or not sex:
             return jsonify({'error': 'Age and Sex are required'}), 400
 
-        # Verifica si hay una imagen en la solicitud
+        # Verificar si hay una imagen en la solicitud
         if 'image' not in request.files:
             return jsonify({'error': 'No image file provided'}), 400
 
         imagen = request.files['image']
 
-        # Verifica si el archivo tiene un nombre seguro y es de un tipo permitido
+        # Verificar si el archivo tiene un nombre seguro y es de un tipo permitido
         if imagen.filename == '' or not allowed_file(imagen.filename):
             return jsonify({'error': 'Invalid image format or no image sent'}), 400
 
-        # Guarda la imagen de manera segura en el servidor === aca se puede crear una bdd luego
+        # Guardar la imagen de manera segura en el servidor
         filename = secure_filename(imagen.filename)
         image_path = os.path.join(app.config['UPLOAD_FOLDER'], filename)
         imagen.save(image_path)
@@ -173,7 +193,7 @@ def predict_endpoint():
         # Convertir la edad a número entero
         age = int(age)
 
-        # Llama a la función de predicción
+        # Llamar a la función de predicción
         predicted_class, predicted_probabilities = predict_with_metadata(image_path, age, sex)
 
         # Almacenar el resultado en el diccionario
