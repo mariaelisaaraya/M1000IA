@@ -3,3 +3,5 @@ Flask-Cors
 torch
 torchvision
 Pillow
+requests
+pytest
