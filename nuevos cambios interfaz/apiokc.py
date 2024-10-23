@@ -11,8 +11,6 @@ from werkzeug.utils import secure_filename
 from flask_limiter import Limiter
 from flask_limiter.util import get_remote_address
 
-
-
 # Inicializar Flask
 app = Flask(__name__)
 
@@ -84,18 +82,18 @@ class MultiInputModel(nn.Module):
             with open('shapes_log.txt', 'w') as f:  # Abrir el archivo en modo write para sobreescribir
                 f.write(f"x shape before fc1: {x.shape}\n")  # Escribir la forma en el archivo
 
-            # Guardar la forma de meta
-            if meta is None:
-                raise ValueError("La entrada 'meta' no debe ser None")
-            f.write(f"meta shape: {meta.shape}\n")  # Verifica la forma de meta
+                # Guardar la forma de meta
+                if meta is None:
+                    raise ValueError("La entrada 'meta' no debe ser None")
+                f.write(f"meta shape: {meta.shape}\n")  # Verifica la forma de meta
 
-            # Procesar meta
-            meta_out = F.relu(self.fc_meta(meta))
-            f.write(f"meta_out shape: {meta_out.shape}\n")  # Verifica la forma de meta_out
+                # Procesar meta
+                meta_out = F.relu(self.fc_meta(meta))
+                f.write(f"meta_out shape: {meta_out.shape}\n")  # Verifica la forma de meta_out
 
-            # Concatenar x y meta_out
-            combined = torch.cat((x, meta_out), dim=1)
-            f.write(f"combined shape: {combined.shape}\n")  # Verifica la forma combinada
+                # Concatenar x y meta_out
+                combined = torch.cat((x, meta_out), dim=1)
+                f.write(f"combined shape: {combined.shape}\n")  # Verifica la forma combinada
 
             # Salida final
             output = self.fc_output(combined)
@@ -244,6 +242,9 @@ def predict_endpoint():
         # Llamar a la función de predicción
         predicted_class, predicted_probabilities = predict_with_metadata(image_path, age, sex)
 
+        if predicted_class is None or predicted_probabilities is None:
+            return jsonify({'error': 'Prediction failed'}), 500
+            
         # Almacenar el resultado en el diccionario
         prediction_id = str(len(predictions_store))
         predictions_store[prediction_id] = {
