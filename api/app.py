@@ -1,7 +1,7 @@
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 from werkzeug.utils import secure_filename
-from model import model, check_model_state
+from model import  check_model_state, MultiInputModel
 from prediction import predict_with_metadata
 import os
 

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Fuente de Google Fonts para 'Roboto' -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>DermIA - Análisis de Cáncer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navegación --> 
+    <nav>
+        <div class="logo">
+            <!-- <img src="logo.png" alt="Logo DermIA"> -->
+            <span>DermIA</span>
+        </div>
+        <ul>
+            <li><a href="#">Información</a></li>
+            <li><a href="#">Feedback</a></li>
+        </ul>
+    </nav>
+
+    <!-- Contenido Principal -->
+    <!-- Contenido Principal -->
+    <div class="container">
+        <h1>Subir Imagen para Análisis</h1>
+        <form id="form-datos" enctype="multipart/form-data">
+            <label for="imageInput">Subir Imagen:</label>
+            <input type="file" id="imageInput" name="image" accept="image/*" required> <!-- ID corregido -->
+    
+            <label for="edadInput">Edad del paciente:</label>
+            <input type="number" id="edadInput" name="edad" placeholder="Edad" required> <!-- ID corregido -->
+    
+            <label for="sexoInput">Sexo del paciente:</label>
+            <select id="sexoInput" name="sexo" required> <!-- ID corregido -->
+                <option value="">Seleccione</option>
+                <option value="male">Masculino</option>
+                <option value="female">Femenino</option>
+            </select>
+    
+            <button type="submit">Analizar</button>
+        </form>
+    </div>
+    
+
+
+<script src="/index.js" ></script>
+  
+
+</body>
+</html>

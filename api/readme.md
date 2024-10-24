@@ -14,12 +14,12 @@ Este proyecto es una API construida en Flask que permite realizar predicciones u
 └── requirements.txt      # Lista de dependencias
 ```
 
-### Requisitos Previos
+## Requisitos Previos
 
 - Python 3.x
 - Pip (Administrador de paquetes de Python)
 
-### Instalación
+## Instalación
 
 1. Clona este repositorio o descarga los archivos.
 
@@ -47,7 +47,7 @@ Este proyecto es una API construida en Flask que permite realizar predicciones u
    mkdir api/uploads
    ```
 
-### Ejecución
+## Ejecución de API
 
 Para ejecutar la aplicación, simplemente ejecuta el siguiente comando en la raíz del proyecto:
 
@@ -120,3 +120,12 @@ pytest
 
 - **Límites de tamaño de archivo**: Asegúrate de que las imágenes subidas no sean demasiado grandes para evitar problemas de rendimiento.
 - **Extensiones permitidas**: El servidor solo acepta imágenes con las siguientes extensiones: `png`, `jpg`, `jpeg`, `gif`.
+
+## Ejecución de Front End
+
+Teniendo la API en ejecución en una terminal, ir a una terminal nueva y navegar hasta la raíz del directorio en `M1000IA` y hacer 
+```bash
+cd ui
+python -m http.server
+```
+Esto va a servir en un servidor una URL con el front end del servicio.

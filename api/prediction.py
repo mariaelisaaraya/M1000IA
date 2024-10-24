@@ -2,7 +2,10 @@ import torch
 import torch.nn.functional as F
 from PIL import Image
 from torchvision import transforms
-from model import model
+from model import load_model
+
+# Load the model
+model = load_model()
 
 # Image transformation
 image_height, image_width = 128, 128
