@@ -1,5 +1,6 @@
 from flask import Flask, request, jsonify, send_file
 from flask_cors import CORS
+from flask_cors import cross_origin
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
@@ -8,6 +9,7 @@ from flask_limiter import Limiter
 from flask_limiter.util import get_remote_address
 from io import BytesIO
 import uuid
+import base64
 from PIL import Image
 import os
 
@@ -83,18 +85,19 @@ num_classes = 2
 
 # Inicializar un nuevo modelo (para pruebas)
 model = MultiInputModel(num_metadata_features, num_classes)
+torch.save(model, 'modelo_entrenadomok.pth')  # Cambia la ruta según sea necesario
 model.eval()
 
 # Función de predicción con imagen y metadatos
 def predict_with_metadata(image_stream, age, sex):
     try:
-        # Transformar la imagen de PIL a un tensor
+        # Transforma la imagen y el metadato para la predicción
         image_tensor = load_and_preprocess_image(image_stream).unsqueeze(0)  # (1, 3, 128, 128)
         sex_numeric = 0 if sex == 'male' else 1
         metadata = [age, sex_numeric]
         metadata_tensor = torch.tensor(metadata).float().unsqueeze(0)  # (1, 2)
 
-        # Realizar la predicción con el modelo
+        # Predicción
         with torch.no_grad():
             output = model(image_tensor, metadata_tensor)
             probabilities = F.softmax(output, dim=1)
@@ -107,7 +110,8 @@ def predict_with_metadata(image_stream, age, sex):
         print(f'Error en la predicción: {str(e)}')
         return None, None
 
-predictions_store = {}
+predictions_store = {} #'1': b'some bytes data'.decode('utf-8'),  # Decode bytes to string
+
 
 
 @app.route('/api/welcome', methods=['GET'])
@@ -115,13 +119,23 @@ def welcome():
     return jsonify({"message": "¡Bienvenido a la API!"}), 200
 
 
-@app.route('/result', methods=['GET'])
-def result_endpoint():
-    prediction_id = request.args.get('id')
+@app.route('/result/<prediction_id>', methods=['GET'])
+def result_endpoint(prediction_id):
     if prediction_id in predictions_store:
-        return jsonify({'prediction': predictions_store[prediction_id]}), 200
+        prediction_value = predictions_store[prediction_id]
+        
+        # Verificar si el valor es de tipo bytes
+        if isinstance(prediction_value, bytes):
+            # Convertir a base64
+            prediction_value = base64.b64encode(prediction_value).decode('utf-8')
+        
+        return jsonify({'prediction': prediction_value}), 200
     else:
         return jsonify({'error': 'Prediction not found'}), 404
+    
+print(predictions_store)  # Asegúrate de que contiene el ID correcto y la imagen
+
+
 
 import logging
 
@@ -129,7 +143,6 @@ import logging
 logging.basicConfig(level=logging.INFO)
 
 @app.route('/predict', methods=['POST'])
-@limiter.limit("15 per minute")
 def predict_endpoint():
     try:
         age = request.form.get('edad')
@@ -142,14 +155,13 @@ def predict_endpoint():
             return jsonify({'error': 'No image file provided'}), 400
 
         imagen = request.files['image']
-        
+
         if imagen.filename == '' or not allowed_file(imagen.filename):
             return jsonify({'error': 'Invalid image format or no image sent'}), 400
 
-        # Aquí hacemos uso de BytesIO correctamente
-        image_stream = imagen.stream
+        # Lee el flujo de imagen
+        image_stream = BytesIO(imagen.read())
 
-        # Validar edad
         try:
             age = int(age)
             if age < 0 or age > 120:
@@ -162,38 +174,52 @@ def predict_endpoint():
         prediction_id = str(uuid.uuid4())
         predictions_store[prediction_id] = {
             'class': predicted_class,
-            'probabilities': predicted_probabilities
+            'probabilities': predicted_probabilities,
+            'image_stream': image_stream.getvalue() , # guarda los datos en bytes
+            'edad': age,
+            'sexo': sex
         }
 
         return jsonify({
-        'message': 'Prediction successful',
-        'predicted_class': predicted_class,
-        'predicted_probabilities': predicted_probabilities,
-        'id': prediction_id,  # Agrega una coma aquí
-      # Asegúrate de que image_data contenga los datos de la imagen
+            'message': 'Prediction successful',
+            'predicted_class': predicted_class,
+            'predicted_probabilities': predicted_probabilities,
+            'id': prediction_id,
+            'edad': age,
+            'sexo': sex
         }), 200
 
     except Exception as e:
         logging.error(f'Error in prediction: {str(e)}')
         return jsonify({'error': 'Internal server error'}), 500
+    
+@app.route('/predict/<prediction_id>', methods=['GET'])
+def get_prediction(prediction_id):
+    # Busca el prediction_id en tu almacenamiento de predicciones
+    prediction = predictions_store.get(prediction_id)
+    if prediction:
+        return jsonify({
+            'class': prediction['class'],
+            'probabilities': prediction['probabilities'],
+            'edad': prediction['edad'],
+            'sexo': prediction['sexo']
+        }), 200
+    else:
+        return jsonify({'error': 'Predicción no encontrada'}), 404
+
 
 @app.route('/download/<string:prediction_id>', methods=['GET'])
+@cross_origin()
 def download_image(prediction_id):
     if prediction_id in predictions_store:
-        # Obtén el contenido de la imagen desde predictions_store
-        image_data = predictions_store[prediction_id]['image_stream']
-        print(f"Enviando imagen para prediction_id: {prediction_id}")
+        image_data = predictions_store[prediction_id].get('image_stream')
         if image_data:
-            # Crea un flujo de BytesIO desde el contenido
-            return send_file(BytesIO(image_data), attachment_filename='downloaded_image.png', as_attachment=True)
+            return send_file(BytesIO(image_data), download_name='downloaded_image.png', as_attachment=True)
+
         else:
             return jsonify({'error': 'Image not found'}), 404
     else:
         return jsonify({'error': 'Prediction not found'}), 404
-
-    
-
-
 
 
 print(predictions_store.keys())  # Muestra todas las claves disponibles
