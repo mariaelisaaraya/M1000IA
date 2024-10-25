@@ -23,21 +23,26 @@ document.getElementById('form-datos').addEventListener('submit', async (event) =
         });
 
         const result = await response.json();
+       
 
         if (response.ok) {
             // Proceso de interpretación: Si predicted_class es 0, es "Benigna", si es 1, es "Maligna"
             const prediction = result.predicted_class === 0 ? 'Benigna' : 'Maligna';
-
+          // Guardar el ID de predicción correcto en localStorage
+            localStorage.setItem('prediction_id', result.id); // Aquí es donde haces el cambio
+            console.log('ID de predicción guardado:', result.id); // Esto debería mostrar el ID
+        
             // Redirigir a la página de resultados con la predicción y los detalles
-            window.location.href = `resultado.html?resultado=${prediction}&info=${result.details}`;
-        } else {
-            alert(result.error || 'Se produjo un error en la solicitud.');
-        }
-    } catch (error) {
+         window.location.href = `resultado.html?resultado=${prediction}&info=${result.details}`;
+            } else {
+             alert(result.error || 'Se produjo un error en la solicitud.');
+             }
+        } catch (error) {
         console.error('Error al realizar la predicción:', error);
         alert('Error al enviar la solicitud. Por favor, inténtalo de nuevo más tarde.');
     }
 });
+
 
 //const form = document.getElementById('form-datos');
 

@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, send_file
 from flask_cors import CORS
 import torch
 import torch.nn as nn
@@ -9,6 +9,7 @@ from flask_limiter.util import get_remote_address
 from io import BytesIO
 import uuid
 from PIL import Image
+import os
 
 app = Flask(__name__)
 CORS(app)
@@ -159,15 +160,37 @@ def predict_endpoint():
         }
 
         return jsonify({
-            'message': 'Prediction successful',
-            'predicted_class': predicted_class,
-            'predicted_probabilities': predicted_probabilities,
-            'id': prediction_id
+        'message': 'Prediction successful',
+        'predicted_class': predicted_class,
+        'predicted_probabilities': predicted_probabilities,
+        'id': prediction_id,  # Agrega una coma aquí
+      # Asegúrate de que image_data contenga los datos de la imagen
         }), 200
 
     except Exception as e:
         logging.error(f'Error in prediction: {str(e)}')
         return jsonify({'error': 'Internal server error'}), 500
+
+@app.route('/download/<string:prediction_id>', methods=['GET'])
+def download_image(prediction_id):
+    if prediction_id in predictions_store:
+        # Obtén el contenido de la imagen desde predictions_store
+        image_data = predictions_store[prediction_id]['image_stream']
+        print(f"Enviando imagen para prediction_id: {prediction_id}")
+        if image_data:
+            # Crea un flujo de BytesIO desde el contenido
+            return send_file(BytesIO(image_data), attachment_filename='downloaded_image.png', as_attachment=True)
+        else:
+            return jsonify({'error': 'Image not found'}), 404
+    else:
+        return jsonify({'error': 'Prediction not found'}), 404
+
+    
+
+
+
+
+print(predictions_store.keys())  # Muestra todas las claves disponibles
 
 @app.route('/health', methods=['GET'])
 def health_check():
@@ -182,4 +205,4 @@ def internal_error(error):
     return jsonify({'error': 'Error interno del servidor'}), 500
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True)  
