@@ -109,6 +109,12 @@ def predict_with_metadata(image_stream, age, sex):
 
 predictions_store = {}
 
+
+@app.route('/api/welcome', methods=['GET'])
+def welcome():
+    return jsonify({"message": "¡Bienvenido a la API!"}), 200
+
+
 @app.route('/result', methods=['GET'])
 def result_endpoint():
     prediction_id = request.args.get('id')
