@@ -89,7 +89,13 @@ torch.save(model, 'modelo_entrenadomok.pth')  # Cambia la ruta según sea necesa
 model.eval()
 
 # Función de predicción con imagen y metadatos
+# Función de predicción con imagen y metadatos
 def predict_with_metadata(image_stream, age, sex):
+    # Verificar si el modelo está cargado
+    if model is None:
+        print('Modelo no cargado o entrenado')
+        return None, None  # También podrías devolver un mensaje de error
+
     try:
         # Transforma la imagen y el metadato para la predicción
         image_tensor = load_and_preprocess_image(image_stream).unsqueeze(0)  # (1, 3, 128, 128)
@@ -112,7 +118,13 @@ def predict_with_metadata(image_stream, age, sex):
 
 predictions_store = {} #'1': b'some bytes data'.decode('utf-8'),  # Decode bytes to string
 
-
+# Ruta para verificar si el modelo está cargado
+@app.route('/status', methods=['GET'])
+def model_status():
+    if model is None:
+        return jsonify({'status': 'error', 'message': 'Modelo no cargado o entrenado'}), 500
+    else:
+        return jsonify({'status': 'ok', 'message': 'Modelo cargado correctamente'}), 200
 
 @app.route('/api/welcome', methods=['GET'])
 def welcome():
@@ -170,6 +182,8 @@ def predict_endpoint():
             return jsonify({'error': 'Age must be an integer'}), 400
 
         predicted_class, predicted_probabilities = predict_with_metadata(image_stream, age, sex)
+        # Imprimir la clase predicha en la terminal
+        print(f'Predicted Class: {predicted_class}, Age: {age}, Sex: {sex}')
 
         prediction_id = str(uuid.uuid4())
         predictions_store[prediction_id] = {

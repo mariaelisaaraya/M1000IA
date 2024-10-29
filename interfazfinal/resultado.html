@@ -32,11 +32,13 @@
         <!-- Sección con efecto de transparencia -->
         <div class="transparent-box">
             <h2 class="result">El resultado del análisis es: <span id="resultado">Maligno</span></h2>
-            <p> información adicional sobre el análisis.</p>
+            <p>  </p>
         </div>
         <!-- Botón para generar y descargar la imagen -->
         <div id="download-container">
             <button id="download-btn">Descargar Resultado</button>
+            <!-- Agregar un canvas oculto para la descarga de la imagen -->
+            <canvas id="downloadCanvas" style="display: none;"></canvas>
         </div>
     </div>
     <script src="/appb.js" ></script>

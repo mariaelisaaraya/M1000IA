@@ -3,20 +3,17 @@ document.addEventListener('DOMContentLoaded', () => {
     const resultado = params.get('resultado');
     const info = params.get('info') || 'No hay información adicional.';
 
-   
     const resultadoElement = document.getElementById('resultado');
     const infoElement = document.getElementById('info');
 
     if (resultadoElement) {
-        resultadoElement.innerText = `Predicción: ${resultado}`;
+        resultadoElement.innerText = ` ${resultado}`;
     }
 
     if (infoElement) {
         infoElement.innerText = `Información adicional: ${info}`;
     }
 });
-
-//canvas download
 
 // Descargar la imagen y la predicción
 document.getElementById('download-btn').addEventListener('click', async function() {
@@ -27,53 +24,81 @@ document.getElementById('download-btn').addEventListener('click', async function
         return; // Salir temprano si no hay ID de predicción
     }
     
-    const resultText = document.getElementById('resultado').innerText;
+    const resultText = document.getElementById('resultado').innerText.trim().toLowerCase();
 
     // Define información adicional basada en la predicción
     let infoText = '';
-    if (resultText.includes('Benigna')) {
+    if (resultText.includes('benigna')) {
         infoText = 'La predicción indica que la condición es benigna.';
-    } else if (resultText.includes('Maligna')) {
+    } else if (resultText.includes('maligna')) {
         infoText = 'La predicción indica que la condición es maligna.';
     } else {
         infoText = 'Resultado no determinado.';
     }
 
-    // Fetch the image from the API
+    // Primero, obtenemos la información de la predicción (edad, sexo, probabilidades)
     try {
-        const apiUrl = `http://127.0.0.1:5000/download/${predictionId}`; // URL completa para la API
-        console.log('URL de la API:', apiUrl); // Verificar la URL de la API
-        const response = await fetch(apiUrl); // Cambia aquí
+        const predictionUrl = `http://127.0.0.1:5000/predict/${predictionId}`; 
+        const response = await fetch(predictionUrl);
         if (!response.ok) {
-            throw new Error('Error al obtener la imagen: ' + response.statusText);
+            throw new Error('Error al obtener la predicción: ' + response.statusText);
         }
 
-        const imageBlob = await response.blob(); // Obtén la imagen como un blob
+        const data = await response.json();
+        const age = data.edad;
+        const sex = data.sexo;
+        const predictedProbabilities = data.probabilities; // Cambia aquí a 'probabilities'
+
+        // Asegúrate de que predictedProbabilities sea un array y tenga los índices que esperas
+        if (!Array.isArray(predictedProbabilities) || predictedProbabilities.length < 2) {
+            throw new Error('Probabilidades de predicción no válidas');
+        }
+
+        // Ahora, obtenemos la imagen de la API
+        const apiUrl = `http://127.0.0.1:5000/download/${predictionId}`; // URL completa para la API
+        console.log('URL de la API:', apiUrl); // Verificar la URL de la API
+        const imageResponse = await fetch(apiUrl); // Cambia aquí
+        if (!imageResponse.ok) {
+            throw new Error('Error al obtener la imagen: ' + imageResponse.statusText);
+        }
+
+        const imageBlob = await imageResponse.blob(); // Obtén la imagen como un blob
         const imageUrl = URL.createObjectURL(imageBlob); // Crea una URL para el blob
 
         // Crear un canvas
         const canvas = document.createElement('canvas');
         const context = canvas.getContext('2d');
-        canvas.width = 600;
-        canvas.height = 400;
+        canvas.width = 800;
+        canvas.height = 600;
+
+        // Fondo blanco
         context.fillStyle = '#fff';
         context.fillRect(0, 0, canvas.width, canvas.height);
 
-        // Dibujar texto del resultado
-        context.font = '28px Roboto';
+        // Título
         context.fillStyle = '#333';
-        context.fillText('Resultado del Análisis: ' + resultText, 20, 50);
+        context.font = 'bold 40px Roboto';
+        context.textAlign = 'center';
+        context.fillText('Resultado del Análisis', canvas.width / 2, 50);
 
-        // Dibujar información adicional
-        context.font = '20px Roboto';
+        // Información adicional
+        context.font = '30px Roboto';
+        context.textAlign = 'left';
         context.fillText(infoText, 20, 100);
 
-        // Cargar la imagen y dibujarla en el canvas
-        const img = new Image();
-        img.src = imageUrl; // Usa la URL del blob
+        // Detalles de la predicción
+        context.font = '24px Roboto';
+        context.fillStyle = '#555';
+        context.fillText(`Edad: ${age}`, 100, 160); // Ajustar x para centrar
+        context.fillText(`Sexo: ${sex}`, 100, 200); // Ajustar x para centrar
+        
+        //context.fillText(`porcentaje de acierto: ${Math.round(predictedProbabilities[1] * 100)}%`, 20, 240);
 
+        // Imagen
+        const img = new Image();
+        img.src = imageUrl;
         img.onload = function() {
-            context.drawImage(img, 20, 150, 200, 200);
+            context.drawImage(img, canvas.width - 400, 120, 300, 250);
 
             // Crear un enlace de descarga
             const downloadLink = document.createElement('a');
@@ -89,6 +114,6 @@ document.getElementById('download-btn').addEventListener('click', async function
         };
 
     } catch (error) {
-        console.error('Error en la descarga de la imagen:', error);
+        console.error('Error en la descarga de la imagen o predicción:', error);
     }
 });
